@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Bebas+Neue&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-weight: inherit;
+    list-style: none;
+    line-height: inherit;
+    text-decoration: none;
+    border: none;
+}
+
+:root {
+    --couleur-background: #e4e3ef;
+    --couleur-bleu: rgb(49, 128, 144);
+    --couleur-sections: #968f8e;
+    --couleur-bouton-valider: #47BCFF;
+    --couleur-bouton-annuler: #FB2323;
+    --police-titre: "Bebas Neue", sans-serif;
+    --police-texte: "Autour One", sans-serif;
+}
+
+body {
+    background-color: var(--couleur-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--police-titre);
+    color: black;
+}
+
+p {
+    font-family: var(--police-texte);
+    text-align: center;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
