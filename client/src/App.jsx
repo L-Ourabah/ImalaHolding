@@ -8,12 +8,12 @@ import About from "./pages/Imala/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Error from "./pages/Error.jsx";
 
-import HomeConciergerie from "./pages/Conciergerie/HomeConciergerie.jsx";
+import Conciergerie from "./pages/Conciergerie/Conciergerie.jsx";
 import ServiceConciergerie from "./pages/Conciergerie/ServiceConciergerie.jsx";
 import Abonnement from "./pages/Conciergerie/Abonnement.jsx";
 import Loisirs from "./pages/Conciergerie/Loisirs.jsx";
 
-import HomeConstruction from "./pages/Construction/HomeConstruction.jsx";
+import Construction from "./pages/Construction/Construction.jsx";
 import ServiceConstruction from "./pages/Construction/ServiceConstruction.jsx";
 import Conception from "./pages/Construction/Conception.jsx";
 import Devis from "./pages/Construction/Devis.jsx";
@@ -36,13 +36,13 @@ function App() {
       <Route path="/About" element={<About />} />
 
       {/* Conciergerie */}
-      <Route path="/HomeConciergerie" element={<HomeConciergerie />} />
+      <Route path="/Conciergerie" element={<Conciergerie />} />
       <Route path="/ServiceConciergerie" element={<ServiceConciergerie/>} />
       <Route path="/Abonnement" element={<Abonnement />} />
       <Route path="/Loisirs" element={<Loisirs />} />
            
       {/* Construction */}
-      <Route path="/HomeConstruction" element={<HomeConstruction />} />
+      <Route path="/Construction" element={<Construction />} />
       <Route path="/ServiceConstruction" element={<ServiceConstruction />} />
       <Route path="/Conception" element={<Conception />} />
       <Route path="/Devis" element={<Devis />} />
