@@ -13,6 +13,7 @@
     font-size: inherit;
     font-weight: inherit;
     color: inherit;
+    border: none;
 }
 
 :root{
@@ -21,6 +22,8 @@
     --bleu-principal: #3864FF;
     --bleu-sombre: #001B7C;
 }
+
+/*                   HEADER                   */
 
 .header-container{
     box-shadow: 0 0 10px rgb(107, 107, 107);
@@ -38,8 +41,8 @@
     height: 75px;
 }
 
-.header-wrapper > li:first-child{
-    font-weight: 700;
+.header-wrapper img{
+    width: 2rem;
 }
 
 .header-nav{
@@ -53,3 +56,37 @@
     border-radius: 12px;
     color: white;
 }
+
+
+/*  ----------------------------------------  */
+
+
+/*              BARRE DE RECHERCHE            */
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.searchbar{
+    background-color: var(--bleu-principal);
+    padding: 15px 30px;
+    border-radius: 10px;
+    width: 50vw;
+    max-width: 400px;
+}
+
+.searchbar input{
+    background-color: transparent;
+    font-size: 1.3rem;
+}
+
+.searchbar input::placeholder{
+    color: rgba(255, 255, 255, 0.794);
+}
+
+
+
+/*  ----------------------------------------  */

@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import FrenchIcon from '../assets/FrenchIcon.svg'
 
 export default function Header() {
   return (
     <div className='header-container'>
       <ul className='header-wrapper'>
-        <li>FR</li>
+        <li>
+          <img src={FrenchIcon}/>
+        </li>
         <div className='header-nav'>
           <li><Link to='/logements'>LOGEMENTS</Link></li>
           <li><Link to='/a_propos'>A PROPOS</Link></li>

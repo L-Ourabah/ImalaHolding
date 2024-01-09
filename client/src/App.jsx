@@ -20,8 +20,7 @@ import Materiaux from "./pages/Construction/Materiaux.jsx";
 import Plan from "./pages/Construction/Plan.jsx";
 import Realisation from "./pages/Construction/Realisation.jsx";
 
-import AirBnb from "./pages/Airbnb/AirbnbHome.jsx";
-import AirbnbHome from "./pages/Airbnb/AirbnbHome.jsx";
+import AirbnbLocation from "./pages/Airbnb/AirbnbLocation/AirbnbLocation.jsx";
 
 function App() {
   return (
@@ -52,7 +51,7 @@ function App() {
       <Route path="/Realisation" element={<Realisation />} />
       
       {/* AirBnb */}
-      <Route path="/AirBnb" element={<AirbnbHome />} />
+      <Route path="/AirBnb" element={<AirbnbLocation />} />
 
 
     </Routes>
