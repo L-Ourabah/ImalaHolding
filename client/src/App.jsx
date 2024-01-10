@@ -51,7 +51,7 @@ function App() {
       <Route path="/Realisation" element={<Realisation />} />
       
       {/* AirBnb */}
-      <Route path="/AirBnb" element={<AirbnbLocation />} />
+      <Route path="/logements" element={<AirbnbLocation />} />
 
 
     </Routes>
