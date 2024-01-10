@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: var(--Urbanist);
 }
 
-p, a, input, li{
+p, a, input, li, label, legend, button{
     font-family: var(--Roboto);
 }
 

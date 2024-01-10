@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import UserImage from '../../../../assets/Demba.jpeg'
 import { TitleH2 } from '../../../../components/StyledComponents/TitleH2'
+import LocationPannel from '../LocationPannel/LocationPannel'
 
 function LocationDescription() {
   return (
@@ -19,6 +20,9 @@ function LocationDescription() {
           </div>
         </div>
       </div>
+      <div>
+        
+      </div>
       <div className='location-owner-container container'>
         <div className='location-owner-image'>
           <img src={UserImage} alt="User profile picture"/>
@@ -28,49 +32,57 @@ function LocationDescription() {
           <Link to='/'>Demba SOUMARE</Link>
         </div>
       </div>
-      <div className='location-slider-container'>  
-        <div className='location-slider-focus'>
-          <img src="" alt=""/>
-        </div>
-        <div className='location-slider-images'>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </div>
-      </div>
-      <div className='location-description-section container'>
-        <TitleH2 className=''>Description du bien</TitleH2>
-        <p>
-          Cet élégant duplex incarne le style de vie urbain, offrant non 
-          seulement un refuge contemporain, mais également une 
-          proximité immédiate avec les attractions culturelles, les 
-          restaurants branchés  et les boutiques sophistiquées de Dakar.
-          <br />
-          <br />
-          Une expérience de vie exceptionnelle au cœur de la vie 
-          trépidante de la capitale sénégalaise.  
-        </p>
-      </div>
-      <div className='location-services-section container'>
-        <TitleH2>Services proposés</TitleH2>
-        <ul>
-          <div>
-            <li className='location-services-li'>WiFi</li>
+      <div className='location-flex container'>
+        <div className='location-flex-description'>
+          <div className='location-slider-container'>  
+            <div className='location-slider-focus'>
+              <img src="" alt=""/>
+            </div>
+            <div className='location-slider-images'>
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div className='location-description-section'>
+            <TitleH2 className=''>Description du bien</TitleH2>
             <p>
-              WiFi rapide vous permettant de vous connecter à internet, 
-              passer des appels vidéo, et poster sur les réseaux sociaux. 
+              Cet élégant duplex incarne le style de vie urbain, offrant non 
+              seulement un refuge contemporain, mais également une 
+              proximité immédiate avec les attractions culturelles, les 
+              restaurants branchés  et les boutiques sophistiquées de Dakar.
+              <br />
+              <br />
+              Une expérience de vie exceptionnelle au cœur de la vie 
+              trépidante de la capitale sénégalaise.  
             </p>
-          </div>            
-          <div >
-            <li className='location-services-li'>Ménage</li>
-            <p>Ménage offert par notre conciergerie.</p>
           </div>
-          <div>
-            <li className='location-services-li'>Télévision</li>
-            <p>Télévision mise à disposition avec les chaînes du bouquet Canal +.</p>
+          <div className='location-services-section'>
+            <TitleH2>Services proposés</TitleH2>
+            <ul>
+              <div>
+                <li className='location-services-li'>WiFi</li>
+                <p>
+                  WiFi rapide vous permettant de vous connecter à internet, 
+                  passer des appels vidéo, et poster sur les réseaux sociaux. 
+                </p>
+              </div>            
+              <div>
+                <li className='location-services-li'>Ménage</li>
+                <p>Ménage offert par notre conciergerie.</p>
+              </div>
+              <div>
+                <li className='location-services-li'>Télévision</li>
+                <p>Télévision mise à disposition avec les chaînes du bouquet Canal +.</p>
+              </div>
+            </ul>
           </div>
-        </ul>
+        </div>
+        <div className='location-flex-pannel'>
+          <LocationPannel />
+        </div>
       </div>
+      <hr />
     </div>
   )
 }
