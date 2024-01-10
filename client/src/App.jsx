@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 
-import "./index.css";
 import './App.css';
 
 import Accueil from "./pages/Imala/Home.jsx";
@@ -21,6 +20,7 @@ import Materiaux from "./pages/Construction/Materiaux.jsx";
 import Plan from "./pages/Construction/Plan.jsx";
 import Realisation from "./pages/Construction/Realisation.jsx";
 
+import AirbnbLocation from "./pages/Airbnb/AirbnbLocation/AirbnbLocation.jsx";
 
 function App() {
   return (
@@ -51,7 +51,7 @@ function App() {
       <Route path="/Realisation" element={<Realisation />} />
       
       {/* AirBnb */}
-
+      <Route path="/logements" element={<AirbnbLocation />} />
 
 
     </Routes>
