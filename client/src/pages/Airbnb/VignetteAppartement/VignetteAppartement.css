@@ -1,0 +1,42 @@
+.vignette-wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.vignette-image-container{
+  width: 300px;
+} 
+
+.vignette-image-container img{
+  width: 100%;
+}
+
+.vignette-name-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.vignette-name-container > p{
+  font-size: 1.3rem;
+}
+
+.vignette-score-host-container{
+  display: flex;
+}
+
+.vignette-score{
+  display: flex;
+  gap: 2rem;
+}
+
+.vignette-score img{
+  width: 6rem;
+}
+
+.vignette-score p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}

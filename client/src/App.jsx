@@ -21,6 +21,7 @@ import Plan from "./pages/Construction/Plan.jsx";
 import Realisation from "./pages/Construction/Realisation.jsx";
 
 import AirbnbLocation from "./pages/Airbnb/AirbnbLocation/AirbnbLocation.jsx";
+import CompteRendu from "./pages/Airbnb/CompteRendu/CompteRendu.jsx";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
       
       {/* AirBnb */}
       <Route path="/logements" element={<AirbnbLocation />} />
+      <Route path="/reservation" element={<CompteRendu />} />
 
 
     </Routes>

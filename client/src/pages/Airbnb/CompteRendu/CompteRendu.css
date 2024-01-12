@@ -1,0 +1,14 @@
+.compte-rendu-wrapper h1{
+  font-size: 3rem;
+  font-weight: 600;
+  text-align:center;
+  margin: 2rem 0 4rem 0;
+}
+
+.vignette-host{
+  font-size: 1.3rem;
+}
+
+.vignette-host-rewarded{
+  margin-bottom: 1rem;
+}
