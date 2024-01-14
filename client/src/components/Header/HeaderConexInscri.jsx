@@ -4,7 +4,7 @@ import '../../styles/Header/HeaderCnxInscri.css'
 
 export default function Header() {
   return (
-    <div className='nav-container'>
+    
     
        
         <div className='navTitle'>
@@ -13,6 +13,6 @@ export default function Header() {
         </div>
       
      
-    </div>
+   
   )
 }
