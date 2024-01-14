@@ -1,0 +1,250 @@
+.hero-banner {
+    position: relative;
+    height: 50vh;
+    background-image: url('../../../media/images/Rectangle\ 209.png');
+    background-size: cover;
+    /* Pour s'assurer que l'image d'arrière-plan couvre tout l'espace */
+    background-position: center;
+    /* Centrer l'image d'arrière-plan */
+    color: var(--bleu-principal);
+
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    margin-bottom: 5%;
+
+}
+
+h1 {
+    font-size: 3.5em;
+
+}
+
+p {
+    font-size: 1.5em;
+    /* Taille de police pour le titre (par exemple, Web Developer) */
+    margin: 0;
+}
+
+.img-profil {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* Si vous voulez un effet de bordure arrondie pour la photo */
+    margin-top: 20px;
+    top: 58%;
+}
+
+/* tab */
+
+.tab-bar {
+    display: flex;
+    margin-bottom: 3%;
+    justify-content: center;
+    margin-top: 6%;
+    font-size: 2.5em;
+}
+
+.tab-bar button {
+
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+
+    cursor: pointer;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.tab-bar button.active {
+    color: var(--bleu-principal);
+    font-weight: 600;
+    
+    
+}
+
+.tab-content {
+    padding: 3%;
+
+}
+
+/*contact*/
+.contactTab {
+    width: 100%;
+}
+
+.container-contact {
+    display: flex;
+    gap: 2%;
+
+}
+
+.container-messagerie,
+.container-etendre {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 3%;
+
+}
+
+.messagerie,
+.etendu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3%;
+
+}
+
+.profil-messagerie {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contactTab h3 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.kebab-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    /* Ajustez la taille de la police selon vos préférences */
+    color: #333;
+    /* Couleur du texte, ajustez selon vos préférences */
+}
+
+.kebab-button:hover {
+    color: #555;
+    /* Couleur du texte au survol, ajustez selon vos préférences */
+}
+
+.img-messagerie img {
+    border-radius: 50%;
+}
+
+
+
+.add-button {
+    background-color: #007bff;
+    /* Bleu */
+    color: #fff;
+    /* Texte blanc */
+    cursor: pointer;
+    /* Curseur de pointeur */
+    border: none;
+    padding: 10px 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    /* Espace entre les boutons */
+}
+
+.reject-button {
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+
+}
+/*logement*/
+
+.logement{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    align-items: center;
+}
+.logement-container {
+    display: flex;
+    width: 100%;
+   
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+.logement-container2 > :last-child {
+    align-self: flex-start;
+
+
+}
+
+.logement hr {
+    
+    width: 40%;
+    
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.text-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+.logement-container2 {
+    display: flex;
+    flex-direction: row;
+   
+}
+.image-container{
+    width: 25%;
+}
+.image-container img{
+    width: 100%;
+}
+.star-icon{
+    font-size: 2em;
+}
+.recomponse{
+    display: flex;
+   gap: 10%;
+   padding-left: 3%;
+}
+
+.logement .kebab-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    /* Ajustez la taille de la police selon vos préférences */
+    color: #333;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.logement .kebab-button:hover {
+    color: #555;
+    /* Couleur du texte au survol, ajustez selon vos préférences */
+}
+
+/* Exemple de CSS pour les étoiles */
+.star-icon {
+    color: gold; /* Couleur de l'étoile */
+  }
+  
+  /* Exemple de CSS pour l'icône de trophée */
+  .trophy-icon {
+    color: gold; /* Couleur de l'icône de trophée */
+  }
+  
