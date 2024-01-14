@@ -19,8 +19,10 @@ import Devis from "./pages/Construction/Devis.jsx";
 import Materiaux from "./pages/Construction/Materiaux.jsx";
 import Plan from "./pages/Construction/Plan.jsx";
 import Realisation from "./pages/Construction/Realisation.jsx";
-
+import AirbnbProfil from "./pages/Airbnb/AirbnbProfil/AirbnbProfil.jsx";
 import AirbnbLocation from "./pages/Airbnb/AirbnbLocation/AirbnbLocation.jsx";
+import AirbnbInscription from "./pages/Airbnb/AirbnbInscription/AirbnbInscription.jsx";
+import AirbnbConnexion from "./pages/Airbnb/AirbnbConnexion/AirbnbConnexion.jsx";
 
 function App() {
   return (
@@ -52,7 +54,9 @@ function App() {
       
       {/* AirBnb */}
       <Route path="/logements" element={<AirbnbLocation />} />
-
+      <Route path="/profil" element={<AirbnbProfil/>}/>
+      <Route path="/inscription" element={<AirbnbInscription/>}/>
+      <Route path="/connexion" element={<AirbnbConnexion/>}/>
 
     </Routes>
   );
