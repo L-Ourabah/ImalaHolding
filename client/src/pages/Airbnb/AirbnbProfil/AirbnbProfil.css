@@ -2,12 +2,9 @@
     position: relative;
     height: 50vh;
     background-image: url('../../../media/images/Rectangle\ 209.png');
-    background-size: cover;
-    /* Pour s'assurer que l'image d'arrière-plan couvre tout l'espace */
-    background-position: center;
-    /* Centrer l'image d'arrière-plan */
+    background-size: cover;   
+    background-position: center;   
     color: var(--bleu-principal);
-
     font-weight: 700;
     text-align: center;
     display: flex;
@@ -21,17 +18,14 @@
 
 .hero-content {
     margin-bottom: 5%;
-
 }
 
 h1 {
     font-size: 3.5em;
-
 }
 
 p {
-    font-size: 1.5em;
-    /* Taille de police pour le titre (par exemple, Web Developer) */
+    font-size: 1.5em;    
     margin: 0;
 }
 
@@ -40,7 +34,7 @@ p {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    /* Si vous voulez un effet de bordure arrondie pour la photo */
+   
     margin-top: 20px;
     top: 58%;
 }

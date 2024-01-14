@@ -1,7 +1,17 @@
 import React from 'react'
-
+import Header from '../../../components/Header/HeaderConexInscri.jsx'
 export default function AirbnbConnexion() {
   return (
-    <div>AirbnbConnexion</div>
+    <div className='inscritpion'>
+      
+      
+      
+      <Header/>
+    
+      
+      
+      
+      
+      </div>
   )
 }

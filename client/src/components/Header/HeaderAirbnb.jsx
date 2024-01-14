@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import FrenchIcon from '../assets/FrenchIcon.svg'
+import FrenchIcon from '../../assets/FrenchIcon.svg'
 
 export default function Header() {
   return (
