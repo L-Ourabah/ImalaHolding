@@ -48,30 +48,30 @@ function Footer() {
 
                     <div className="links-column">
                         <h2><Link to="/Conciergerie">Conciergerie</Link></h2>
-                        <Link to="/services">services</Link>
-                        <Link to="/abonnement">abonnement</Link>
-                        <Link to="/loisirs">loisirs</Link>
-                        <Link to="/garderie">garderie</Link>
+                        <Link to="/services">Services</Link>
+                        <Link to="/abonnement">Abonnement</Link>
+                        <Link to="/loisirs">Loisirs</Link>
+                        <Link to="/garderie">Garderie</Link>
                     </div>
 
                     <div className="links-column">
                         <h2><Link to="/Construction">Construction</Link></h2>
-                        <Link to="/services">services</Link>
-                        <Link to="/conception">conception</Link>
-                        <Link to="/materiaux">materiaux</Link>
-                        <Link to="/realisation">realisation</Link>
-                        <Link to="/plan">plan</Link>
-                        <Link to="/devis">devis</Link>
+                        <Link to="/services">Services</Link>
+                        <Link to="/conception">Conception</Link>
+                        <Link to="/materiaux">Materiaux</Link>
+                        <Link to="/realisation">Realisation</Link>
+                        <Link to="/plan">Plan</Link>
+                        <Link to="/devis">Devis</Link>
 
 
                     </div>
 
                     <div className="links-column">
                         <h2><Link to="/Location">Location</Link></h2>
-                        <Link to="/inscription">inscritpion</Link>
-                        <Link to="/connexion">connexion</Link>
-                        <Link to="/reservation">reservation</Link>
-                        <Link to="/bien">Bien</Link>
+                        <Link to="/inscription">Inscritpion</Link>
+                        <Link to="/connexion">Connexion</Link>
+                        <Link to="/reservation">Reservation</Link>
+                        <Link to="/profil">Profil</Link>
                     </div>
 
                 </div>
