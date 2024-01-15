@@ -10,7 +10,7 @@
 .navTitle h2 a {
     text-decoration: none;
     list-style: none;
-    font-size: 3em;
+    font-size: 4em;
     background: linear-gradient(90deg, #00853F 0%, #FDEF42 38.02%, #FDEF42 69.27%, #E31B23 75%, #E31B23 100%);
     background-clip: text;
     -webkit-background-clip: text;
