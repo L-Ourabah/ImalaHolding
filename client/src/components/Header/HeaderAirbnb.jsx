@@ -15,7 +15,7 @@ export default function Header() {
           <li><Link to='/contact'>CONTACT</Link></li>
           <li><Link to='/groupe_imala'>GROUPE IMALA</Link></li>
         </div>
-        <li className='header-connection'><Link>SE CONNECTER</Link></li>
+        <li className='header-connection'><Link to='/connexion'>SE CONNECTER</Link></li>
       </ul>
     </div>
   )
