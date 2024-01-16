@@ -36,6 +36,7 @@ export default function FormAirbnbInscription() {
     };
 
     const handleGoogleSignIn = () => {
+        
         console.log('Connecté via Google');
     };
 
