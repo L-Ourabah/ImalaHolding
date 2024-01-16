@@ -31,7 +31,9 @@
   width: 20%;
 
 }
-
+.logoAdress img{
+  width: 200px;
+}
 .address-section {
   display: flex;
   flex-direction: column;
@@ -169,9 +171,7 @@
     font-size: 0.7em;
   }
 
-  .logoAdress img{
-    width: 200px;
-  }
+
 
   .links-section {
     /* flex-direction: column; */
