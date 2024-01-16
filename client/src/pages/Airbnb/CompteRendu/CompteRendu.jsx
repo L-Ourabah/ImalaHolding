@@ -12,6 +12,10 @@ function CompteRendu() {
         <div className='vignette-container'>
           <VignetteAppartement />
         </div>
+        <hr />
+        <div className='compte-rendu-services-container'>
+          
+        </div>
       </div>
     </div>
     

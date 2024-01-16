@@ -1,4 +1,4 @@
-.vignette-wrapper{
+.vignette-flex-container{
   display: flex;
   flex-direction: row;
   gap: 3rem;
