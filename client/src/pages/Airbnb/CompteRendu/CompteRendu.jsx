@@ -38,7 +38,7 @@ function CompteRendu() {
           </form>
         </div>
         <div className='compte-rendu-validate-button'>
-          <ConfirmButton>Passer au paiement</ConfirmButton>
+          <Link to='/paiement'><ConfirmButton>Passer au paiement</ConfirmButton></Link>
         </div>
         <Link to='/contact' className='compte-rendu-contact-link'>Besoin de plus de renseignements? N’hésitez pas à nous contacter !</Link>
       </div>

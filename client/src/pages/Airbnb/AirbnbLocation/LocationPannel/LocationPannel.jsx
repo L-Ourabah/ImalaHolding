@@ -38,7 +38,7 @@ function LocationPannel() {
               </select>
             </div>
           </div>
-          <ConfirmButton><Link to='/reservation'>Valider</Link></ConfirmButton>
+          <Link to='/reservation'><ConfirmButton>Valider</ConfirmButton></Link>
         </form>
         <div className='location-pannel-summary'>
           <div className='location-pannel-summary-additions'>
