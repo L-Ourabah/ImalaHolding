@@ -1,3 +1,8 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital@1&display=swap');
+
+
+
 .footer-container {
   background-color: #c5beb8;
   color: #ffffff;
@@ -7,15 +12,18 @@
 .footer-container h2 {
   font-size: 1.1em;
   font-weight: 700;
+  
 }
 
 .footer-container a {
   text-decoration: none;
   color: white;
   font-size: 0.8em;
+  font-family: 'gelasio';
 }
 .footer-container p{
   font-size: 1em;
+  font-family: 'gelasio';
 }
 
 .logoLien {

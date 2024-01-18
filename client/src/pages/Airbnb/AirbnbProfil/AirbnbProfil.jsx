@@ -7,7 +7,7 @@ import HeroBanner from './HeroBanner/HeroBanner';
 import LogementsTab from './ContactTab/LogementsTab';
 import ContactTab from './ContactTab/ContactTab';
 import  "./AirbnbProfil.css"
-import Header from '../../../components/Header/HeaderAirbnb.jsx'
+import Header from '../../../components/Header/NavbarAirbnb.jsx'
 export default function AirbnbProfil() {
   const [activeTab, setActiveTab] = useState('logements');
 

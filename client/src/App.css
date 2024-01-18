@@ -5,6 +5,7 @@
 
 );
  @import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital@1&display=swap');
 *,
 *::before,
 *::after{
@@ -41,8 +42,8 @@ p, a, input, li{
 }
 
 a{
-    color: var(--bleu-principal);
-    text-decoration: underline;
+  
+    text-decoration: none;
     text-underline-offset: 3px;
 }
 

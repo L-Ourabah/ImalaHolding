@@ -1,12 +1,19 @@
 .connexion-container {
-   
+
     margin: auto;
-    padding: 20px; 
+    padding: 20px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    border: 1px solid rgb(217, 208, 208);
+    box-shadow: 0px 0px 16px -7px;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    
 }
 
 .connexion-container h2 {
@@ -23,9 +30,9 @@
 .form-connexion {
     display: flex;
     flex-direction: column;
-    width: 20%;
-  
-   
+
+
+
 }
 
 
@@ -51,7 +58,7 @@
 .error {
     color: #ff0000;
     font-size: 14px;
-  
+
 }
 
 .password-input {
@@ -70,7 +77,7 @@
     cursor: pointer;
 }
 
-.btnConnecter  {
+.btnConnecter {
     background-color: #007bff;
     color: #fff;
     padding: 10px;
@@ -78,40 +85,44 @@
     border-radius: 10px;
     cursor: pointer;
     font-size: 1.5em;
-    text-align: center; 
-    width: 280px;      
+    text-align: center;
+    width: 280px;
 }
-.btnConnecter a{
+
+.btnConnecter a {
     color: #ffffff;
     list-style: none;
     text-decoration: none;
 }
 
-.Connecter-pas{
+.Connecter-pas {
     margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
-.vnm{
+
+.vnm {
     color: #000;
-text-align: center;
-font-family: Urbanist;
-font-size: 1.2em;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.inscri{
+
+.inscri {
     color: #3864FF;
-font-family: Urbanist;
-font-size: 1em;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-decoration-line: underline;
+    font-family: Urbanist;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
 }
+
 .btnInscription {
     margin-top: 10px;
     text-align: center;
@@ -126,11 +137,12 @@ text-decoration-line: underline;
 .btn-option {
     margin-top: 20px;
 
-    
+
 }
-.btn-option p{
-  font-size: 1.3em; 
-   
+
+.btn-option p {
+    font-size: 1.3em;
+
 
 }
 

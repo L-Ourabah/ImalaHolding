@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/Footer.css';
 import 'font-awesome/css/font-awesome.min.css';
 
-import imala from '../media/images/Plan de travail 1.png'
+import imala from '../media/images/logoImala.png'
 
 function Footer() {
     return (
