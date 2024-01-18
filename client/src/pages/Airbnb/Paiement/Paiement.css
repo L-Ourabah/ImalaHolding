@@ -20,65 +20,85 @@
   left: -30px;
 }
 
-.paiement-margin{
-  max-width: 90%;
+.paiement-flex-container{
+  display: flex;
+  gap: 4rem;
 }
 
+.paiement-mode-container{
+  flex: 4;
+}
+
+.paiement-pannel-container{
+  flex: 2;
+}
+
+.paiement-margin{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.paiement-credit-card{
+  border-radius: 20px;
+  background-color: var(--gris-clair);
+  margin: 5rem 0;
+}
 
 .paiment-credit-card-title, .paiement-paypal-title{
   display: flex;
   flex-direction: row-reverse;
   justify-content: start;
   align-items: center;
-  padding: 3rem 0 3rem 6rem;
+  padding: 3rem 0;
   gap: 2rem;
-}
-
-.paiment-credit-card-title label, .paiement-paypal-title label{
-  font-size: 1.7rem;
-  font-weight: 600;
-  position: relative;
-}
-
-.paiment-credit-card-title input[type=radio], .paiement-paypal-title input[type=radio]{
-  display: none;
-}
-
-.paiment-credit-card-title span, .paiement-paypal-title span{
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  border: 3px var(--gris-fonce) solid;
-  display: block;
-  position: absolute;
-  left: -30px;
-  top: 7px;
-}
-
-.paiment-credit-card-title span:after, .paiement-paypal-title span:after{
-  content: "";
-  height: 8px;
-  width: 8px;
-  background-color: var(--gris-clair);
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  border-radius: 50%;
-  transition: 300ms ease-in-out 0s;
-}
-
-.paiment-credit-card-title input[type=radio]:checked ~ span:after, 
-.paiement-paypal-title input[type=radio]:checked ~ span:after{
-  transform: translate(-50%, -50%) scale(1);
 }
 
 .paiement-client-informations{
   border-top: 1px rgba(0, 0, 0, 0.2) solid;
   border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+  padding: 3rem 0;
 }
 
-.paiement-mode-wrapper{
-  background-color: var(--gris-clair);
+.paiement-bold-text{
+  font-weight: 700;
+}
+
+.paiement-card-informations{
+  background-color: white;
+  padding: 2rem;
+}
+
+.paiement-card-informations h3{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.paiement-card-informations form{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.paiement-card-informations form input{
+  border-bottom: 3px rgba(0, 0, 0, 0.2) solid;
+}
+
+.card-owner-container, .card-number-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-expiration-cryptogram{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-expiration-cryptogram div{
+  display: flex;
+  flex-direction: column;
+}
+
+.credit-card-valid{
+  margin: 3rem;
 }
