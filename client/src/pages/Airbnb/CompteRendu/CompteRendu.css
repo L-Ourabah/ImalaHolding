@@ -1,0 +1,137 @@
+.compte-rendu-wrapper h1{
+  font-size: 3rem;
+  font-weight: 600;
+  text-align:center;
+  margin: 2rem 0 4rem 0;
+}
+
+.compte-rendu-wrapper h2{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+.compte-rendu-wrapper h3 {
+  font-size: 2.3rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.compte-rendu-wrapper p {
+  font-size: 1.2rem
+}
+
+.compte-rendu-wrapper hr{
+  height: 2px;
+  max-width: 20%;
+}
+
+.vignette-host{
+  font-size: 1.3rem;
+}
+
+.vignette-host-rewarded{
+  margin-bottom: 1rem;
+}
+
+.compte-rendu-resume-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-section-flex{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.resume-section-flex p:first-child{
+  flex: 3;
+}
+
+.resume-section-flex p:nth-child(2){
+  flex: 3;
+}
+
+.resume-section-flex p:last-child{
+  flex: 1;
+  text-align: end;
+}
+
+.resume-section-flex p:first-child, .resume-section-flex p:last-child{
+  font-weight: 600;
+}
+
+.resume-total{
+  margin: 3rem 0 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-total p{
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.resume-additional-informations p{
+  font-size: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.resume-additional-informations p:first-child span, .resume-additional-informations p:last-child{ 
+  font-weight: 600;
+}
+
+
+.cgu-checkbox-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  gap: 2rem;
+  font-size: 1.3rem;
+}
+
+.cgu-checkbox-container span{
+  font-weight: 600;
+}
+
+.compte-rendu-cgu-container{
+  margin: 5rem 0;
+}
+
+.compte-rendu-cgu-container > a{
+  font-size: 2rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.compte-rendu-cgu-container form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.compte-rendu-cgu-container form input{
+  width: 2rem;
+  border: 10px black solid;
+}
+
+.compte-rendu-validate-button{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.compte-rendu-validate-button button{
+  
+  background-color: var(--bleu-principal);
+}
+
+.compte-rendu-contact-link {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  color: black;
+}

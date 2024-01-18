@@ -1,0 +1,21 @@
+.carousel{
+  height: 50dvh;
+}
+
+.carousel .thumbs {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .thumb.selected, .carousel .thumb:hover{
+  border: none;
+}
+
+.carousel.carousel-slider .control-arrow {
+  color: var(--bleu-principal);
+}
+
+.carousel.carousel-slider .control-arrow:hover{
+  background: none;
+}
+
