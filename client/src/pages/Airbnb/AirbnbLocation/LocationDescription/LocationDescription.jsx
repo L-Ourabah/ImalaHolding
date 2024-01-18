@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import UserImage from '../../../../assets/Demba.jpeg'
 import { TitleH2 } from '../../../../components/StyledComponents/TitleH2'
 import LocationPannel from '../LocationPannel/LocationPannel'
+import Slider from '../../../../components/Slider/Slider'
 
 function LocationDescription() {
   return (
@@ -20,9 +21,6 @@ function LocationDescription() {
           </div>
         </div>
       </div>
-      <div>
-        
-      </div>
       <div className='location-owner-container container'>
         <div className='location-owner-image'>
           <img src={UserImage} alt="User profile picture"/>
@@ -35,14 +33,7 @@ function LocationDescription() {
       <div className='location-flex container'>
         <div className='location-flex-description'>
           <div className='location-slider-container'>  
-            <div className='location-slider-focus'>
-              <img src="" alt=""/>
-            </div>
-            <div className='location-slider-images'>
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-            </div>
+            <Slider />
           </div>
           <div className='location-description-section'>
             <TitleH2 className=''>Description du bien</TitleH2>
