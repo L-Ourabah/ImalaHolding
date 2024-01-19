@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../../styles/Header/HeaderCnxInscri.css'
+import '../../styles/Header/NavbarAuth.css'
 
 export default function Header() {
   return (

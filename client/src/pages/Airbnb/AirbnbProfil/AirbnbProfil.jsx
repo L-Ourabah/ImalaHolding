@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import '../AirbnbLocation/AirbnbLocation.css';
-import BarreDeRecherche from '../BarreDeRecherche/BarreDeRecherche';
+import BarreDeRecherche from '../BarreDeRecherche/BarreDeRecherche2';
 import HeroBanner from './HeroBanner/HeroBanner';
 import LogementsTab from './ContactTab/LogementsTab';
 import ContactTab from './ContactTab/ContactTab';

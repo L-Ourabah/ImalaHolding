@@ -22,12 +22,13 @@ export default function Navbar() {
     
     <nav className='navbar_airbnb'>
       <div className='navbar_airbnb_desktop'>
-        <div className='logo'>   <Link to="/"><img src={logo} alt="logo" /></Link></div>
+        <div className='logo'>   <Link to="/airbnb"><img src={logo} alt="logo" /></Link></div>
 <div className='onglet_airbnb'>
-<Link to="./logements">Accueil</Link>
-    <Link to="about">A propos</Link>
-    <Link to="contact">Contact</Link>
-    <Link to="./">Imala Holding</Link>
+<Link to="/airbnb">Accueil</Link>
+<Link to="/logements">Logements</Link>
+    <Link to="/about">A propos</Link>
+    <Link to="/contact">Contact</Link>
+    <Link to="/">Imala Holding</Link>
    
 </div>
 <div className='btn_connecter' >
@@ -49,11 +50,12 @@ export default function Navbar() {
 <div id="myNav" className="overlay">
   <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
   <div className="overlay-content">
-  <h1 className="logo" > <Link to="/"><img src={logo} alt="logo" /></Link></h1>
-  <Link to={'/'}>Accueil</Link>
-  <Link to="apropos">A Propos</Link>
-    <Link to="contact">Contact</Link>
-    <Link to="gpimala">Groupe Imala </Link>
+  <h1 className="logo" > <Link to="/airbnb"><img src={logo} alt="logo" /></Link></h1>
+  <Link to="/airbnb">Accueil</Link>
+<Link to="/logements">Logements</Link>
+    <Link to="/about">A propos</Link>
+    <Link to="/contact">Contact</Link>
+    <Link to="/">Imala Holding</Link>
   </div>
   
   </div>

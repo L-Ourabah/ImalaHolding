@@ -9,7 +9,7 @@ import App from './App.jsx';
 import Footer from './components/Footer.jsx';
 
 // Gère l'affichage de la navbar
-import AfficherNavbar from './components/AfficherNavbar/AfficherNavbar.jsx';
+
 
 // Création du point de rendu
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,9 +17,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
      
-      <AfficherNavbar>
-        <Header />
-      </AfficherNavbar>
+      
       <App />
       <Footer />
     </BrowserRouter>

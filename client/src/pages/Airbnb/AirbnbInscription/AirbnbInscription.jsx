@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Header from '../../../components/Header/HeaderConexInscri.jsx'
+import Header from '../../../components/Header/NavbarAuth.jsx'
 import Form from './Formulaire/FormAirbnbInscription.jsx'
 
 import './AirbnbInscription.css'

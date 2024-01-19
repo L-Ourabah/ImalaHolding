@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';
 import conciergerie from '../../media/images/logoImala.png';
-import '../../styles/Header/NavbarConciergerie.css';
+import '../../styles/Header/NavbarImala.css';
 
 
 
@@ -40,61 +40,60 @@ export default function Navbar() {
     setDropdownVisible(!dropdownVisible);
   };
 
-  const navbarClass1 = `navbar1 ${scrolled ? "scrolled" : ""}`;
+  const navbarClassImala = `navbarImala ${scrolled ? "scrolled" : ""}`;
 
   return (
-    <nav className={navbarClass1}>
-      <div className="navbar_desktop1">
-        <div className="logo1"><Link to="/">
+    <nav className={navbarClassImala}>
+      <div className="navbar_desktopImala">
+        <div className="logoImala"><Link to="/">
                         <img src={conciergerie} />
                     </Link></div>
-        <div className="onglets1">
+        <div className="ongletsImala">
           <Link to={"/"}>Accueil</Link>
 
           <div
-            className="dropdown1"
+            className="dropdownImala"
             onMouseEnter={toggleDropdown}
             onMouseLeave={toggleDropdown}
           >
             <Link to={"/service"}>Services <Icon icon="pepicons-pencil:triangle-down" /></Link>
             {dropdownVisible && (
-              <div className="dropdown-content">
-                <Link to={"/service/nettoyage"}>Nettoyage</Link>
-                <Link to={"/service/transport"}>Transport</Link>
-                <Link to={"/service/garderie"}>Garderie</Link>
-                <Link to={"/service/nourriture"}>Nourriture</Link>
-                <Link to={"/service/loisirs"}>Loisirs</Link>
-                <Link to={"/service/guidetouristique"}>Guide<br /> Touristique</Link>
-                {/* Ajoutez autant d'options que nécessaire */}
+              <div className="dropdownImala-content">
+                <Link to={"/conciergerie"}>Conciergerie</Link>
+                <Link to={"/construction"}>Construction</Link>
+                <Link to={"/airbnb"}>Location</Link>
+               
               </div>
             )}
           </div>
-          <Link to={"/abonnement"}>Abonnement</Link>
+          <Link to={"/about"}>A propos</Link>
           <Link to={"/contact"}>Contact</Link>
-          <span id="flag1"><Icon icon="openmoji:flag-france" /></span>
-        </div>
+         
+        </div> 
+        <span id="flagImala"><Icon icon="openmoji:flag-france" /></span>
       </div>
       {/*menu mobile*/}
 
 
-      <div className='navbar_mobile1'>
+      <div className='navbar_mobileImala'>
 
-        <div className="logo1">Logo</div>
+        <div className="logoOImala">Logo</div>
 
-        <div className="onglet_mobile1">
+        <div className="onglet_mobileImala">
           <span id="flag"><Icon icon="openmoji:flag-france" /></span>
 
 
-          <span className='burgerMenu1' onClick={openNav}>☰ </span>
+          <span className='burgerMenuImala' onClick={openNav}>☰ </span>
         </div>
 
-        <div id="myNav1" className="overlay1">
-          <a href="javascript:void(0)" className="closebtn1" onClick={closeNav}>×</a>
-          <div className="overlay-content">
-            <h1 id="logo_mobile1" >Logo</h1>
+        <div id="myNav" className="overlayImala">
+          <a href="javascript:void(0)" className="closebtnImala" onClick={closeNav}>×</a>
+          <div className="overlayImala-content">
+            <h1 id="logo_mobileImala" >Logo</h1>
             <Link to={'/'}>Accueil</Link>
-            <Link to={"/service"}>Services</Link>
-            <Link to={"/abonnement"}>Abonnement</Link>
+            <Link to={"/conciergerie"}>Conciergerie</Link>
+                <Link to={"/construction"}>Construction</Link>
+                <Link to={"/airbnb"}>Location</Link>
             <Link to={"/contact"}>Contact</Link>
           </div>
 

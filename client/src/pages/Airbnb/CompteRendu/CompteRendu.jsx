@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './CompteRendu.css'
+import Navbar from '../../../components/Header/NavbarAirbnb'
 import VignetteAppartement from '../VignetteAppartement/VignetteAppartement'
 import BarreDeRecherche from '../BarreDeRecherche/BarreDeRecherche'
 import CompteRenduServices from './CompteRenduServices/CompteRenduServices'
@@ -10,6 +11,7 @@ import {ConfirmButton} from '../../../components/StyledComponents/ConfirmButton'
 function CompteRendu() {
   return (
     <div>
+      <Navbar/>
       <BarreDeRecherche />
       <div className='compte-rendu-wrapper container'>
         <h1>COMPTE-RENDU DE LA RESERVATION</h1>

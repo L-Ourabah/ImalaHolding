@@ -67,11 +67,12 @@ function Footer() {
                     </div>
 
                     <div className="links-column">
-                        <h2><Link to="/Location">Location</Link></h2>
+                        <h2><Link to="/airbnb">Location</Link></h2>
                         <Link to="/inscription">Inscritpion</Link>
                         <Link to="/connexion">Connexion</Link>
                         <Link to="/reservation">Reservation</Link>
                         <Link to="/profil">Profil</Link>
+                        <Link to="/logements">Logements</Link>
                     </div>
 
                 </div>
