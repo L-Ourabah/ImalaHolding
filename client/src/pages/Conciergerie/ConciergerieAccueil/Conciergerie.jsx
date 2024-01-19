@@ -13,7 +13,7 @@ export default function construction() {
       </div>
 
       <div className="banniere_accueil">
-      <img src={ban} alt="" />
+      <img src={ban} alt="ban" />
       </div></div>
   )
 }
