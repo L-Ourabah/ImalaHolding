@@ -71,6 +71,7 @@ export default function Navbar() {
           </div>
           <Link to={"/abonnement"}>Abonnement</Link>
           <Link to={"/contact"}>Contact</Link>
+          <Link to="/">Imala Holding</Link>
           
         </div>
         <span id="flag1"><Icon icon="openmoji:flag-france" /></span>
