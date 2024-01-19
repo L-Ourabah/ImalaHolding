@@ -3,7 +3,7 @@ import './AirbnbLocation.css'
 import BarreDeRecherche from '../BarreDeRecherche/BarreDeRecherche'
 import LocationDescription from './LocationDescription/LocationDescription'
 import LocationAvis from './LocationAvis/LocationAvis'
-import Navbar from "../../../components/Header/NavbarAirbnb"
+import Navbar from "../../../components/NavBars/NavbarAirbnb"
 
 export default function AirbnbLocation() {
   return (

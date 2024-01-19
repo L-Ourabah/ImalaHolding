@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';
-import conciergerie from '../../media/images/constructionLogo.png';
+import conciergerie from '../../media/images/conciergerie.png';
 import '../../styles/Header/NavbarConciergerie.css';
 
 
@@ -71,8 +71,9 @@ export default function Navbar() {
           </div>
           <Link to={"/abonnement"}>Abonnement</Link>
           <Link to={"/contact"}>Contact</Link>
-          <span id="flag1"><Icon icon="openmoji:flag-france" /></span>
+          
         </div>
+        <span id="flag1"><Icon icon="openmoji:flag-france" /></span>
       </div>
       {/*menu mobile*/}
 

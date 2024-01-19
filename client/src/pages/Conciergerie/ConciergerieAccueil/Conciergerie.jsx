@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../../components/NavBars/NavbarConstruction.jsx'
-import ban from '../../media/images/Rectangle 209.png';
+import Header from '../../../components/NavBars/NavbarConciergerie'
+import ban from '../../../media/images/Rectangle 209.png';
 export default function construction() {
   return (
     <div>
@@ -17,3 +17,5 @@ export default function construction() {
       </div></div>
   )
 }
+
+

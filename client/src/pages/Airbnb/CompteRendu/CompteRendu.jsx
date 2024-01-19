@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './CompteRendu.css'
-import Navbar from '../../../components/Header/NavbarAirbnb'
+import Navbar from '../../../components/NavBars/NavbarAirbnb'
 import VignetteAppartement from '../VignetteAppartement/VignetteAppartement'
 import BarreDeRecherche from '../BarreDeRecherche/BarreDeRecherche'
 import CompteRenduServices from './CompteRenduServices/CompteRenduServices'

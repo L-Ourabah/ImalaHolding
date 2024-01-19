@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../../components/Header/NavbarImala.jsx';
+import Navbar from '../../../components/NavBars/NavbarImala.jsx';
 import './Home.css'
 
 

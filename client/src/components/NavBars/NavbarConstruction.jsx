@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';
-import conciergerie from '../../media/images/conciergerie.png';
+import conciergerie from '../../media/images/constructionLogo.png';
 import '../../styles/Header/NavbarConciergerie.css';
 
 
@@ -45,34 +45,33 @@ export default function Navbar() {
   return (
     <nav className={navbarClass1}>
       <div className="navbar_desktop1">
-        <div className="logo1"><Link to="/">
+        <div className="logo1"><Link to="/construction">
                         <img src={conciergerie} />
                     </Link></div>
         <div className="onglets1">
-          <Link to={"/"}>Accueil</Link>
+          <Link to={"/construction"}>Accueil</Link>
 
           <div
             className="dropdown1"
             onMouseEnter={toggleDropdown}
             onMouseLeave={toggleDropdown}
           >
-            <Link to={"/service"}>Services <Icon icon="pepicons-pencil:triangle-down" /></Link>
+            <Link to={"/serviceConstruction"}>Services <Icon icon="pepicons-pencil:triangle-down" /></Link>
             {dropdownVisible && (
               <div className="dropdown-content">
-                <Link to={"/service/nettoyage"}>Nettoyage</Link>
-                <Link to={"/service/transport"}>Transport</Link>
-                <Link to={"/service/garderie"}>Garderie</Link>
-                <Link to={"/service/nourriture"}>Nourriture</Link>
-                <Link to={"/service/loisirs"}>Loisirs</Link>
-                <Link to={"/service/guidetouristique"}>Guide<br /> Touristique</Link>
-                {/* Ajoutez autant d'options que nécessaire */}
+                <Link to={"/Conception"}>Conception</Link>
+                <Link to={"/Devis"}>Devis</Link>
+                <Link to={"/Materiaux"}>Materiaux</Link>
+                <Link to={"/Plan"}>Plan</Link>
+               
               </div>
             )}
           </div>
-          <Link to={"/abonnement"}>Abonnement</Link>
+          <Link to={"/realisation"}>Realisation</Link>
           <Link to={"/contact"}>Contact</Link>
-          <span id="flag1"><Icon icon="openmoji:flag-france" /></span>
+          
         </div>
+        <span id="flag1"><Icon icon="openmoji:flag-france" /></span>
       </div>
       {/*menu mobile*/}
 

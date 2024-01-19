@@ -6,10 +6,10 @@ import About from "./pages/Imala/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Error from "./pages/Error.jsx";
 
-import Conciergerie from "./pages/Conciergerie/Conciergerie.jsx";
-import ServiceConciergerie from "./pages/Conciergerie/ServiceConciergerie.jsx";
-import Abonnement from "./pages/Conciergerie/Abonnement.jsx";
-import Loisirs from "./pages/Conciergerie/Loisirs.jsx";
+import Conciergerie from "./pages/Conciergerie/ConciergerieAccueil/Conciergerie.jsx";
+import ServiceConciergerie from "./pages/Conciergerie/ServicesConciergerie/ServiceConciergerie.jsx";
+import Abonnement from "./pages/Conciergerie/Abonnement/Abonnement.jsx";
+import Loisirs from "./pages/Conciergerie/Loisirs/Loisirs.jsx";
 
 import Construction from "./pages/Construction/Construction.jsx";
 import ServiceConstruction from "./pages/Construction/ServiceConstruction.jsx";
