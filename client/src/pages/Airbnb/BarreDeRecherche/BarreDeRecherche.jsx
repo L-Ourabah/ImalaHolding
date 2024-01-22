@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './BarreDeRecherche.css'
 
 function BarreDeRecherche() {
   return (

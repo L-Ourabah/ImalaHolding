@@ -1,5 +1,8 @@
 import React from 'react'
 import img from '../../../../assets/appartement1.jpg'
+import { Icon } from '@mdi/react';
+
+
 export default function GalerieAccueil() {
   return (
 
