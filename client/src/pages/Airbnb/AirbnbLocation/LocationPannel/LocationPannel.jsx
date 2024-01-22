@@ -1,6 +1,5 @@
 import React from 'react'
 import { ConfirmButton } from '../../../../components/StyledComponents/ConfirmButton'
-import { DatePickerComponent } from '@syncfusion/ej2-react-calendars';
 import { Link } from 'react-router-dom';
 
 function LocationPannel() {
@@ -13,11 +12,9 @@ function LocationPannel() {
           <div className='location-pannel-check-in-and-out'>
             <div className='location-pannel-check-in'>
               <p>Date d'arrivée</p>
-              <DatePickerComponent></DatePickerComponent>
             </div>
             <div className='location-pannel-check-out'>
               <p>Date de départ</p>
-              <DatePickerComponent></DatePickerComponent>
             </div>
           </div>
           <div className='location-pannel-guests-container'>

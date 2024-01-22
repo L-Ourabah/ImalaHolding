@@ -94,7 +94,7 @@ export default function FormAirbnbInscription() {
                         />
                     </div>
                 </div>
- <div className="Connecter-pas">
+                <div className="Connecter-pas">
                 <div className="btn-Connecter">
                     <button className='btnConnecter' type="submit">Se connecter</button>
                 </div>
