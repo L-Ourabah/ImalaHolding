@@ -1,5 +1,5 @@
 .materials-container{
-  background-image: url('../../assets/images/materials-background.jpeg');
+  background-image: url('../../../media/images/materials-background.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,12 +108,12 @@
 }
 
 .materials-pannels-container:first-child{
-  background-image: url('../../assets/images/materials-btc.jpeg');
+  background-image: url('../../../media/images/materials-btc.jpeg');
 }
 
 .materials-pannels-container:nth-child(2){
   flex-direction: row-reverse;
-  background-image: url('../../assets/images/materials-concrete.jpeg');
+  background-image: url('../../../media/images/materials-concrete.jpeg');
 }
 
 .pannels-container:nth-child(2) .pannels-wrapper{
@@ -121,7 +121,7 @@
 }
 
 .materials-pannels-container:last-child{
-  background-image: url('../../assets/images/materials-others.jpeg');
+  background-image: url('../../../media/images/materials-others.jpeg');
 }
 
 

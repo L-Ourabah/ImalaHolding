@@ -13,13 +13,13 @@ import ServiceConciergerie from "./pages/Conciergerie/ServicesConciergerie/Servi
 import Abonnement from "./pages/Conciergerie/Abonnement/Abonnement.jsx";
 import Loisirs from "./pages/Conciergerie/Loisirs/Loisirs.jsx";
 
-import Construction from "./pages/Construction/Construction.jsx";
-import ServiceConstruction from "./pages/Construction/ServiceConstruction.jsx";
-import Conception from "./pages/Construction/Conception.jsx";
-import Devis from "./pages/Construction/Devis.jsx";
-import Materiaux from "./pages/Construction/Materiaux.jsx";
-import Plan from "./pages/Construction/Plan.jsx";
-import Realisation from "./pages/Construction/Realisation.jsx";
+import Construction from "./pages/Construction/Home/Home.jsx";
+import ServiceConstruction from "./pages/Construction/Services/Services.jsx";
+import Conception from "./pages/Construction/Conception/Conception.jsx";
+import Devis from "./pages/Construction/Devis/Devis.jsx";
+import Materiaux from "./pages/Construction/Materials/Materials.jsx";
+import Plan from "./pages/Construction/Plan/Plan.jsx";
+import Realisation from "./pages/Construction/Realisation/Realisations.jsx";
 
 
 import AirbnbProfil from "./pages/Airbnb/AirbnbProfil/AirbnbProfil.jsx";
@@ -58,7 +58,7 @@ function App() {
 
       {/* Construction */}
       <Route path="/Construction" element={<Construction />} />
-      <Route path="/ServiceConstruction" element={<ServiceConstruction />} />
+      <Route path="/Services" element={<ServiceConstruction />} />
       <Route path="/Conception" element={<Conception />} />
       <Route path="/Devis" element={<Devis />} />
       <Route path="/Materiaux" element={<Materiaux />} />

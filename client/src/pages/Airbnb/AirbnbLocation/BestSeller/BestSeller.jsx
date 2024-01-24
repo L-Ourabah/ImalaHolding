@@ -1,5 +1,5 @@
 import React from 'react'
-import Etoiles from '../../../../assets/Etoiles.svg'
+import Etoiles from '../../../../media/images/Etoiles.svg'
 
 function BestSeller() {
   return (

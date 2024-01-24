@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Demba from '../../../../assets/Demba.jpeg'
-import Etoiles5 from '../../../../assets/Etoiles5.svg'
-import Etoiles3 from '../../../../assets/Etoiles3.svg'
+import Demba from '../../../../media/images/Demba.jpeg'
+import Etoiles5 from '../../../../media/images/Etoiles5.svg'
+import Etoiles3 from '../../../../media/images/Etoiles3.svg'
 
 function LocationComments(props) {
   return (

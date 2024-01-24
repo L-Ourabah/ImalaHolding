@@ -1,5 +1,5 @@
 .plan-container{
-    background-image: url('../../assets/images/plan-background.webp');
+    background-image: url('../../../media/images/plan-background.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@
 
 .plan-pannel-container:nth-child(2){
     flex-direction: row-reverse;
-    background-image: url('../../assets/images/plan-architectural-background.webp');
+    background-image: url('../../../media/images/plan-architectural-background.webp');
 }
 
 .plan-pannel-container:nth-child(2) .pannels-wrapper{
@@ -118,11 +118,11 @@
 }
 
 .plan-pannel-container:first-child{
-    background-image: url('../../assets/images/plan-beton_arme-background.webp');
+    background-image: url('../../../media/images/plan-beton_arme-background.webp');
 }
 
 .plan-pannel-container:last-child{
-    background-image: url('../../assets/images/plan-3D-background.jpeg');
+    background-image: url('../../../media/images/plan-3D-background.jpeg');
 }
 
 .pannels-wrapper{

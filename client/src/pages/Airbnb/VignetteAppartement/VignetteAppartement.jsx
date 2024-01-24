@@ -1,7 +1,7 @@
 import React from 'react'
 import './VignetteAppartement.css'
-import Etoiles48 from '../../../assets/Etoiles4,8.svg'
-import Appartement1 from '../../../assets/appartement1.jpg'
+import Etoiles48 from '../../../media/images/Etoiles4,8.svg'
+import Appartement1 from '../../../media/images/appartement1.jpg'
 
 function VignetteAppartement() {
   return (

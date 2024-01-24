@@ -1,8 +1,8 @@
 import React from 'react'
 import './Partners.css'
-import GCA from '../../../assets/images/GCA.jpg'
-import Badrame from '../../../assets/images/Badrame.jpg'
-import Albina from '../../../assets/images/Albina.jpg'
+import GCA from '../../../../media/images/GCA.jpg'
+import Badrame from '../../../../media/images/Badrame.jpg'
+import Albina from '../../../../media/images/Albina.jpg'
 
 function Partners() {
   return (

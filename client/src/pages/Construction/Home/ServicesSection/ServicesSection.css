@@ -49,16 +49,16 @@
 }
 
 .services-plan{
-    background: url('../../../assets/images/services-plan.png');
+    background: url('../../../../media/images/services-plan.png');
     grid-area: 1 / 1 / 6 / 2;
 }
 
 .services-conception{
-    background: url('../../../assets/images/services-conception.png');
+    background: url('../../../../media/images/services-conception.png');
     grid-area: 1 / 2 / 6 / 3;
 }
 
 .services-materials{
-    background: url('../../../assets/images/services-materials.png');
+    background: url('../../../../media/images/services-materials.png');
     grid-area: 1 / 3 / 6 / 4;
 }

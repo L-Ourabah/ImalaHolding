@@ -2,9 +2,9 @@ import React from 'react'
 import Herobanner from './Herobanner/Herobanner'
 import Card from './Card/Card'
 import Partners from './Partners/Partners'
-import PlanBackground from '../../assets/images/plan-background.webp'
-import ConceptionBackground from '../../assets/images/services-conception-background.jpeg'
-import MaterialsBackground from '../../assets/images/materials-background.jpeg'
+import PlanBackground from '../../../media/images/plan-background.webp'
+import ConceptionBackground from '../../../media/images/services-conception-background.jpeg'
+import MaterialsBackground from '../../../media/images/materials-background.jpeg'
 
 function Services() {
   return (

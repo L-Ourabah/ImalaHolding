@@ -1,9 +1,9 @@
-import RealisationImage1 from '../../assets/images/realisations-image1.jpeg'
-import RealisationImage2 from '../../assets/images/realisations-image2.jpeg'
-import RealisationImage3 from '../../assets/images/realisations-image3.jpeg'
-import RealisationImage4 from '../../assets/images/realisations-image4.jpeg'
-import RealisationImage5 from '../../assets/images/realisations-image5.jpeg'
-import RealisationImage6 from '../../assets/images/realisations-image6.jpeg'
+import RealisationImage1 from '../../../media/images/realisations-image1.jpeg'
+import RealisationImage2 from '../../../media/images/realisations-image2.jpeg'
+import RealisationImage3 from '../../../media/images/realisations-image3.jpeg'
+import RealisationImage4 from '../../../media/images/realisations-image4.jpeg'
+import RealisationImage5 from '../../../media/images/realisations-image5.jpeg'
+import RealisationImage6 from '../../../media/images/realisations-image6.jpeg'
 
 const Data = [
   {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import UserImage from '../../../../assets/Demba.jpeg'
+import UserImage from '../../../../media/images/Demba.jpeg'
 import { TitleH2 } from '../../../../components/StyledComponents/TitleH2'
 import LocationPannel from '../LocationPannel/LocationPannel'
 import Slider from '../../../../components/Slider/Slider'

@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Etoiles5 from '../../../../assets/Etoiles5.svg'
-import Etoiles49 from '../../../../assets/Etoiles4,9.svg'
-import Etoiles48 from '../../../../assets/Etoiles4,8.svg'
-import Etoiles47 from '../../../../assets/Etoiles4,7.svg'
-import Etoiles4 from '../../../../assets/Etoiles4.svg'
-import Etoiles3 from '../../../../assets/Etoiles3.svg'
-import Etoiles2 from '../../../../assets/Etoiles2.svg'
-import Etoiles1 from '../../../../assets/Etoiles1.svg'
+import Etoiles5 from '../../../../media/images/Etoiles5.svg'
+import Etoiles49 from '../../../../media/images/Etoiles4,9.svg'
+import Etoiles48 from '../../../../media/images/Etoiles4,8.svg'
+import Etoiles47 from '../../../../media/images/Etoiles4,7.svg'
+import Etoiles4 from '../../../../media/images/Etoiles4.svg'
+import Etoiles3 from '../../../../media/images/Etoiles3.svg'
+import Etoiles2 from '../../../../media/images/Etoiles2.svg'
+import Etoiles1 from '../../../../media/images/Etoiles1.svg'
 
 
 function AvisPannel() {

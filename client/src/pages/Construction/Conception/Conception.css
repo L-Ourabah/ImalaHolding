@@ -1,5 +1,5 @@
 .conception-container{
-  background-image: url('../../assets/images/conception-background.jpeg');
+  background-image: url('../../../media/images/conception-background.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@
 
 .conception-pannel-container:nth-child(2){
   flex-direction: row-reverse;
-  background-image: url('../../assets/images/plan-architectural-background.webp');
+  background-image: url('../../../media/images/plan-architectural-background.webp');
   height: 100%;
 }
 
@@ -104,12 +104,12 @@
 }
 
 .conception-pannel-container:first-child{
-  background-image: url('../../assets/images/plan-beton_arme-background.webp');
+  background-image: url('../../../media/images/plan-beton_arme-background.webp');
   height: 100%;
 }
 
 .conception-pannel-container:last-child{
-  background-image: url('../../assets/images/plan-3D-background.jpeg');
+  background-image: url('../../../media/images/plan-3D-background.jpeg');
   height: 100%;
 }
 

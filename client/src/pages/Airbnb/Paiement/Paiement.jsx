@@ -3,7 +3,7 @@ import './Paiement.css'
 import ModeDePaiement from './ModeDePaiement/ModeDePaiement'
 import PaiementPannel from './PaiementPannel/PaiementPannel'
 import { ReturnButton } from '../../../components/ReturnButton/ReturnButton'
-import Logo from '../../../assets/Imala-location-logo.png'
+import Logo from '../../../media/images/constructionLogo.png'
 
 function Paiement() {
 

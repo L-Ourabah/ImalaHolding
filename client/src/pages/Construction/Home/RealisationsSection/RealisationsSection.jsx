@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Real1 from '../../../assets/images/realisations-image1.png'
-import Real2 from '../../../assets/images/realisations-image2.png'
-import Real3 from '../../../assets/images/realisations-image3.png'
+import Real1 from '../../../../media/images/realisations-image1.png'
+import Real2 from '../../../../media/images/realisations-image2.png'
+import Real3 from '../../../../media/images/realisations-image3.png'
 import './RealisationsSection.css'
 
 function RealisationsSection() {

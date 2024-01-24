@@ -1,6 +1,6 @@
 import React from 'react'
 import './InformationsSection.css'
-import Real1 from '../../../assets/images/realisations-image1.png'
+import Real1 from '../../../../media/images/realisations-image1.png'
 import { Link } from 'react-router-dom'
 
 function InformationsSection() {

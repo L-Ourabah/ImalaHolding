@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../../../assets/appartement1.jpg'
+import img from '../../../../media/images/appartement1.jpg'
 import { Icon } from '@mdi/react';
 
 
