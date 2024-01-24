@@ -2,9 +2,11 @@ import { Routes, Route } from "react-router-dom";
 import './App.css';
 
 import Accueil from "./pages/Imala/home/Home.jsx";
-import About from "./pages/Imala/About.jsx";
-import Contact from "./pages/Contact.jsx";
+import About from "./pages/Imala/About/About.jsx";
+import Contact from "./pages/Imala/Contact/Contact.jsx";
 import Error from "./pages/Error.jsx";
+import PolitiqueConfidentialite from "./pages/Cookies/Confidentialité.jsx";
+
 
 import Conciergerie from "./pages/Conciergerie/ConciergerieAccueil/Conciergerie.jsx";
 import ServiceConciergerie from "./pages/Conciergerie/ServicesConciergerie/ServiceConciergerie.jsx";
@@ -28,6 +30,9 @@ import CompteRendu from "./pages/Airbnb/CompteRendu/CompteRendu.jsx";
 import Paiement from "./pages/Airbnb/Paiement/Paiement.jsx";
 import AirbnbAccueil from "./pages/Airbnb/AirbnbAccueil/AirbnbAccueil.jsx";
 
+
+
+
 function App() {
 
 
@@ -38,6 +43,8 @@ function App() {
       {/* Commun */}
       <Route path="/Contact" element={<Contact />} />
       <Route path="*" element={<Error />} />
+      <Route path="/PolitiqueConfidentialite" element={<PolitiqueConfidentialite />} />
+      
 
       {/* Imala */}
       <Route path="/" element={<Accueil />} />

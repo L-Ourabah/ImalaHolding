@@ -1,0 +1,116 @@
+.Contact img {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.Contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.contact-title p {
+  text-align: center;
+  width: 50%;
+}
+
+.Contact h1 {
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 8em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  font-family: 'wallpoet';
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 5%;
+}
+#carte{
+  z-index: 0;
+}
+.api-carte {
+  width: 100%;
+  
+}
+
+.carte {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.cordo {
+  background: #9d937a;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sect-info {
+  display: flex;
+  flex-direction: column; /* Ajustement pour les écrans plus petits */
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.contactes,
+.adress {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 90%; /* Ajustement pour les écrans plus petits */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 10px; /* Ajout de marges pour une meilleure lisibilité sur de petits écrans */
+}
+
+@media screen and (min-width: 768px) {
+  /* Style spécifique pour les écrans de 768 pixels de large et plus */
+  .sect-info {
+    flex-direction: row;
+  }
+
+  .contactes,
+  .adress {
+    width: 40%;
+  }
+}
+
+.tel,
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

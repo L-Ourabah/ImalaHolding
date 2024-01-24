@@ -1,0 +1,154 @@
+/*secteur*/
+.secteurs {
+    background: rgb(154, 110, 29);
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    gap: 2%;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .secteur8{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+
+  }
+  .title_secteur h2{
+    margin-bottom: 15%;
+    font-size: 3em;
+  }
+  .secteurs h3 a {
+    color: white;
+    font-size: 2em;
+  }
+  .title_secteur, .secteur_card {
+    width: 25%;
+  }
+  .secteurs_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .secteurs_content h3 {
+    font-size: 2em;
+    font-weight: 500;
+  }
+  
+  .secteur_card {
+    border-radius: 10px;
+    width: 402px;
+    height: 700px;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+    display: flex;
+   align-items: center;
+    justify-content: space-evenly;
+  }
+  #habitation {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url("https://images.pexels.com/photos/5563472/pexels-photo-5563472.jpeg?auto=compress&cs=tinysrgb&w=1600"), lightgray 50% / cover no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  
+  #construction {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url("https://images.pexels.com/photos/159375/construction-site-build-construction-work-159375.jpeg?auto=compress&cs=tinysrgb&w=1600"), lightgray 50% / cover no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  #conciergerie {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url("https://images.pexels.com/photos/18189718/pexels-photo-18189718/free-photo-of-ville-vacances-gens-rue.jpeg?auto=compress&cs=tinysrgb&w=1600"), lightgray 50% / cover no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  @media (max-width:760px) {
+    .secteur8{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+    }
+    
+  }
+    
+@media screen and (max-width: 768px) {
+    .ban h1 {
+      font-size: 6em;
+    }
+    .ban h2{
+      font-size: 1em;
+    }
+    .bienvenue h2 {
+   
+      font-size: 2em;
+    }
+    .secteurs3, .chiffre_content, .secteurs_content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .secteurs_content h3 {
+      font-size: 1.5em;
+    }
+  
+    .presentation h2 {
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+    .presentation_txt p {
+      font-size: 1em;
+    }
+    .presentation{
+      
+      flex-direction: column-reverse;
+    }
+    .presentation_img, .presentation_txt{
+      width: 100%;
+    }
+    .actualité h3 {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  
+    .actu_card, .chiffre_card, .secteur_card {
+      width: 80%;
+    }
+  
+    .news_content input[type="text"] {
+      width: 100%;
+    }
+    .title_secteur h2{
+      font-size: 1em;
+  
+    }
+    .secteur8{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+      }
+    #habitation,#construction,#conciergerie {
+      height: 300px;
+      margin-bottom: 3%;
+      width: 100%;
+    }
+  }
+ 

@@ -1,0 +1,105 @@
+.politique-confidentialite {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Fond blanc */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Légère ombre */
+  margin-bottom: 3%;
+  border-radius: 10px;
+  text-align: center;
+}
+.Contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.Contact h1 {
+  font-size: 8em;
+
+  color: #ffffff; /* Couleur de texte foncée */
+}
+.Contact img {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.politique-confidentialite section {
+  margin-bottom: 30px;
+}
+
+.politique-confidentialite h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.politique-confidentialite p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555; /* Couleur de texte légèrement plus foncée */
+}
+
+.politique-confidentialite button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.politique-confidentialite button:hover {
+  background-color: #45a049;
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+ .btnClick{
+  display: flex;
+  gap: 5%;
+ }
+
+
+@media only screen and (max-width:1400px) {
+ 
+  .Contact h1{
+    font-size: 5em;
+  }
+
+ 
+
+}
+@media only screen and (max-width:800px) {
+ 
+  .Contact h1{
+    font-size: 4em;
+  }
+
+ 
+
+}
+@media only screen and (max-width: 600px) {
+ 
+  .Contact h1{
+    font-size: 2em;
+  }
+
+ 
+  .politique-confidentialite {
+      font-size: 14px;
+      width: 90%;
+  }}
