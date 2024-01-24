@@ -77,7 +77,9 @@ export default function Navbar() {
 
       <div className='navbar_mobileImala'>
 
-        <div className="logoOImala">Logo</div>
+        <div className="logoImalaMobile"><Link to="/">
+                        <img src={conciergerie} />
+                    </Link></div>
 
         <div className="onglet_mobileImala">
           <span id="flag"><Icon icon="openmoji:flag-france" /></span>
@@ -89,7 +91,9 @@ export default function Navbar() {
         <div id="myNav" className="overlayImala">
           <a href="javascript:void(0)" className="closebtnImala" onClick={closeNav}>×</a>
           <div className="overlayImala-content">
-            <h1 id="logo_mobileImala" >Logo</h1>
+            <div id="logo_mobileImala" ><Link to="/">
+                        <img src={conciergerie} />
+                    </Link></div>
             <Link to={'/'}>Accueil</Link>
             <Link to={"/conciergerie"}>Conciergerie</Link>
                 <Link to={"/construction"}>Construction</Link>

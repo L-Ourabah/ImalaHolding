@@ -1,0 +1,123 @@
+/* Actualite.css */
+
+.actualite {
+    background: url(../../../../media/images/fdactu.jpg);
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center; /* Centrer le contenu */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    align-items: center;
+  
+  }
+ 
+  .carrousel {
+    display: flex;
+    overflow: hidden;
+    width: 60%;
+    height: 60vh;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .actualite-item {
+    flex: 0 0 auto;
+    min-width: 100%; /* Définir une largeur minimale */
+    box-sizing: border-box;
+    text-align: center;
+    border-radius:10px;
+    display: none;
+   
+  }
+  
+  .actualite-item.visible {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .actualite h2{
+    margin-bottom: 5%;
+    font-size: 3em;
+    color: white;
+   
+        margin-top: 5%;
+       
+    
+  }
+  .actualite-item h3 {
+    margin-bottom: 3%;
+    margin-top: 5%;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .actualite-item content{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .actualite-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .small-image {
+    max-width: 100%; /* Réduire la largeur maximale de l'image */
+    max-height: 56vh; /* Réduire la hauteur maximale de l'image (ajustez selon vos besoins) */
+    object-fit: cover; /* Ajuster la manière dont l'image s'adapte à ses dimensions */
+  }
+  .actualite-item p {
+    text-align: center; /* Centrer le texte dans le paragraphe */
+    width: 80%;
+    height: auto;
+  }
+  .actualite-item.visible p {
+    text-align: center; /* Centrer le texte dans le paragraphe */
+    width: 80%;
+    height: auto;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  
+  .btnActu {
+    cursor: pointer;
+    font-size: 2rem; /* Augmenter la taille de la police pour les symboles de flèche */
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.086);
+    border: none;
+    border-radius: 50%;
+  }
+  .btnActu:hover {
+    cursor: pointer;
+    font-size: 2rem; /* Augmenter la taille de la police pour les symboles de flèche */
+    padding: 5px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+  }
+  /* Media queries pour la réactivité */
+  @media screen and (max-width: 768px) {
+    .carrousel {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .carrousel {
+      width: 90%;
+    }
+  }

@@ -1,12 +1,11 @@
 // index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App.jsx';
 
-// Importation des composants Header et Footer
-
 import Footer from './components/Footer.jsx';
+import CookieConsent from './pages/Cookies/CookiesConsent.jsx';
 
 // Gère l'affichage de la navbar
 
@@ -15,12 +14,11 @@ import Footer from './components/Footer.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-     
-      
+    <Router>
       <App />
       <Footer />
-    </BrowserRouter>
-  </React.StrictMode>
+      <CookieConsent />
+    </Router>
+  </React.StrictMode>,
 );
 
