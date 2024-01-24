@@ -63,6 +63,7 @@ export default function Navbar() {
                 <Link to={"/Devis"}>Devis</Link>
                 <Link to={"/Materiaux"}>Materiaux</Link>
                 <Link to={"/Plan"}>Plan</Link>
+                <Link to={"/Services"}>Services</Link>
                
               </div>
             )}
