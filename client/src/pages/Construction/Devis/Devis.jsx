@@ -2,12 +2,14 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import Devisfd from "../../../media/images/Devisfd.jpg";
 import "./Devis.css";
+import Navbar from '../../../components/NavBars/NavbarConstruction'
 
 
 
 export default function Devis() {
     return (
         <main className="main_Devis">
+            <Navbar/>
             <div className=" Devis" >
                 <h1>DEVIS</h1>
                 <img src={Devisfd} alt="" />
