@@ -5,10 +5,12 @@ import Partners from './Partners/Partners'
 import PlanBackground from '../../../media/images/plan-background.webp'
 import ConceptionBackground from '../../../media/images/services-conception-background.jpeg'
 import MaterialsBackground from '../../../media/images/materials-background.jpeg'
+import Navbar from '../../../components/NavBars/NavbarConstruction'
 
 function Services() {
   return (
     <div className='services-container'>
+      <Navbar/>
       <div className='services-wrapper'>
         <Herobanner />
         <Card 
