@@ -1,0 +1,138 @@
+.contact-container{
+  background-image: url('../../assets/images/contact-background.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.contact-wrapper{
+  height: 100%;
+}
+
+.contact-herobanner{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-herobanner-title{
+  font-size: 4rem;
+  font-family: var(--urbanist);
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.contact-herobanner-title h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-shadow: 0 0 4px black;
+}
+
+.contact-form-container{
+  background-color: white;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.contact-form-container h2{
+  font-size: 3rem;
+  font-family: var(--fira);
+  font-weight: 500;
+}
+
+.contact-form-container p{
+  font-size: 1.3rem;
+  font-family: var(--urbanist);
+  font-weight: 500;
+  max-width: 60%;
+  text-align: center;
+}
+
+.contact-form-container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  gap: 2rem;
+}
+
+.contact-form-container label{
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: var(--urbanist);
+}
+
+.contact-form-container form input, .contact-form-container form textarea, .contact-form-container form select{
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0.5rem;
+  font-family: var(--urbanist);
+  resize: none;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.name-container{
+  display: flex;
+  gap: 1rem;
+}
+
+.submit-container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.submit-container input{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-details-wrapper{
+  background-color: var(--couleur-principale);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  gap: 3rem;
+}
+
+.contact-details-wrapper h2{
+  font-size: 3rem;
+  font-family: var(--fira)
+}
+
+.contact-details-cards{
+  display: flex;
+  gap: 3rem;
+}
+
+.contact-details-single-card{
+  width: 300px;
+  background-color: white;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.429);
+  font-size: 1.2rem;
+  font-family: var(--fira)
+}

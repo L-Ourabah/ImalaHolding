@@ -1,0 +1,93 @@
+.services-partners-container{
+  height: 60dvh;
+  background-color: var(--couleur-principale);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.services-partners-container h2{
+  font-size: 3rem;
+  font-family: var(--fira);
+  color: white;
+}
+
+.partners-images-container{
+  width: 100%;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.partners-image{
+  max-width: 20%;
+  text-align: center;
+}
+
+.partners-image img{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.43);
+  margin-bottom: 2rem;
+}
+
+.partners-image h3{
+  font-size: 1.5rem;
+  font-family: var(--fira);
+}
+
+.partners-image p{
+  font-family: var(--urbanist);
+}
+
+@media(max-width:1200px){
+
+  .services-partners-container{
+    height: 40dvh;
+  }
+
+  .partners-image{
+    width: 200px;
+    height: 200px;
+  }
+
+  .partners-images-container{
+    max-width: 100%;
+  }
+
+}
+
+@media(max-width:600px){
+
+  .services-partners-container h2{
+    font-size: 3rem;
+    font-family: var(--fira);
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .services-partners-container{
+    height: 100%;
+  }
+
+  .partners-images-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .partners-image{
+    width: 300px;
+    height: 300px;
+  }
+
+  .partners-images-container{
+    max-width: 100%;
+  }
+}

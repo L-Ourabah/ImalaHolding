@@ -1,0 +1,370 @@
+.home-container{
+    background-image: url('../../assets/images/home-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.home-wrapper{
+    height: 100%;
+}
+
+.home-herobanner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-herobanner-title{
+    font-size: 4rem;
+    font-family: var(--urbanist);
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.home-herobanner-title h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-shadow: 0 0 4px black;
+}
+
+.home-herobanner-message{
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.442);
+}
+
+.home-herobanner-message > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.home-herobanner-message h2{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 500;
+    font-family: var(--urbanist);
+}
+
+.home-herobanner-message p{
+    font-size: 1rem;
+    color: white;
+    font-family: var(--fira);
+}
+
+.home-herobanner-message button{
+    font-size: 2rem;
+    color: white;
+    font-family: var(--fira);
+    background-color: #9D937A;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+    padding: 10px 40px;
+    text-decoration: underline;
+}
+
+.home-herobanner-message h2,
+.home-herobanner-message p,
+.home-herobanner-message button{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+
+@media(max-width:1400px){
+
+    /* Herobanner */
+
+    .home-herobanner-title{
+        font-size: 5rem
+    }
+
+    /* Réalisation */
+
+    .home-realisations-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 75px;
+    }
+
+    .home-realisations-images img{
+        width: 275px;
+        height: 200px;
+    }
+
+    /* Services */
+
+    .services-cards div{
+        width: 20dvw;
+       
+    }
+
+    /* Informations */
+
+    .home-informations-image img{
+        width: 350px;
+    }
+
+}
+
+@media(max-width: 1000px){
+
+    /* Services */
+
+    .services-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-cards div{
+        height: 20dvh;
+        width: 80dvw;
+    }
+
+    /* Informations */
+
+    .home-informations-image{
+        display: none;
+    }
+    
+}
+
+@media(max-width:850px){
+
+    .home-herobanner-title{
+        font-size: 5rem
+    }
+
+    /* Réalisation */
+
+    .home-realisations-section h2{
+        font-size: 2.5rem;
+        font-family: var(--urbanist);
+    }
+
+    /* Services */
+
+    .home-services-section h2 {
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    .home-services-section p {
+        text-align: center;
+        max-width: 500px;
+        font-size: 1.3rem;
+    }
+
+    .services-cards{
+        gap: 10vh;
+    }
+
+    .services-cards div{
+        height: 15dvh;
+        width: 80dvw;
+    }
+
+    /* Herobanner */
+
+    .home-herobanner-message{
+        text-align: center;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        padding: 20px 0;
+        background-color: rgba(0, 0, 0, 0.442);
+    }
+
+    .home-herobanner-message h2{
+        font-size: 2.5rem;
+    }
+
+    .home-herobanner-message p{
+        font-size: 1rem;
+    }
+
+    .home-herobanner-message h2,
+    .home-herobanner-message p,
+    .home-herobanner-message button{
+        max-width: 80%;
+    }
+
+    /* Realisations */
+
+    .home-realisations-section h2{
+        font-size: 3.5rem;
+        font-family: var(--urbanist);
+    }
+
+    .home-realisations-button-container button{
+        padding: 25px 60px;
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+    }
+
+    .home-realisations-button-container {
+        font-size: 1.5rem;
+        gap: 60px;
+    }
+
+    .home-realisations-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 55px;
+        max-width: 80%;
+    }
+
+    .home-realisations-images img{
+        width: 250px;
+        height: 250px;
+    }
+    
+    /* Informations */
+
+    .home-informations-text{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 1.7rem;
+        max-width: 600px;
+        gap: 150px;
+    }
+
+    .home-informations-text h2{
+        font-size: 5rem;
+    }
+
+    .home-informations-text button{
+        padding: 25px 60px;
+        background-color: transparent;
+        position: relative;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .home-herobanner-title{
+        font-size: 2.7rem
+    }
+
+    .home-herobanner-message{
+        text-align: center;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        padding: 20px 0;
+        background-color: rgba(0, 0, 0, 0.442);
+    }
+
+    .home-herobanner-message h2{
+        font-size: 1.7rem;
+    }
+
+    .home-herobanner-message h2,
+    .home-herobanner-message p,
+    .home-herobanner-message button{
+        max-width: 90%;
+    }
+
+    .home-herobanner-message p{
+        font-size: 0.8rem;
+    }
+
+    .services-cards{
+        gap: 8dvh;
+    }
+
+    .services-cards div{
+        height: 10dvh;
+        width: 80dvw;
+    }
+
+    .home-services-section h2 {
+        font-size: 2.7rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .home-services-section p {
+        text-align: center;
+        max-width: 500px;
+        font-size: 1.3rem;
+        max-width: 90%;
+    }
+
+    .home-realisations-section{
+        height: 100%;
+        
+    }
+
+    .home-realisations-section h2{
+        font-size: 2.8rem;
+        font-family: var(--urbanist);
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .home-realisations-section p{
+        margin-top: 3rem;
+    }
+
+    .home-realisations-button-container button{
+        padding: 25px 60px;
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+    }
+
+    .home-realisations-button-container {
+        font-size: 1.5rem;
+        gap: 60px;
+    }
+
+    .home-realisations-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 55px;
+        max-width: 80%;
+    }
+
+    .home-realisations-images img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .home-informations-text{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 1.2rem;
+        max-width: 90%;
+        gap: 150px;
+    }
+
+    .home-informations-text h2{
+        font-size: 2.5rem;
+    }
+
+    .home-informations-text button{
+        padding: 25px 60px;
+        background-color: transparent;
+        position: relative;
+    }
+
+}

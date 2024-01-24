@@ -1,0 +1,105 @@
+.cards-wrapper{
+  height: 75dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.cards-wrapper:before{
+  content:"";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.447);
+}
+
+.cards-wrapper h2{
+  font-size: 4rem;
+  color: white;
+  font-family: var(--fira);
+  font-weight: 700;
+  z-index: 2;
+}
+
+.cards-wrapper p{
+  color: white;
+  font-size: 1.3rem;
+  max-width: 900px;
+  font-family: var(--urbanist);
+  text-align: center;
+}
+
+.cards-wrapper button{
+  padding: 15px 40px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: var(--urbanist);
+  color: white;
+  background-color: transparent;
+  position: relative;
+}
+
+.cards-wrapper button:after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 3px white solid;
+  border-radius: 15px;
+}
+
+.cards-wrapper button:hover{
+  color: black;
+  background-color: white;
+  transition: ease-out 200ms;
+}
+
+.cards-wrapper h2, .cards-wrapper p, .cards-wrapper button{
+  z-index: 2;
+}
+
+@media(max-width: 850px){
+
+  .cards-wrapper h2{
+    font-size: 6rem;
+  }
+
+  .cards-wrapper button{
+    padding: 35px 70px;
+  }
+
+  .cards-wrapper p{
+    font-size: 1.7rem;
+    max-width: 80%;
+  }
+}
+
+@media(max-width: 600px){
+
+  .cards-wrapper h2{
+    font-size: 3.6rem;
+    color: white;
+    font-family: var(--fira);
+    font-weight: 700;
+    z-index: 2;
+  }
+  
+  .cards-wrapper p{
+    color: white;
+    font-size: 1.2rem;
+    max-width: 80%;
+    font-family: var(--urbanist);
+    text-align: center;
+  }
+
+  .cards-wrapper button{
+    padding: 15px 50px;
+  }
+
+}

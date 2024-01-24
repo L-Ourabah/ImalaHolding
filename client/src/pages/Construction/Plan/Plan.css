@@ -1,0 +1,162 @@
+.plan-container{
+    background-image: url('../../assets/images/plan-background.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.plan-wrapper{
+    height: 100%;
+}
+
+.plan-herobanner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-herobanner-title{
+    font-size: 4rem;
+    font-family: var(--urbanist);
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.plan-herobanner-title h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-shadow: 0 0 4px black;
+}
+
+.plan-herobanner-message{
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.442);
+}
+
+.plan-herobanner-message > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.plan-herobanner-message h2{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 500;
+    font-family: var(--urbanist);
+}
+
+.plan-herobanner-message p{
+    font-size: 1rem;
+    color: white;
+    font-family: var(--fira);
+}
+
+.plan-herobanner-message button{
+    font-size: 2rem;
+    color: white;
+    font-family: var(--fira);
+    background-color: #9D937A;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+    padding: 10px 40px;
+    text-decoration: underline;
+}
+
+
+.plan-herobanner-message h2,
+.plan-herobanner-message p,
+.plan-herobanner-message button{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.pannels-container{
+    height: 70dvh;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pannels-container h2{
+    color: black;
+    font-size: 3rem;
+    font-family: var(--fira);
+}
+
+.pannels-container p{
+    color: black;
+    font-size: 1.3rem;
+    font-family: var(--fira);
+    max-width: 50%;
+    text-align: center;
+}
+
+.plan-pannel-container:nth-child(2){
+    flex-direction: row-reverse;
+    background-image: url('../../assets/images/plan-architectural-background.webp');
+}
+
+.plan-pannel-container:nth-child(2) .pannels-wrapper{
+    background-color: rgba(0, 0, 0, 0.806);
+}
+
+.plan-pannel-container:nth-child(2) p, .plan-pannel-container:nth-child(2) h2{
+    color: white;
+}
+
+.plan-pannel-container:first-child{
+    background-image: url('../../assets/images/plan-beton_arme-background.webp');
+}
+
+.plan-pannel-container:last-child{
+    background-image: url('../../assets/images/plan-3D-background.jpeg');
+}
+
+.pannels-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: var(--couleur-principale-transparente);
+    gap: 4rem;
+}
+
+
+@media(max-width: 1200px){
+
+    .plan-herobanner-title h1 {
+        font-size: 7rem;
+    }
+
+    .plan-herobanner-message{
+        height: 450px;
+    }
+
+    .plan-herobanner-message h2{
+        font-size: 4rem;
+    }
+
+    .plan-herobanner-message p{
+        font-size: 1.5rem;
+        max-width: 100%;
+    }
+
+    .pannels-container{
+        height: 10dvh;
+    }
+
+}

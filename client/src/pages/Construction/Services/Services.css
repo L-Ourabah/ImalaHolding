@@ -1,0 +1,98 @@
+.services-container{
+  background-image: url('../../assets/images/services-background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.services-wrapper{
+  height: 100%;
+}
+
+.services-herobanner{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-herobanner h1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: var(--urbanist);
+  color: white;
+  text-shadow: 0 0 4px black;
+}
+
+.services-herobanner-message{
+  text-align: center;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.442);
+}
+
+.services-herobanner-message > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20%;
+}
+
+.services-herobanner-message h2{
+  font-size: 3rem;
+  color: white;
+  font-weight: 500;
+  font-family: var(--urbanist);
+}
+
+.services-herobanner-message p{
+  font-size: 1.2rem;
+  color: white;
+  font-family: var(--fira);
+}
+
+.services-herobanner-message h2,
+.services-herobanner-message p{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media(max-width: 1200px){
+
+  .services-herobanner h1 {
+    font-size: 7rem;
+  }
+  
+}
+
+@media(max-width: 600px){
+  
+  .services-herobanner h1 {
+    font-size: 4rem;
+  }
+
+  .services-herobanner-message p{
+    font-size: 1.2rem;
+  }
+
+  .services-herobanner-message > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+  }
+
+  .services-herobanner-message{
+    height: 300px;
+  }
+
+}
