@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './PolitiqueConfidentialite.css';
 import Privacyfd from "../../media/images/cookiesfd.jpg";
+import Navbar from '../../components/NavBars/NavbarImala';
 //import { useTranslation } from 'react-i18next';
 
 export default function PolitiqueConfidentialite() {
@@ -11,7 +12,7 @@ export default function PolitiqueConfidentialite() {
 
   return (
     <main className="main_privacy">
-
+      <Navbar/>
       <div className="Contact ">
         <h1>CONFIDENTIALITE</h1>
         <img src={Privacyfd} alt="" />
