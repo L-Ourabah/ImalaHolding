@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderPage from '../componentsG/HeaderPage'
 
 import './Abonnement.css'
+import '../componentsG/componentsG.css'
 import Presentation from '../componentsG/Presentation'
 import Premium from './components/Premium'
 import Gold from './components/Gold'
