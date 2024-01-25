@@ -1,0 +1,563 @@
+
+/* header accueil*/
+.header_accueil_conciergerie {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #header_img_conciergerie {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    filter: brightness(0.6);
+    object-fit: cover;
+    height: 100%;
+  }
+  .header_titre_conciergerie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: #f1f1f1;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 200;
+  }
+  #titre_logo_conciergerie {
+    font-family: "Wallpoet", sans-serif;
+    text-shadow: 2px 1px 5px #00000094;
+    font-weight: 400;
+    font-size: 2.5em;
+  }
+
+  /*main accueil */
+  .main_accueil_conciergerie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+/*Propriété en commun pour les sections*/
+.section_titre_conciergerie {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .section_titre_conciergerie h2 {
+    font-weight: 400;
+    font-size: xx-large;
+  }
+  .section_titre_conciergerie p {
+    font-size: 1.1em;
+  width: 80%;
+}
+.section_titre_conciergerie a {
+    font-size: 1.2em;
+    color: rgb(5, 5, 5);
+    font-weight: 600;
+  }
+
+  /* Section 1 : Bienvenue (Bienvenue.jsx)*/
+  .section_bienvenue_conciergerie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    height: 20%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4%;
+}
+  .section_bienvenue_conciergerie h2 , .section_contact_conciergerie h2 {
+    font-weight: 400;
+    font-size: 2em;
+  }
+  
+  .section_bienvenue_conciergerie p {
+    width: 70%;
+  }
+  .section_bienvenue_conciergerie button {
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: #1e1e1e;
+    font-size: 0.9em;
+    font-family: "Urbanist", sans-serif;
+    box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 36%);
+}
+
+  .section_bienvenue_conciergerie button:hover {
+    box-shadow: 2px 3px 15px -3px rgb(0 0 0 / 50%);
+    background-color: #262525;
+  }
+   /* Section 2 : Services (Services.jsx)*/
+   .section_services_conciergerie {
+    color: black;
+    background-color: #9c5928;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    width: 100%;
+    height: 40%;
+  }
+  
+  .services_contenu_conciergerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espace égal entre les colonnes */
+    width: 60%;  
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+  /*card services*/
+  .card_services {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+  }
+  .card_services:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .card_services_contenu h4 {
+    font-size: x-large;
+    font-weight: 400;
+  }
+  .card_services_contenu button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    font-size: large;
+  }
+  
+
+#card_nettoyage {
+    background: linear-gradient(0deg, rgb(0 0 0 / 51%) 0%, rgb(0 0 0 / 58%) 100%),
+      url("https://images.pexels.com/photos/10573242/pexels-photo-10573242.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+      lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #card_garderie {
+    background: linear-gradient(0deg, rgb(0 0 0 / 51%) 0%, rgb(0 0 0 / 58%) 100%),
+      url("https://images.pexels.com/photos/8363100/pexels-photo-8363100.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+      lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #card_transport {
+    background: linear-gradient(0deg, rgb(0 0 0 / 51%) 0%, rgb(0 0 0 / 58%) 100%),
+      url("https://images.pexels.com/photos/18189671/pexels-photo-18189671/free-photo-of-ville-route-circulation-gens.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+      lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #card_guidetour {
+    background: linear-gradient(0deg, rgb(0 0 0 / 51%) 0%, rgb(0 0 0 / 58%) 100%),
+      url("https://images.pexels.com/photos/4856284/pexels-photo-4856284.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+      lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #card_traiteur {
+    background: linear-gradient(0deg, rgb(0 0 0 / 51%) 0%, rgb(0 0 0 / 58%) 100%),
+      url("https://images.pexels.com/photos/7262909/pexels-photo-7262909.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+      lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #card_loisirs {
+    background: linear-gradient(0deg, rgb(0 0 0 / 51%) 0%, rgb(0 0 0 / 58%) 100%),
+      url("https://images.pexels.com/photos/18189700/pexels-photo-18189700/free-photo-of-banc-paysage-gens-herbe.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+      lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+   /* Section 3 : Abonnement (Abonnement.jsx)*/
+  .section_abonnement {
+    color: white;
+    background: #00000036;;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+  .section_abonnement a {
+    color: white;
+    font-weight: 600;
+  }
+
+  .abonnement_contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .card_abo {
+    border-radius: 10px;
+    background: rgb(255 255 255 / 71%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 440px;
+    height: 530px;
+    color: black;
+    margin: 10px;
+}
+  
+  .card_abo:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .card_abo_header {
+    height: 15%;
+  }
+  
+  .card_abo_header h3 {
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  
+  .card_abo_header p {
+    font-size: 1.5em;
+  }
+  .card_abo_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 75%;
+  }
+  .card_abo_main ul {
+    list-style: circle;
+  }
+  .card_abo_main li {
+    padding: 10px;
+  }
+
+    /* Section 4 : Contact (Contact.jsx)*/
+.section_contact_conciergerie {
+    background-color: white;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+
+.contact_contenu_conciergerie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .contact_img_conciergerie,
+.contact_txt_conciergerie {
+  width: 50%;
+}
+
+.contact_img_conciergerie img {
+    position: absolute;
+    z-index: 1;
+    width: 483px;
+    height: 370px;
+    object-fit: cover;
+    object-position: center;
+    margin: 41px -64px -94px -100px;
+    box-shadow: 0px 10px 15px -3px rgb(46 43 43 / 33%);
+  }
+  .contact_img_conciergerie img:hover {
+  margin: 41px -64px -94px -100px;
+    box-shadow: 0px 10px 15px -3px rgb(46 43 43 / 53%);
+  }
+
+  .contact_square_conciergerie {
+    border: 2px solid #000000a1;
+    padding: 196px 225px 140px 281px;
+    position: absolute;
+    z-index: 0;
+    color: white;
+  }
+
+  .contact_txt_conciergerie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .contact_txt_conciergerie h3 {
+    font-size: 2em;
+  }
+  .contact_txt_conciergerie p {
+    width: 80%;
+    font-size: 1.3em;
+  }
+  .contact_txt_conciergerie button {
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    border: none;
+    color: white;
+    background: #1e1e1e;
+    font-size: larger;
+    font-family: "Urbanist", sans-serif;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .contact_txt_conciergerie button:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+   /* Section 5 : Newsletter (Newsletter.jsx)*/
+   .section_newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    height: 100%;
+  }
+
+  .newletter_contenu {
+    width: 65%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+    border-radius: 10px;
+    background: rgba(156, 89, 40, 0.9);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+ 
+  .newsletter_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .newsletter_form input[type="text"] {
+    padding: 2%;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 1px 2px #8080807d;
+  }
+
+  .newsletter_form button {
+    width: 20%;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family: "Urbanist";
+    box-shadow: 2px 3px 15px -3px rgb(0 0 0 / 36%);
+  }
+  
+  .newsletter_form button:hover {
+    box-shadow: 2px 3px 15px -3px rgb(0 0 0 / 50%);
+    background-color: rgba(0, 0, 0, 0.88);
+  }
+  
+  /*  Media query pour les tablettes ici */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+   /*Propriété en commun*/
+   .section_titre_conciergerie p {
+    font-size: 1.4em;
+    width: 85%;
+}
+    /*Section 1 : Bienvenue*/
+.section_bienvenue_conciergerie p {
+        width: 90%;
+        font-size: larger;
+ }
+
+ .section_bienvenue_conciergerie button {
+        width: 30%;
+ }
+/*Section 2 : Services*/
+ .services_contenu_conciergerie {
+            width: 100%;
+ }
+          
+ .card_services {
+            width: calc(33.33% - 20px); /* Ajustez la largeur pour répartir les éléments sur trois colonnes avec une marge de 20px */
+            margin-bottom: 20px; /* Espace entre les lignes */
+     height: 285px;
+ }
+
+ .card_services_contenu button {
+    padding: 20px;
+    font-size: x-large;
+}
+
+
+/*Section 3 : Abonnement*/
+
+.abonnement_contenu {
+    width: 100%;
+    align-content: center;
+    flex-direction: column;
+}
+.card_abo {
+    height: 350px;
+    width: 80%;
+}
+
+/*Section 4 : Contact*/
+.contact_img_conciergerie {
+    display: none;
+}
+.contact_txt_conciergerie {
+    width:100%;
+}
+/*Section 5 : Newsletter*/
+.newsletter_form button {
+    width: 30%;
+    padding: 4%;
+        margin-top: 2%;
+}
+.newsletter_form input[type="text"] {
+    padding: 5%;
+  }
+    }
+
+/*  Media query pour les téléphones ici */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+.header_titre_conciergerie {
+    font-size: x-large;
+}
+#titre_logo_conciergerie {  
+    font-size: 1.7em;
+}
+/*en commmun*/
+.section_abonnement , .section_services_conciergerie {
+  padding-bottom: 4%;
+}
+/*contenu cache*/
+.services_contenu_conciergerie , .abonnement_contenu,.contact_img_conciergerie {
+    display: none;
+}
+/*Bienvenue*/
+.section_bienvenue_conciergerie p {
+    width: 89%;
+}
+.section_bienvenue_conciergerie button {
+    width: 220px;
+  }
+  /*Contact*/
+  .contact_txt_conciergerie h3 {
+    font-size: 1.5em;
+}
+.contact_txt_conciergerie {
+    width: 100%;
+}
+/*Newsletter*/
+.newletter_contenu {
+    width: 98%;
+    padding: 3%;}
+
+
+.newsletter_form button {
+    width: 170px;
+    padding: 6%;
+    margin-top: 3%;
+}
+
+.newsletter_form input[type="text"] {
+    padding: 8%;
+    width: 75%;
+}
+}
+
+/*  Media query pour les téléphones en format paysage ici */
+@media screen and (max-width: 767px) and (orientation: landscape) {
+.header_titre_conciergerie {
+    font-size: x-large;
+}
+#titre_logo_conciergerie {  
+    font-size: 1.7em;
+}
+/*en commmun*/
+.section_abonnement , .section_services_conciergerie {
+  padding-bottom: 4%;
+}
+/*contenu cache*/
+.services_contenu_conciergerie , .abonnement_contenu,.contact_img_conciergerie {
+    display: none;
+}
+/*Bienvenue*/
+.section_bienvenue_conciergerie p {
+    width: 89%;
+}
+.section_bienvenue_conciergerie button {
+    width: 220px;
+  }
+  /*Contact*/
+  .section_contact_conciergerie {
+    padding: 0;
+  }
+  .contact_txt_conciergerie h3 {
+    font-size: 1.5em;
+}
+.contact_txt_conciergerie {
+    width: 100%;
+}
+/*Newsletter*/
+.newletter_contenu {
+    width: 80%;
+    padding: 1%;
+}
+
+.newsletter_form button {
+    width: 170px;
+    padding: 4%;
+    margin-top: 4%;
+     margin-bottom: 4%;
+}
+
+.newsletter_form input[type="text"] {
+    padding: 5%;
+    width: 75%;
+}
+}

@@ -8,7 +8,7 @@ import Error from "./pages/Error.jsx";
 import PolitiqueConfidentialite from "./pages/Cookies/Confidentialité.jsx";
 
 
-import Conciergerie from "./pages/Conciergerie/ConciergerieAccueil/Conciergerie.jsx";
+import Conciergerie from "./pages/Conciergerie/ConciergerieAccueil/ConciergerieAccueil.jsx";
 import ServiceConciergerie from "./pages/Conciergerie/ServicesConciergerie/ServiceConciergerie.jsx";
 import Abonnement from "./pages/Conciergerie/Abonnement/Abonnement.jsx";
 import Loisirs from "./pages/Conciergerie/Loisirs/Loisirs.jsx";
