@@ -1,4 +1,17 @@
+/*import font-family*/
+/*importation font : Urbanist*/
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+/*importation font : Wallpoet*/
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
 
+/*sommaire css : 
+
+ligne 58 - Section 1 : Bienvenue (Bienvenue.jsx) -
+
+*/
+body {
+    font-family: "Urbanist", sans-serif;
+}
 /* header accueil*/
 .header_accueil_conciergerie {
     height: 100vh;
@@ -461,7 +474,46 @@
     padding: 5%;
   }
     }
+  /*  Media query pour les tablettes en format paysage  ici */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .services_contenu_conciergerie {
+    flex-wrap: nowrap;
+    width: 98%;
+  }
+  .abonnement_contenu {
+    flex-wrap: no-wrap;
 
+}
+/*Section 3 : Abonnement*/
+
+.abonnement_contenu {
+  width: 100%;
+  align-content: center;
+  flex-direction: column;
+}
+.card_abo {
+  height: 350px;
+  width: 80%;
+}
+
+/*Section 4 : Contact*/
+.contact_img_conciergerie {
+  display: none;
+}
+.contact_txt_conciergerie {
+  width:100%;
+}
+/*Section 5 : Newsletter*/
+.newsletter_form button {
+  width: 30%;
+  padding: 4%;
+      margin-top: 2%;
+}
+.newsletter_form input[type="text"] {
+  padding: 5%;
+}
+}
+      
 /*  Media query pour les téléphones ici */
 @media only screen and (max-width: 767px) and (orientation: portrait) {
 .header_titre_conciergerie {
