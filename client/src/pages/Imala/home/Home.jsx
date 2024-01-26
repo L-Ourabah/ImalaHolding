@@ -20,7 +20,7 @@ export default function Main() {
         <div className="presentation_img">
         </div>
         <div className="presentation_txt">
-          <h2>C'est quoi Imala ?"</h2>
+          <h2>C'est quoi Imala ?</h2>
           <p>
             Imala Holding est une agence immobilière destinée avant tout à la diaspora africaine. Nous sommes
             basé sur Paris et à Dakar et intervenons dans la location courte et moyenne durée de biens avec
