@@ -56,15 +56,15 @@ export default function Navbar() {
             onMouseEnter={toggleDropdown}
             onMouseLeave={toggleDropdown}
           >
-            <Link to={"/service"}>Services <Icon icon="pepicons-pencil:triangle-down" /></Link>
+            <Link to={"/ServiceConciergerie"}>Services <Icon icon="pepicons-pencil:triangle-down" /></Link>
             {dropdownVisible && (
               <div className="dropdown-content">
-                <Link to={"/service/nettoyage"}>Nettoyage</Link>
-                <Link to={"/service/transport"}>Transport</Link>
-                <Link to={"/service/garderie"}>Garderie</Link>
-                <Link to={"/service/nourriture"}>Nourriture</Link>
-                <Link to={"/service/loisirs"}>Loisirs</Link>
-                <Link to={"/service/guidetouristique"}>Guide<br /> Touristique</Link>
+                <Link to={"/ServiceConciergerie/nettoyage"}>Nettoyage</Link>
+                <Link to={"/ServiceConciergerie/transport"}>Transport</Link>
+                <Link to={"/ServiceConciergerie/garderie"}>Garderie</Link>
+                <Link to={"/ServiceConciergerie/nourriture"}>Nourriture</Link>
+                <Link to={"/ServiceConciergerie/loisirs"}>Loisirs</Link>
+                <Link to={"/ServiceConciergerie/guidetouristique"}>Guide<br /> Touristique</Link>
                 {/* Ajoutez autant d'options que nécessaire */}
               </div>
             )}

@@ -13,6 +13,10 @@ import ServiceConciergerie from "./pages/Conciergerie/ServicesConciergerie/Servi
 import Abonnement from "./pages/Conciergerie/Abonnement/Abonnement.jsx";
 import Loisirs from "./pages/Conciergerie/Loisirs/Loisirs.jsx";
 
+
+
+
+
 import Construction from "./pages/Construction/Home/Home.jsx";
 import ServiceConstruction from "./pages/Construction/Services/Services.jsx";
 import Conception from "./pages/Construction/Conception/Conception.jsx";
@@ -55,6 +59,11 @@ function App() {
       <Route path="/ServiceConciergerie" element={<ServiceConciergerie />} />
       <Route path="/Abonnement" element={<Abonnement />} />
       <Route path="/Loisirs" element={<Loisirs />} />
+    
+
+
+
+
 
       {/* Construction */}
       <Route path="/Construction" element={<Construction />} />
