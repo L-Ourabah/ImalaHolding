@@ -40,19 +40,19 @@ export default function Navbar() {
     setDropdownVisible(!dropdownVisible);
   };
 
-  const navbarClass1 = `navbar1 ${scrolled ? "scrolled" : ""}`;
+  const navbarClass1 = `navbar ${scrolled ? "scrolled" : ""}`;
 
   return (
     <nav className={navbarClass1}>
-      <div className="navbar_desktop1">
-        <div className="logo1"><Link to="/">
+      <div className="navbar_desktop">
+        <div className="logo"><Link to="/">
                         <img src={conciergerie} />
                     </Link></div>
-        <div className="onglets1">
+        <div className="onglets">
           <Link to={"/"}>Accueil</Link>
 
           <div
-            className="dropdown1"
+            className="dropdown"
             onMouseEnter={toggleDropdown}
             onMouseLeave={toggleDropdown}
           >
@@ -74,26 +74,26 @@ export default function Navbar() {
           <Link to="/">Imala Holding</Link>
           
         </div>
-        <span id="flag1"><Icon icon="openmoji:flag-france" /></span>
+        <span id="flag"><Icon icon="openmoji:flag-france" /></span>
       </div>
       {/*menu mobile*/}
 
 
-      <div className='navbar_mobile1'>
+      <div className='navbar_mobile'>
 
-        <div className="logo1">Logo</div>
+        <div className="logo">Logo</div>
 
-        <div className="onglet_mobile1">
+        <div className="onglet_mobile">
           <span id="flag"><Icon icon="openmoji:flag-france" /></span>
 
 
-          <span className='burgerMenu1' onClick={openNav}>☰ </span>
+          <span className='burgerMenu' onClick={openNav}>☰ </span>
         </div>
 
-        <div id="myNav1" className="overlay1">
-          <a href="javascript:void(0)" className="closebtn1" onClick={closeNav}>×</a>
+        <div id="myNav" className="overlay">
+          <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
           <div className="overlay-content">
-            <h1 id="logo_mobile1" >Logo</h1>
+            <h1 id="logo_mobile" >Logo</h1>
             <Link to={'/'}>Accueil</Link>
             <Link to={"/service"}>Services</Link>
             <Link to={"/abonnement"}>Abonnement</Link>
