@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';
-import conciergerie from '../../media/images/constructionLogo.png';
+import Construction from '../../media/images/constructionLogo.png';
 import '../../styles/Header/NavbarConciergerie.css';
 
 
@@ -45,9 +45,11 @@ export default function Navbar() {
   return (
     <nav className={navbarClass1}>
       <div className="navbar_desktop">
-        <div className="logo"><Link to="/construction">
-          <img src={conciergerie} />
-        </Link></div>
+        <div className="logo">
+          <Link to="/construction">
+          <img src={Construction} />
+        </Link>
+        </div>
         <div className="onglets">
           <Link to={"/construction"}>Accueil</Link>
 
@@ -80,7 +82,10 @@ export default function Navbar() {
 
       <div className='navbar_mobile'>
 
-        <div className="logo">Logo</div>
+        <div className="logo_mobile">  
+        <Link to="/construction">
+          <img src={Construction} />
+        </Link></div>
 
         <div className="onglet_mobile">
           <span id="flag"><Icon icon="openmoji:flag-france" /></span>
@@ -92,9 +97,13 @@ export default function Navbar() {
         <div id="myNav" className="overlay">
           <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
           <div className="overlay-content">
-            <h1 id="logo_mobile" >Logo</h1>
+            <div id="logo_mobile" >
+            <Link to="/construction">
+          <img src={Construction} />
+        </Link>
+            </div>
             <Link to={'/'}>Accueil</Link>
-            <Link to={"/service"}>Services</Link>
+            <Link to={"/services"}>Services</Link>
           
            
             <Link to={"/Conception"}>Conception</Link>
