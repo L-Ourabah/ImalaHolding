@@ -81,7 +81,9 @@ export default function Navbar() {
 
       <div className='navbar_mobile'>
 
-        <div className="logo">Logo</div>
+        <div className="logo_mobile"><Link to="/">
+                        <img src={conciergerie} />
+                    </Link></div>
 
         <div className="onglet_mobile">
           <span id="flag"><Icon icon="openmoji:flag-france" /></span>
@@ -93,7 +95,9 @@ export default function Navbar() {
         <div id="myNav" className="overlay">
           <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
           <div className="overlay-content">
-            <h1 id="logo_mobile" >Logo</h1>
+            <h1 id="logo_mobile" ><Link to="/">
+                        <img src={conciergerie} />
+                    </Link></h1>
             <Link to={'/'}>Accueil</Link>
             <Link to={"/service"}>Services</Link>
             <Link to={"/abonnement"}>Abonnement</Link>
