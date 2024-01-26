@@ -17,7 +17,7 @@
    color: white;
    font-size: 3.5em;
    text-align: center;
-   font-family: 'Urbanist',sans-serif;
+   font-family: var(--Playfair);
    text-shadow: 1px 2px 3px #00000073;
  }
  

@@ -7,11 +7,13 @@ import Presentation from '../componentsG/Presentation'
 import Galerie from './components/Galerie'
 import Partenaire from './components/Partenaire'
 import Aide from './components/Aide'
+import Navbar from '../../../components/NavBars/NavbarConciergerie'
 
 
 export default function ServiceConciergerie() {
   return (
-    <>
+    <> <Navbar/>
+
        <header className='header_service_conciergerie'>
     <HeaderPage
     titrePage="Services"

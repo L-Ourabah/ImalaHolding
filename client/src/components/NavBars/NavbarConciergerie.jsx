@@ -40,31 +40,31 @@ export default function Navbar() {
     setDropdownVisible(!dropdownVisible);
   };
 
-  const navbarClass1 = `navbar1 ${scrolled ? "scrolled" : ""}`;
+  const navbarClass1 = `navbar ${scrolled ? "scrolled" : ""}`;
 
   return (
     <nav className={navbarClass1}>
-      <div className="navbar_desktop1">
-        <div className="logo1"><Link to="/">
+      <div className="navbar_desktop">
+        <div className="logo"><Link to="/">
                         <img src={conciergerie} />
                     </Link></div>
-        <div className="onglets1">
+        <div className="onglets">
           <Link to={"/"}>Accueil</Link>
 
           <div
-            className="dropdown1"
+            className="dropdown"
             onMouseEnter={toggleDropdown}
             onMouseLeave={toggleDropdown}
           >
-            <Link to={"/service"}>Services <Icon icon="pepicons-pencil:triangle-down" /></Link>
+            <Link to={"/ServiceConciergerie"}>Services <Icon icon="pepicons-pencil:triangle-down" /></Link>
             {dropdownVisible && (
               <div className="dropdown-content">
-                <Link to={"/service/nettoyage"}>Nettoyage</Link>
-                <Link to={"/service/transport"}>Transport</Link>
-                <Link to={"/service/garderie"}>Garderie</Link>
-                <Link to={"/service/nourriture"}>Nourriture</Link>
-                <Link to={"/service/loisirs"}>Loisirs</Link>
-                <Link to={"/service/guidetouristique"}>Guide<br /> Touristique</Link>
+                <Link to={"/ServiceConciergerie/nettoyage"}>Nettoyage</Link>
+                <Link to={"/ServiceConciergerie/transport"}>Transport</Link>
+                <Link to={"/ServiceConciergerie/garderie"}>Garderie</Link>
+                <Link to={"/ServiceConciergerie/nourriture"}>Nourriture</Link>
+                <Link to={"/ServiceConciergerie/loisirs"}>Loisirs</Link>
+                <Link to={"/ServiceConciergerie/guidetouristique"}>Guide<br /> Touristique</Link>
                 {/* Ajoutez autant d'options que nécessaire */}
               </div>
             )}
@@ -74,26 +74,30 @@ export default function Navbar() {
           <Link to="/">Imala Holding</Link>
           
         </div>
-        <span id="flag1"><Icon icon="openmoji:flag-france" /></span>
+        <span id="flag"><Icon icon="openmoji:flag-france" /></span>
       </div>
       {/*menu mobile*/}
 
 
-      <div className='navbar_mobile1'>
+      <div className='navbar_mobile'>
 
-        <div className="logo1">Logo</div>
+        <div className="logo_mobile"><Link to="/">
+                        <img src={conciergerie} />
+                    </Link></div>
 
-        <div className="onglet_mobile1">
+        <div className="onglet_mobile">
           <span id="flag"><Icon icon="openmoji:flag-france" /></span>
 
 
-          <span className='burgerMenu1' onClick={openNav}>☰ </span>
+          <span className='burgerMenu' onClick={openNav}>☰ </span>
         </div>
 
-        <div id="myNav1" className="overlay1">
-          <a href="javascript:void(0)" className="closebtn1" onClick={closeNav}>×</a>
+        <div id="myNav" className="overlay">
+          <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
           <div className="overlay-content">
-            <h1 id="logo_mobile1" >Logo</h1>
+            <h1 id="logo_mobile" ><Link to="/">
+                        <img src={conciergerie} />
+                    </Link></h1>
             <Link to={'/'}>Accueil</Link>
             <Link to={"/service"}>Services</Link>
             <Link to={"/abonnement"}>Abonnement</Link>

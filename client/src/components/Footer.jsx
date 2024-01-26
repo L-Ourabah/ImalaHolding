@@ -48,7 +48,7 @@ function Footer() {
 
                     <div className="links-column">
                         <h2><Link to="/Conciergerie">Conciergerie</Link></h2>
-                        <Link to="/services">Services</Link>
+                        <Link to="/ServiceConciergerie">Services</Link>
                         <Link to="/abonnement">Abonnement</Link>
                         <Link to="/loisirs">Loisirs</Link>
                         <Link to="/garderie">Garderie</Link>

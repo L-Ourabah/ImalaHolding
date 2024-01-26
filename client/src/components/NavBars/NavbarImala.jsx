@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';
-import conciergerie from '../../media/images/logoImala.png';
+import Imala from '../../media/images/logoImala.png';
 import '../../styles/Header/NavbarImala.css';
 
 
@@ -45,9 +45,11 @@ export default function Navbar() {
   return (
     <nav className={navbarClassImala}>
       <div className="navbar_desktopImala">
-        <div className="logoImala"><Link to="/">
-                        <img src={conciergerie} />
-                    </Link></div>
+        <div className="logoImala">
+          <Link to="/">
+          <img src={Imala} />
+        </Link>
+        </div>
         <div className="ongletsImala">
           <Link to={"/"}>Accueil</Link>
 
@@ -62,14 +64,14 @@ export default function Navbar() {
                 <Link to={"/conciergerie"}>Conciergerie</Link>
                 <Link to={"/construction"}>Construction</Link>
                 <Link to={"/airbnb"}>Location</Link>
-               
+
               </div>
             )}
           </div>
           <Link to={"/about"}>A propos</Link>
           <Link to={"/contact"}>Contact</Link>
-         
-        </div> 
+
+        </div>
         <span id="flagImala"><Icon icon="openmoji:flag-france" /></span>
       </div>
       {/*menu mobile*/}
@@ -77,9 +79,11 @@ export default function Navbar() {
 
       <div className='navbar_mobileImala'>
 
-        <div className="logoImalaMobile"><Link to="/">
-                        <img src={conciergerie} />
-                    </Link></div>
+        <div className="logoImalaMobile">
+          <Link to="/conciergerie">
+            <img src={Imala} />
+          </Link>
+        </div>
 
         <div className="onglet_mobileImala">
           <span id="flag"><Icon icon="openmoji:flag-france" /></span>
@@ -91,13 +95,15 @@ export default function Navbar() {
         <div id="myNav" className="overlayImala">
           <a href="javascript:void(0)" className="closebtnImala" onClick={closeNav}>×</a>
           <div className="overlayImala-content">
-            <div id="logo_mobileImala" ><Link to="/">
-                        <img src={conciergerie} />
-                    </Link></div>
+            <div id="logo_mobileImala" >
+              <Link to="/conciergerie">
+                <img src={Imala} />
+              </Link>
+            </div>
             <Link to={'/'}>Accueil</Link>
             <Link to={"/conciergerie"}>Conciergerie</Link>
-                <Link to={"/construction"}>Construction</Link>
-                <Link to={"/airbnb"}>Location</Link>
+            <Link to={"/construction"}>Construction</Link>
+            <Link to={"/airbnb"}>Location</Link>
             <Link to={"/contact"}>Contact</Link>
           </div>
 

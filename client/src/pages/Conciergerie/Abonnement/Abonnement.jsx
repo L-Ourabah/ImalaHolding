@@ -7,10 +7,12 @@ import Presentation from '../componentsG/Presentation'
 import Premium from './components/Premium'
 import Gold from './components/Gold'
 import Silver from './components/Silver'
+import Navbar from '../../../components/NavBars/NavbarConciergerie'
 
 export default function Abonnement() {
   return (
     <>
+    <Navbar/>
     <header className='header_abo'>
     <HeaderPage
     titrePage="Abonnement"
