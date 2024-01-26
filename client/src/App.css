@@ -30,7 +30,8 @@
 :root{
     --Roboto: 'Roboto', sans-serif;
     --Playfair:'Playfair Display', serif;
-
+    --couleur-principale: #9D937A;
+    --couleur-principale-transparente: #9d937acb;
     --bleu-principal: #3864FF;
     --bleu-sombre: #001B7C;
     --gris-clair: #F4F4F4;
