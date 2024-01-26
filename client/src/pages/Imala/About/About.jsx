@@ -2,8 +2,10 @@ import React from "react";
 import Aboutfd from "../../../media/images/abouts.jpg";
 import "./About.css";
 import Qsnfd from "../../../media/images/az.jpg";
-import Partenaire from "./Components/Partenaire.jsx";
+import Histoirefd from "../../../media/images/senegal.jpg"
+import Partenaire from "./Components/Partenaire/Partenaire.jsx";
 import Navbar from "../../../components/NavBars/NavbarImala.jsx";
+import Projet from "./Components/Projet/Projet.jsx";
 
 export default function About() {
   return (
@@ -23,22 +25,8 @@ export default function About() {
         <div className="p-qsn">
           <h2>Qui Sommes Nous</h2>
           <p>
-            Imala Holding est une agence immobilière destinée avant tout à la diaspora africaine et au
-            population locale.
-            Nous sommes basé sur Paris et à Dakar et intervenons dans la location courte et moyenne
-            durée de biens avec
-            Imala location.
-            Nous sommes également dans la construction de biens (villas et immeubles) et des devis
-            peuvent
-            vous être fait selon votre convenance avec Imala construction.
-            Nous gérons également une conciergerie afin de gérer les biens des propriétaires, des
-            services tels
-            que le ménage de biens, un service de traiteur, de la location de véhicule avec chauffeur
-            pour vos
-            déplacements dans le pays avec imala conciergerie.
-            Nos secteur d’activités : habitation (imala location) / Construction (imala construction) /
-            Conciergerie
-            (imala conciergerie)
+
+            Imala Holding, basée à Paris et à Dakar, propose des services immobiliers diversifiés. Imala Location se spécialise dans la location courte et moyenne durée, Imala Construction offre des services de construction de villas et d'immeubles, tandis qu'Imala Conciergerie assure la gestion complète de biens, incluant ménage, traiteur, et location de véhicules avec chauffeur. Nos domaines d'activité : l' habitation, la conciergerie et la construction.
           </p>
         </div>
       </section>
@@ -47,39 +35,13 @@ export default function About() {
         <div className="p-qsn">
           <h2>Notre histoire</h2>
           <p>
-            Notre histoire a commencé il y a maintenant trois ans suite à nos expériences personnelles
-            au Sénégal en ce qui concerne l’immobilier et la conciergerie.
+            Il y a trois ans, IMALA HOLDING a été créée pour répondre à la demande croissante dans le secteur immobilier au Senegal. Nous nous spécialisons dans les locations compétitives de villas et d'appartements, offrant également des services de conciergerie pour une gestion transparente de vos biens. Notre expertise s'étend à la construction, avec une équipe dédiée à la conception et à la réalisation de projets immobiliers. Merci de votre confiance.
 
-            Nous avions analysé la forte demande de la diaspora africaine en l'occurrence sénégalaise.
-            Nous savons bien qu’au Sénégal en matière d’immobilier, la confiance n’est pas de mise et
-            c’est vrai que nous avons pu voir que les membres de la diaspora était friand à l'idée
-            d’investir dans leurs pays d'origine.
-
-            Ayant des origines Sénégalaises, nous connaissons parfaitement le terrain, avons effectué
-            pas mal de projets avec des hauts et des bas qui en découlent. C’est pourquoi nous avons
-            décidé d’ouvrir notre entité (IMALA HOLDING) afin de répondre à la demande croissante de
-            la diaspora et bien d’autres.
-
-            Nous vous proposons des locations courtes et longues durées dans Dakar et ses alentours
-            de villas et d’appartements à des prix défiants toutes concurrences.
-
-            Nous accompagnons nos clients pour la conception de leurs plans par le biais de notre
-            architecte et pour la réalisation de leurs projets immobiliers.
-
-            Nous gérons vos biens immobiliers en toute transparence et nous vous proposons des
-            locations courtes et longues durées dans Dakar et ses alentours de la villa à des
-            appartements haut standing à des prix défiants toutes concurrences.
-
-            Notre équipe qui est constituée des meilleurs éléments sera en mesure de traiter vos
-            demandes dans les plus bref délais.
-
-            Merci de votre confiance.
-
-            Président et Directeur général de IMALA HOLDING
+            Président et Directeur Général de IMALA HOLDING
           </p>
         </div>
         <div className="img-qsn">
-          <img src={Qsnfd} alt="" />
+          <img src={Histoirefd} alt="" />
         </div>
       </section>
 
@@ -97,28 +59,8 @@ export default function About() {
           </p>
         </div>
       </section>
-
-      <section className="section projet" id="projet">
-        <div className="projet-title">
-          <h2>Nos Futurs projets</h2>
-        </div>
-        <div className="projet-p">
-          <div className="p-projet">
-            <h3>Nos secteurs</h3>
-            <p>
-              Nous avons plusieurs projets en cours de réalisation, Nous les mettrons en place sur notre
-              lorsqu'ils seront aboutis..
-            </p>
-          </div>
-          <div className="p-projet">
-            <h3>Nos secteurs</h3>
-            <p>
-              Nous avons plusieurs projets en cours de réalisation, Nous les mettrons en place sur notre
-              lorsqu'ils seront aboutis..
-            </p>
-          </div>
-        </div>
-      </section>
+      <Projet/>
+   
 
       <section className="section label" id="label">
         <div className="label-title">
