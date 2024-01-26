@@ -93,7 +93,7 @@ export default function SectionChiffre() {
                 <hr />
                 <ChiffreCard
                     label="Imala construction"
-                    targetValue={3}
+                    targetValue={4}
 
                     text="Nous avons réalisé 3 villas et un immeuble"
                     key={resetChiffres ? 'reset-construction' : 'construction'}
