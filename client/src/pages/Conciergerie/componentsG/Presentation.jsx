@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './componentsG.css'
+
 export default function Presentation(props) {
   return (
     <section className="presentation_conciergerie">
