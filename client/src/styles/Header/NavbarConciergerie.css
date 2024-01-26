@@ -142,7 +142,7 @@
 }
 
 .logo img {
-    width: 200px;
+    width: 300px;
 }
 
 
@@ -197,5 +197,15 @@
 
     #logo_mobile {
         font-size: 1em;
+    }
+    #logo_mobile img {
+        width: 200px;
+        height: 200px;
+        
+    }
+    .logo_mobile img {
+        width: 150px;
+    
+        
     }
 }
