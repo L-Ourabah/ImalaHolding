@@ -11,15 +11,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 50%;
   }
-  
+  .form{
+    width: 100%;
+  }
   .form-group {
     margin-bottom: 15px;
+  }
+  .form-nom .form-group{
+   width: 50%;
   }
   .form-nom{
     display: flex;
     gap: 2%;
+    width: 100%;
   }
+
+
   .contact-form-container label {
     display: block;
     margin-bottom: 5px;
@@ -39,11 +48,17 @@
 background: rgba(217, 217, 217, 0.40);
 box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
   }
+
+
   .contact-form-container textarea {
     height: 200px;
   }
-  
-  .form-group button {
+  .form-group-button  {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .form-group-button button {
     background-color: #000000;
     color: #fff;
     padding: 10px;
@@ -56,9 +71,12 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
    
   }
   
-  .form-group button:hover {
+  .form-group-button button:hover {
     background-color: #0056b3;
   }
-  
+  #message{
+    height: 300px;
+    width: 100%;
+  }
 
   

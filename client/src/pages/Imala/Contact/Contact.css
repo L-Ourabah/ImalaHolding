@@ -30,7 +30,11 @@
   text-align: center;
   width: 50%;
 }
-
+.contact-title h2{
+  font-size: 4em;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
 .Contact h1 {
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   color: white;
@@ -75,7 +79,7 @@
 
 .sect-info {
   display: flex;
-  flex-direction: column; /* Ajustement pour les écrans plus petits */
+
   justify-content: center;
   align-items: center;
   gap: 5%;
@@ -86,7 +90,7 @@
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.86);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 90%; /* Ajustement pour les écrans plus petits */
+  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,7 +99,7 @@
   margin: 10px; /* Ajout de marges pour une meilleure lisibilité sur de petits écrans */
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   /* Style spécifique pour les écrans de 768 pixels de large et plus */
   .sect-info {
     flex-direction: row;

@@ -30,7 +30,7 @@ const ContactForm = () => {
     return (
         <div className="contact-form-container">
             {/* Formulaire */}
-            <form onSubmit={handleSubmit}>
+            <form className="form" onSubmit={handleSubmit}>
                 {/* Nom et prénom groupés dans une div */}
                 <div className="form-nom">
                     {/* Champ Nom */}
@@ -99,7 +99,7 @@ const ContactForm = () => {
                 </div>
 
                 {/* Bouton d'envoi du formulaire */}
-                <div className="form-group">
+                <div className="form-group-button">
                     <button type="submit">Envoyer</button>
                 </div>
             </form>
