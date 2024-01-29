@@ -33,7 +33,7 @@ import AirbnbConnexion from "./pages/Airbnb/AirbnbConnexion/AirbnbConnexion.jsx"
 import CompteRendu from "./pages/Airbnb/CompteRendu/CompteRendu.jsx";
 import Paiement from "./pages/Airbnb/Paiement/Paiement.jsx";
 import AirbnbAccueil from "./pages/Airbnb/AirbnbAccueil/AirbnbAccueil.jsx";
-
+import AirbnbProfilClient from "./pages/Airbnb/AirbnbProfilClient/AirbnbProfilClient.jsx";
 
 
 
@@ -82,6 +82,7 @@ function App() {
       <Route path="/inscription" element={<AirbnbInscription />} />
       <Route path="/connexion" element={<AirbnbConnexion />} />
       <Route path="/Airbnb" element={<AirbnbAccueil/>} />
+      <Route path="/profilClient" element={<AirbnbProfilClient />} />
 
     </Routes>
 

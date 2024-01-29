@@ -1,0 +1,189 @@
+.hero-banner-client {
+    position: relative;
+    height: 50vh;
+    background-image: url('../../../media/images/fdbanner.jpg');
+    background-size: cover;   
+    background-position: center;   
+    color: var(--bleu-principal);
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    margin-bottom: 5%;
+}
+
+.hero-banner-client h1 {
+    font-size: 5em;
+}
+
+.hero-banner-client p {
+    font-size: 1.5em;    
+    margin: 0;
+}
+
+.img-profil-client{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+
+    margin-top: 20px;
+    top: 58%;
+}
+
+/* tabs*/
+
+/* Ajoutez ce CSS à vos styles existants ou créez une nouvelle feuille de style */
+
+.tab-bar-profil {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .tab-bar-profil button {
+    background-color: #ddd;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .tab-bar-profil button:hover {
+    background-color: #ccc;
+  }
+  
+  .tab-bar-profil button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .tab-content-profil {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styles supplémentaires pour votre contenu d'onglet si nécessaire */
+  
+ 
+  
+  .tab-content-profil div.active {
+    display: block;
+  }
+  
+
+
+
+/* Conteneur principal */
+#profil-content {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Titre */
+  #profil-content h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraphes */
+  #profil-content p {
+    margin-bottom: 15px;
+  }
+  
+  /* Liste d'informations */
+  #profil-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Éléments de la liste */
+  #profil-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Image de profil */
+  #profil-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Bouton de modification */
+  #edit-profile-btn,
+  #save-profile-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Bouton de sauvegarde (différente couleur) */
+  #save-profile-btn {
+    background-color: #28a745;
+    margin-top: 10px;
+  }
+  
+  /* Formulaire de modification (au départ caché) */
+
+  
+  /* Styles pour le formulaire de modification (mode édition) */
+  #edit-profile-form.active {
+    display: block;
+  }
+  
+  #edit-profile-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #edit-profile-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Styles pour les informations du profil (mode non édition) */
+  #profil-info.active {
+    display: block;
+  }
+  
+  #profil-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  #profil-info ul li {
+    margin-bottom: 10px;
+  }
+  

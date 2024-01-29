@@ -72,6 +72,7 @@ function Footer() {
                         <Link to="/connexion">Connexion</Link>
                         <Link to="/reservation">Reservation</Link>
                         <Link to="/profil">Profil</Link>
+                        <Link to="/profilClient">ProfilClient</Link>
                         <Link to="/logements">Logements</Link>
                     </div>
 
