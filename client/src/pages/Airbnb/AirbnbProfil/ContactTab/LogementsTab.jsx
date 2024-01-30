@@ -40,9 +40,9 @@ const LogementsTab = () => {
           <hr />
         </div>
       ))}
-      <Link to="/connexion">
-        <button className='btn-bien'>+ Ajouter un bien</button>
-      </Link>
+      
+        <button className='btn-bien'><Link to="/connexion">+ Ajouter un bien</Link></button>
+      
     </div>
   );
 };
