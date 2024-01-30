@@ -3,6 +3,7 @@
 import React from 'react';
 import '../AirbnbProfil.css'; // Assurez-vous d'importer votre fichier de styles CSS
 import Demba from "../../../../media/images/Demba.png"
+
 const HeroBanner = () => {
   return (
     <div className="hero-banner">
