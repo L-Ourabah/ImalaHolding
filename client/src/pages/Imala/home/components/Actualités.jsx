@@ -8,12 +8,12 @@ export default function Actualite() {
   const actualites = [
     {
       title: "New projet",
-      content: "",
+      content: "La Construction en Terre Compressée (CTC) émerge comme une solution novatrice et durable dans le BTP africain. Utilisant la terre locale, cette méthode économique et écologique réduit l'empreinte carbone, tout en offrant une excellente isolation thermique. Favorisant le développement local, la CTC s'impose comme une réponse pratique et responsable pour une construction respectueuse de l'environnement sur le continent africain.",
       image: null,
     },
     {
       title: "Développement du pays hotes",
-      content: "lorem ipsumjfeijzoinvzoiendsvizefdizedvonzedosnfclze kj mopk op dikopkpdkeaopqdsfkoekfkfokzerofpkeozkrfopekdfop,eopdkfzedofpkezokdfoekdfokeofkekfoekfoekfokeofdkeodfkeosdlkf,oekdfoezkdfoeczkdfoezkfdolekd,folked,ofke,rodfke",
+      content: "La Construction en Terre Compressée (CTC) émerge comme une solution novatrice et durable dans le BTP africain. Utilisant la terre locale, cette méthode économique et écologique réduit l'empreinte carbone, tout en offrant une excellente isolation thermique. Favorisant le développement local, la CTC s'impose comme une réponse pratique et responsable pour une construction respectueuse de l'environnement sur le continent africain.",
       image: null, // Si vous ne voulez pas afficher d'image pour cette actualité
     },
     {
