@@ -16,7 +16,7 @@
 
 .inscription-container h2 {
     color: #000;
-    font-family: Urbanist;
+ 
     font-size: 2em;
     font-style: normal;
     font-weight: 700;
@@ -161,3 +161,33 @@
 .option button:hover {
     background-color: #f0f0f0;
 }
+
+@media screen and (max-width: 768px) {
+    .inscription-container {
+ 
+    margin-top: 15%;
+    margin-bottom: 15%;
+     max-width: 300px;
+    
+     
+ }
+ .form-inscri{
+    
+     width: 95%;
+ }
+ .btnValider {
+   
+     width: 200px;
+ }
+ 
+ .btn-option p {
+     font-size: 1em;
+ }
+ 
+ .vnm {
+     font-size: 1em;
+ }.btnInscription a {
+     font-size: 1em;
+ }
+ 
+   }
