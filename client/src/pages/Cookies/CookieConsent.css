@@ -36,6 +36,9 @@
     .cookie-consent {
         font-size: 14px;
     }
+    .cookie-consent button {
+       margin-bottom: 5%;
+    }
 
 }
 
