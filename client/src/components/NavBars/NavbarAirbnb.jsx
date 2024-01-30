@@ -27,7 +27,7 @@ export default function Navbar() {
           <Link to="/airbnb">Accueil</Link>
           <Link to="/logements">Logements</Link>
           <Link to="/about">A propos</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/airbnbContact">Contact</Link>
           <Link to="/">Imala Holding</Link>
 
         </div>
