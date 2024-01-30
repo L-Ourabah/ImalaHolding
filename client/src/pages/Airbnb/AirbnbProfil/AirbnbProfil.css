@@ -1,11 +1,12 @@
 .hero-banner {
     position: relative;
     height: 50vh;
-    background-image: url('../../../media/images/Rectangle\ 209.png');
-    background-size: cover;   
-    background-position: center;   
+    background-image: url('../../../media/images/fdbanner.jpg');
+  
+    background-size: cover;
+    background-position: center;
     color: var(--bleu-principal);
-    font-weight: 700;
+   
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -21,11 +22,11 @@
 }
 
 .hero-banner h1 {
-    font-size: 3.5em;
+    font-size: 4.5em;
 }
 
 .hero-banner p {
-    font-size: 1.5em;    
+    font-size: 1.5em;
     margin: 0;
 }
 
@@ -34,7 +35,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-   
+
     margin-top: 20px;
     top: 58%;
 }
@@ -47,6 +48,7 @@
     justify-content: center;
     margin-top: 6%;
     font-size: 2.5em;
+
 }
 
 .tab-bar button {
@@ -54,7 +56,7 @@
     color: rgb(0, 0, 0);
     background-color: white;
 
-
+    font-family: 'playfair';
     cursor: pointer;
     margin-right: 2%;
     margin-left: 2%;
@@ -63,8 +65,8 @@
 .tab-bar button.active {
     color: var(--bleu-principal);
     font-weight: 600;
-    
-    
+
+
 }
 
 .tab-content {
@@ -114,19 +116,19 @@
     margin-bottom: 3%;
 }
 
-.kebab-button {
+.messagerie .kebab-button {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    font-size: 1.5em;
-    /* Ajustez la taille de la police selon vos préférences */
-    color: #333;
-    /* Couleur du texte, ajustez selon vos préférences */
+    font-size: 3em;
+
+    color: #000000;
+
 }
 
-.kebab-button:hover {
-    color: #555;
-    /* Couleur du texte au survol, ajustez selon vos préférences */
+.messagerie .kebab-button:hover {
+    color: #007bff;
+
 }
 
 .img-messagerie img {
@@ -159,61 +161,85 @@
     margin-left: 5px;
 
 }
+
 /*logement*/
 
-.logement{
+.logement {
     display: flex;
     flex-direction: column;
     padding-left: 3%;
     align-items: center;
 }
+
 .logement-container {
     display: flex;
     width: 100%;
-   
+
     flex-direction: column;
     margin-bottom: 3%;
 }
-.logement-container2 > :last-child {
+
+.logement-container2> :last-child {
     align-self: flex-start;
 
 
 }
 
 .logement hr {
-    
-    width: 40%;
-    
+
+    width: 50%;
+
     border: 1px solid rgb(0, 0, 0);
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-bottom: 3%;
 }
-.text-container{
+
+.text-container {
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 5%;
 }
+
+.text-container p {
+
+    font-size: 1.5em;
+    padding: 3%;
+}
+
+.stars-container {
+    font-size: 1em;
+    padding-left: 3%;
+}
+
 .logement-container2 {
     display: flex;
     flex-direction: row;
-   
+
 }
-.image-container{
+
+.image-container {
     width: 25%;
 }
-.image-container img{
+
+.image-container img {
     width: 100%;
+    border-radius: 10px;
+
 }
-.star-icon{
+
+.star-icon {
     font-size: 2em;
 }
-.recomponse{
+
+.recomponse {
     display: flex;
-   gap: 10%;
-   padding-left: 3%;
+    gap: 3%;
+    padding-left: 3%;
+    font-size: 1.5em;
+    margin-top: 3%;
 }
 
 .logement .kebab-button {
@@ -223,22 +249,56 @@
     font-size: 1.5em;
     /* Ajustez la taille de la police selon vos préférences */
     color: #333;
-  font-size: 2em;
-  font-weight: 700;
+    font-size: 3em;
+    font-weight: 700;
 }
 
 .logement .kebab-button:hover {
-    color: #555;
+    color: #3864FF;
     /* Couleur du texte au survol, ajustez selon vos préférences */
 }
 
 /* Exemple de CSS pour les étoiles */
 .star-icon {
-    color: gold; /* Couleur de l'étoile */
-  }
-  
-  /* Exemple de CSS pour l'icône de trophée */
-  .trophy-icon {
-    color: gold; /* Couleur de l'icône de trophée */
-  }
-  
+    color: gold;
+    /* Couleur de l'étoile */
+}
+
+/* Exemple de CSS pour l'icône de trophée */
+.trophy-icon {
+    color: gold;
+    /* Couleur de l'icône de trophée */
+}
+
+.btn-bien {
+    padding: 1%;
+    border-radius: 5px;
+    background: #3864FF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+    .container-contact {
+        flex-direction: column;
+    }
+
+    .container-messagerie,
+    .container-etendre {
+
+        width: 100%;
+
+    }
+
+    .tab-bar {
+        margin-top: 10%;
+        font-size: 1.5em;
+    }
+
+    .contactTab h3 {
+        font-size: 1.5em;
+
+        text-align: center;
+    }
+}
