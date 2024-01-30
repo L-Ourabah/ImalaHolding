@@ -49,7 +49,7 @@ export default function Navbar() {
                         <img src={conciergerie} />
                     </Link></div>
         <div className="onglets">
-          <Link to={"/"}>Accueil</Link>
+          <Link to={"/conciergerie"}>Accueil</Link>
 
           <div
             className="dropdown"
