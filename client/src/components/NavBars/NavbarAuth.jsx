@@ -8,7 +8,7 @@ export default function Header() {
     
        
         <div className='navTitle'>
-          <h2><Link to='/logements'>IMALA</Link></h2>
+          <h1><Link to='/logements'>IMALA</Link></h1>
         
         </div>
       
