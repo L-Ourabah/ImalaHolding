@@ -123,17 +123,7 @@
         }
       } 
   
-  .presentation_txt {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .presentation_txt p {
-    width: 80%;
-    text-align: center;
-    color: #1e1e1e;
-  }
+ 
 
   
 @media screen and (max-width: 768px) {
@@ -180,9 +170,7 @@
     width: 80%;
   }
 
-  .news_content input[type="text"] {
-    width: 100%;
-  }
+ 
   .title_secteur h2{
     font-size: 1.5em;
 
