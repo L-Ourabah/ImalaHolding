@@ -6,7 +6,7 @@ import Form from './Formulaire/FormAirbnbInscription.jsx'
 import './AirbnbInscription.css'
 export default function AirbnbInscription() {
   return (
-    <div className='inscription'>
+    <div className='auth'>
 
 
       <Header />
