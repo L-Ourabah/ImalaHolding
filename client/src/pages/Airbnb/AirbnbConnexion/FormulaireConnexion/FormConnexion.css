@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 20%;
+    max-width: 400px;
     border: 1px solid rgb(217, 208, 208);
     box-shadow: 0px 0px 16px -7px;
     border-radius: 10px;
@@ -61,16 +61,15 @@
 
 }
 
-.password-input {
-    position: relative;
-}
+
 
 .password-input input {
     padding-right: 30px;
+    position: relative;
 }
 
-.password-input svg {
-    position: absolute;
+.password-input input svg {
+     position: absolute;
     top: 40%;
     right: 10px;
     transform: translateY(-50%);
@@ -164,3 +163,35 @@
 .option button:hover {
     background-color: #f0f0f0;
 }
+
+
+
+@media screen and (max-width: 768px) {
+   .connexion-container {
+
+   margin-top: 15%;
+   margin-bottom: 15%;
+    max-width: 300px;
+   
+    
+}
+.form-connexion {
+   
+    width: 90%;
+}
+.btnConnecter {
+  
+    width: 200px;
+}
+
+.btn-option p {
+    font-size: 1em;
+}
+
+.vnm {
+    font-size: 1em;
+}.btnInscription a {
+    font-size: 1em;
+}
+
+  }
