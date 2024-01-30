@@ -30,12 +30,17 @@
     font-size: 1.5em;
     
   } 
- .contact h2{
+ .title-contact{
     font-size: 3em;
     margin-top: 5%;
     margin-bottom: 5%;
-
- }
+    }
+    .title-newsletter{
+  font-size: 3em;
+    
+    margin-bottom: 5%;
+}
+ 
   #btn_contact {
     border-radius: 10px;
     border: 1px solid #fff;
@@ -47,7 +52,7 @@
   }
   .contact hr {
     width: 450px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height: 2px;
     max-width: 60%;
     margin: 2rem auto;
@@ -79,7 +84,7 @@
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.8);
     background: rgba(255, 255, 255, 0.8);
-    width: 820px;
+    width: 70%;
   }
   .news_content button {
     border-radius: 10px;
@@ -90,4 +95,41 @@
     margin-left: 10px;
     width: 150px;
     font-size: medium;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .news_content input[type="text"] {
+      margin-bottom: 10%;
+  
+
+    } 
+       .contact h2{
+        font-size: 2em;
+      }
+      .contact_content p{
+        width: 90%;
+        font-size: 1em;
+        margin-bottom: 10%;
+      }
+      #btn_contact {
+      
+      padding: 10px;
+        width: 100px;
+        
+    }
+
+    .news_content {
+
+      width: 80%;
+      height: 350px;
+      padding-bottom: 3%;
+  }
+  .news_content input[type="text"] {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+    width: 70%;
+}
   }
