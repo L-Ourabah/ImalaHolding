@@ -4,7 +4,7 @@ import "./Secteur.css"
 export default function Secteur() {
     return (
 
-        <section className="secteurs">
+        <section id="secteurs">
             <div className='title_secteur'>
                 <h2>Nos Secteurs</h2>
             </div>
