@@ -1,4 +1,4 @@
-import imageAppartement from "../../../../media/images/apart.png";
+import imageAppartement from "../../../../media/images/villaCote.jpg";
 
 const logementData = [
   {
