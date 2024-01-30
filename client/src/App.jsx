@@ -13,7 +13,7 @@ import PolitiqueConfidentialite from "./pages/Cookies/Confidentialité.jsx";
 import Conciergerie from "./pages/Conciergerie/ConciergerieAccueil/ConciergerieAccueil.jsx";
 import ServiceConciergerie from "./pages/Conciergerie/ServicesConciergerie/ServiceConciergerie.jsx";
 import Abonnement from "./pages/Conciergerie/Abonnement/Abonnement.jsx";
-import AirbnbContact from "./pages/Airbnb/AirbnbContact/AirbnbContact.jsx"
+
 /* Activité Conciergerie */
 import Garderie from './pages/Conciergerie/Activite/Garderie/Garderie.jsx'
 import GuideTour from './pages/Conciergerie/Activite/GuideTour/GuideTour.jsx'
