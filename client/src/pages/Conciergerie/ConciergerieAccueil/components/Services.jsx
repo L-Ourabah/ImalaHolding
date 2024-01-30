@@ -20,7 +20,7 @@ export default function Services() {
             <div className='card_services' id="card_nettoyage" >
                 <div className="card_services_contenu">
                 <h4>Nettoyage</h4>
-                <form method='get' action="/service/nettoyage">
+                <form method='get' action="/ServiceConciergerie/nettoyage">
                     <button type='submit'> Voir plus</button>
                 </form>
                 </div>
@@ -29,7 +29,7 @@ export default function Services() {
             <div className='card_services' id="card_garderie" >
                 <div className="card_services_contenu">
                 <h4>Garderie</h4>
-                <form method='get' action="/service/garderie">
+                <form method='get' action="/ServiceConciergerie/garderie">
                     <button type='submit'> Voir plus</button>
                 </form>
                 </div>   
@@ -38,7 +38,7 @@ export default function Services() {
             <div className='card_services' id="card_guidetour" >
                 <div className="card_services_contenu">
                 <h4>Guide <br/>Touristique</h4>
-                <form method='get' action="/service/guidetouristique">
+                <form method='get' action="/ServiceConciergerie/guidetouristique">
                     <button type='submit'> Voir plus</button>
                 </form>
                 </div>   
@@ -47,7 +47,7 @@ export default function Services() {
             <div className='card_services' id="card_transport" >
                 <div className="card_services_contenu">
                 <h4>Transport</h4>
-                <form method='get' action="/service/transport">
+                <form method='get' action="/ServiceConciergerie/transport">
                     <button type='submit'> Voir plus</button>
                 </form>
                 </div>   
@@ -58,7 +58,7 @@ export default function Services() {
         <div className='card_services' id="card_traiteur" >
                 <div className="card_services_contenu">
                 <h4>Traiteur</h4>
-                <form method='get' action="/service/traiteur">
+                <form method='get' action="/ServiceConciergerie/traiteur">
                     <button type='submit'> Voir plus</button>
                 </form>
                 </div>   
@@ -68,7 +68,7 @@ export default function Services() {
  <div className='card_services' id="card_loisirs" >
                 <div className="card_services_contenu">
                 <h4>Loisirs</h4>
-                <form method='get' action="/service/loisirs">
+                <form method='get' action="/ServiceConciergerie/loisirs">
                     <button type='submit'> Voir plus</button>
                 </form>
                 </div>   

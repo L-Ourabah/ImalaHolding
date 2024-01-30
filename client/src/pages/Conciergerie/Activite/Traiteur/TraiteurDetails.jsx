@@ -19,7 +19,7 @@ export default function TraiteurDetails() {
 
   return (
     <>
-      <Navbar />
+    
       <header className="header_activite">
         <h1>{selectedActivity.title}</h1>
         <img src={selectedActivity.image} alt={selectedActivity.title} />

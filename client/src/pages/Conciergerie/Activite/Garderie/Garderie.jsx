@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../componentsG/Header'
 import Main from './components/Main'
 import garderieData from './GarderieData'
+import Navbar from '../../../../components/NavBars/NavbarConciergerie'
+
 
 export default function Garderie() {
   return (

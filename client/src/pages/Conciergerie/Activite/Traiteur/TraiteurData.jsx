@@ -9,7 +9,7 @@ const traiteurData = [
       telephone:"01.23.45.67.89",
       email:"salon@gmail.com",
       adressepostale:"520 des tests",
-      link:"/service/nourriture/1"
+      link:"/ServiceConciergerie/nourriture/1"
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const traiteurData = [
       telephone:"01.23.45.67.89",
       email:"salon@gmail.com",
       adressepostale:"520 des tests",
-      link:"/service/nourriture/2"
+      link:"/ServiceConciergerie/nourriture/2"
     },
       // Ajoutez d'autres activités ici...
    /* {
@@ -29,7 +29,7 @@ const traiteurData = [
       title: "",
       image: "",
       description: "",
-      link:"/service/nourriture/3"
+      link:"/ServiceConciergerie/nourriture/3"
     },*/
 
     // Ajoutez d'autres activités ici...

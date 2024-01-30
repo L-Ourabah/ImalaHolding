@@ -9,14 +9,14 @@ export default function Galerie() {
           <div className="galerie_card" id="gal_nettoyage">
             <p>Nettoyage</p>
             <button>
-              <Link to={"/service/nettoyage"}>Voir plus</Link>
+              <Link to={"/ServiceConciergerie/nettoyage"}>Voir plus</Link>
             </button>
           </div>
           <div className="galerie_card" id="gal_garderie">
             <p>Garderie</p>
             <button>
             
-              <Link to={"/service/garderie"}>Voir plus</Link>
+              <Link to={"/ServiceConciergerie/garderie"}>Voir plus</Link>
             </button>
           </div>
         </div>
@@ -25,13 +25,13 @@ export default function Galerie() {
           <div className="galerie_card" id="gal_transport">
             <p>Transport</p>
             <button>
-              <Link to={"/service/transport"}>Voir plus</Link>
+              <Link to={"/ServiceConciergerie/transport"}>Voir plus</Link>
             </button>
           </div>
           <div className="galerie_card" id="gal_guidetour">
             <p>Guide Touristique</p>
             <button>
-              <Link to={"/service/guidetouristique"}>Voir plus</Link>
+              <Link to={"/ServiceConciergerie/guidetouristique"}>Voir plus</Link>
             </button>
           </div>
         </div>
@@ -40,14 +40,14 @@ export default function Galerie() {
           <div className="galerie_card" id="gal_nourriture">
             <p>Nourriture</p>
             <button>
-              <Link to={"/service/nourriture"}>Voir plus</Link>
+              <Link to={"/ServiceConciergerie/nourriture"}>Voir plus</Link>
             </button>
           </div>
           <div className="galerie_card" id="gal_loisirs">
             <p>Loisirs</p>
             <button>
               
-              <Link to={"/service/loisirs"}>Voir plus</Link>
+              <Link to={"/ServiceConciergerie/loisirs"}>Voir plus</Link>
             </button>
           </div>
         </div>

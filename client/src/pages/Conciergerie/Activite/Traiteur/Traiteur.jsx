@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Header from '../componentsG/Header'
+import Navbar from '../../../../components/NavBars/NavbarConciergerie';
 
 import Main from './components/Main'
 import traiteurData from './TraiteurData'; // Importe les données d'activité depuis le fichier NettoyageData.js
