@@ -105,6 +105,7 @@ export default function Navbar() {
             <Link to={"/construction"}>Construction</Link>
             <Link to={"/airbnb"}>Location</Link>
             <Link to={"/contact"}>Contact</Link>
+            <Link to={"/about"}>A propos</Link>
           </div>
 
         </div>
