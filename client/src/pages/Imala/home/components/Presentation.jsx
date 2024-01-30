@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./Presentation.css"
 export default function Presentation() {
   return (
@@ -19,7 +20,7 @@ export default function Presentation() {
         Nos secteur d’activités : habitation (imala location) / Construction (imala construction) / Conciergerie
         (imala conciergerie)
       </p>
-      <button id="btn_qsn">Voir plus</button>
+      <button className="btn_presentation"><Link to="/About">Voir plus</Link></button>
     </div>
   </section>
   )
