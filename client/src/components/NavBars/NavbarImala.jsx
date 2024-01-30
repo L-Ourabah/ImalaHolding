@@ -4,7 +4,12 @@ import { Link } from 'react-router-dom';
 import Imala from '../../media/images/logoImala.png';
 import '../../styles/Header/NavbarImala.css';
 
-
+function scrollToSection(id) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
 
 
 
@@ -42,6 +47,7 @@ export default function Navbar() {
 
   const navbarClassImala = `navbarImala ${scrolled ? "scrolled" : ""}`;
 
+ 
   return (
     <nav className={navbarClassImala}>
       <div className="navbar_desktopImala">
@@ -58,7 +64,8 @@ export default function Navbar() {
             onMouseEnter={toggleDropdown}
             onMouseLeave={toggleDropdown}
           >
-            <Link to={"/service"}>Services <Icon icon="pepicons-pencil:triangle-down" /></Link>
+             <span onClick={() => scrollToSection('secteurs')}>Services
+           <Icon icon="pepicons-pencil:triangle-down" /></span>
             {dropdownVisible && (
               <div className="dropdownImala-content">
                 <Link to={"/conciergerie"}>Conciergerie</Link>
