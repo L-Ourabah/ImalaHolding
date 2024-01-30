@@ -74,9 +74,29 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
   .form-group-button button:hover {
     background-color: #0056b3;
   }
+
+
+
   #message{
     height: 300px;
     width: 100%;
   }
 
+  @media screen and (max-width: 768px) {
+ 
+  
+  .contact-form-container {
+
+    width: 80%;
+}
+
+
+#message {
+  height: 100px;
+  width: 100%;
+}
+
+
+
+}
   
