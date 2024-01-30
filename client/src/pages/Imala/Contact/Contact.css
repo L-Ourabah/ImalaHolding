@@ -23,17 +23,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3%;
+ 
 }
 
 .contact-title p {
   text-align: center;
   width: 50%;
+  margin-bottom: 3%;
 }
 .contact-title h2{
   font-size: 4em;
   margin-top: 3%;
   margin-bottom: 3%;
+  font-weight: bold;
 }
 .Contact h1 {
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -71,7 +73,7 @@
 
 .cordo {
   background: #9d937a;
-  height: 500px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -79,7 +81,7 @@
 
 .sect-info {
   display: flex;
-
+  margin-bottom: 6%;
   justify-content: center;
   align-items: center;
   gap: 5%;
@@ -90,15 +92,29 @@
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.86);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 20%;
+  width: 25%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 200px;
   margin: 10px; /* Ajout de marges pour une meilleure lisibilité sur de petits écrans */
 }
-
+.adrs p{
+  margin-bottom: 5%;
+}
+.adrs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tel,
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 @media screen and (max-width: 768px) {
   /* Style spécifique pour les écrans de 768 pixels de large et plus */
   .sect-info {
@@ -109,12 +125,26 @@
   .adress {
     width: 40%;
   }
+  .adrs p {
+    margin-bottom: 5%;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  .tel,
+  .email {
+    font-size: 0.8em;
+    text-align: center;
+  }
+  .contact-title h2 {
+    font-size: 2em;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  .contact-title p {
+    font-size: 1em;
+    width: 80%;
+    margin-bottom: 10%;
+  }
 }
 
-.tel,
-.email {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
