@@ -32,16 +32,20 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+  
+  }
+  .header_accueil_conciergerie h1 {
     color: #f1f1f1;
     text-align: center;
-    font-size: xx-large;
+    font-size: xxx-large;
     font-weight: 200;
-  }
+    font-family: 'Urbanist';
+}
   #titre_logo_conciergerie {
     font-family: "Wallpoet", sans-serif;
     text-shadow: 2px 1px 5px #00000094;
     font-weight: 400;
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
 
   /*main accueil */
@@ -61,20 +65,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2%;
 }
   .section_titre_conciergerie h2 {
     font-weight: 400;
-    font-size: xx-large;
+    font-size: 2em;
+    font-family: 'Urbanist';
   }
   .section_titre_conciergerie p {
     font-size: 1.1em;
-  width: 80%;
+    width: 90%;
+    padding: 2%;
+    font-family: 'Urbanist';
 }
 .section_titre_conciergerie a {
-    font-size: 1.2em;
-    color: rgb(5, 5, 5);
-    font-weight: 600;
-  }
+  font-size: 1.2em;
+  color: rgb(5, 5, 5);
+  font-weight: 600;
+  text-decoration: underline;
+  font-family: 'Urbanist';
+}
 
   /* Section 1 : Bienvenue (Bienvenue.jsx)*/
   .section_bienvenue_conciergerie {
@@ -89,13 +99,17 @@ body {
     background: rgba(0, 0, 0, 0.5);
     padding: 4%;
 }
-  .section_bienvenue_conciergerie h2 , .section_contact_conciergerie h2 {
+  .section_bienvenue_conciergerie h2 {
     font-weight: 400;
     font-size: 2em;
+    font-family: 'Urbanist';
+ 
   }
-  
+ 
   .section_bienvenue_conciergerie p {
     width: 70%;
+    font-family: 'Urbanist';
+    padding: 2%;
   }
   .section_bienvenue_conciergerie button {
     padding: 30px;
@@ -158,7 +172,9 @@ body {
   .card_services_contenu h4 {
     font-size: x-large;
     font-weight: 400;
-  }
+    font-family: 'Urbanist';
+    padding-bottom: 8%;
+}
   .card_services_contenu button {
     background-color: transparent;
     border: 2px solid white;
@@ -246,24 +262,30 @@ body {
     height: 530px;
     color: black;
     margin: 10px;
+    font-family: 'Urbanist';
 }
   
   .card_abo:hover {
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
       0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
+
   .card_abo_header {
     height: 15%;
-  }
+    padding: 3%;
+}
   
   .card_abo_header h3 {
     font-size: 2.5em;
     font-weight: 400;
+    font-family: 'Urbanist';
   }
   
-  .card_abo_header p {
+ .card_abo_header p {
     font-size: 1.5em;
-  }
+    font-family: 'Urbanist';
+    padding: 3%;
+}
   .card_abo_main {
     display: flex;
     flex-direction: column;
@@ -272,22 +294,31 @@ body {
     height: 75%;
   }
   .card_abo_main ul {
-    list-style: circle;
+    list-style-type: circle;
+    font-family: 'Urbanist';
   }
   .card_abo_main li {
     padding: 10px;
+    list-style-type: circle;
+    font-family: 'Urbanist';
   }
 
     /* Section 4 : Contact (Contact.jsx)*/
-.section_contact_conciergerie {
-    background-color: white;
-    padding: 6%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-}
 
+.section_contact_conciergerie {
+  background-color: white;
+  padding-bottom: 8%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+.section_contact_conciergerie h2 {
+  font-family: 'Urbanist';
+  font-weight: 400;
+  font-size: 2em;
+  padding: 2%;
+}
 .contact_contenu_conciergerie {
     display: flex;
     flex-direction: row;
@@ -321,11 +352,13 @@ body {
 
   .contact_square_conciergerie {
     border: 2px solid #000000a1;
-    padding: 196px 225px 140px 281px;
+    padding: 195px 255px 141px 270px;
     position: absolute;
     z-index: 0;
     color: white;
-  }
+    margin-left: 70px;
+}
+
 
   .contact_txt_conciergerie {
     display: flex;
@@ -333,14 +366,19 @@ body {
     align-items: center;
     justify-content: space-evenly;
   }
+  
 
   .contact_txt_conciergerie h3 {
-    font-size: 2em;
-  }
-  .contact_txt_conciergerie p {
-    width: 80%;
-    font-size: 1.3em;
-  }
+    font-size: 1.8em;
+    font-family: 'Urbanist';
+    font-weight: 600;
+}
+.contact_txt_conciergerie p {
+  width: 80%;
+  font-size: 1.3em;
+  font-family: 'Urbanist';
+  padding: 6%;
+}
   .contact_txt_conciergerie button {
     padding: 30px;
     border-radius: 10px;
@@ -387,12 +425,12 @@ body {
     height: 100%;
   }
   .newsletter_form input[type="text"] {
-    padding: 2%;
-    width: 60%;
+    padding: 3%;
+    width: 73%;
     border-radius: 10px;
     border: none;
     box-shadow: inset 1px 2px #8080807d;
-  }
+}
 
   .newsletter_form button {
     width: 20%;
