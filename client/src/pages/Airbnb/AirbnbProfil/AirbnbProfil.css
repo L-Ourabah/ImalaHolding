@@ -301,4 +301,26 @@
 
         text-align: center;
     }
+    /*Tab logements*/
+    .logement-container2{
+        flex-direction: column;
+       
+    }
+    .image-container{
+        width:100%
+    }
+    .image-container img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .text-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+        
+    
+
+
+
 }

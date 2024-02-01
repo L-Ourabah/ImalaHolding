@@ -40,7 +40,7 @@ const ProfilTab = () => {
   };
 
   return (
-    <div id="profil-content">
+    <div className="profil-content">
       <h2>Mon Profil</h2>
      
       <p>Bienvenue sur mon profil Airbnb. Je suis un voyageur passionné et j'aime découvrir de nouveaux endroits.</p>
@@ -60,7 +60,7 @@ const ProfilTab = () => {
           <label>Nouvelle Photo de Profil:</label>
           <input type="file" accept="image/*" onChange={handleImageChange} />
 
-          <button onClick={handleSaveClick} id="save-profile-btn">Enregistrer</button>
+          <button onClick={handleSaveClick} className="save-profile-btn">Enregistrer</button>
         </div>
       ) : (
         <div id="profil-info" className="active">
@@ -71,7 +71,7 @@ const ProfilTab = () => {
             <li><strong>Ville:</strong> {profileData.city}</li>
           </ul>
 
-          <button onClick={handleEditClick} id="edit-profile-btn">Modifier le Profil</button>
+          <button onClick={handleEditClick} className="edit-profile-btn">Modifier le Profil</button>
         </div>
       )}
     </div>

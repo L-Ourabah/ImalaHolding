@@ -64,7 +64,7 @@ export default function Navbar() {
             onMouseEnter={toggleDropdown}
             onMouseLeave={toggleDropdown}
           >
-             <span onClick={() => scrollToSection('secteurs')}>Services
+             <span onClick={() => scrollToSection('secteurs')}>Services     
            <Icon icon="pepicons-pencil:triangle-down" /></span>
             {dropdownVisible && (
               <div className="dropdownImala-content">
