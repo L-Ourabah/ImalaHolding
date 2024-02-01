@@ -8,6 +8,7 @@ import Galerie from './components/Galerie'
 import Partenaire from './components/Partenaire'
 import Aide from './components/Aide'
 import Navbar from '../../../components/NavBars/NavbarConciergerie'
+import Avis from './components/Avis'
 
 
 export default function ServiceConciergerie() {
@@ -31,6 +32,7 @@ export default function ServiceConciergerie() {
     satisfaite avec la plus grande attention aux détails."
     />
     <Galerie/>
+    <Avis/>
     <Partenaire/>
     <Aide/>
     </main>
