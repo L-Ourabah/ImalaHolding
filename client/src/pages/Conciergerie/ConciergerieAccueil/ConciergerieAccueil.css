@@ -86,6 +86,9 @@ body {
   font-family: 'Urbanist';
 }
 
+.section_abonnement , .section_services_conciergerie {
+  padding-bottom: 2%;
+}
   /* Section 1 : Bienvenue (Bienvenue.jsx)*/
   .section_bienvenue_conciergerie {
     display: flex;
@@ -143,14 +146,17 @@ body {
   
   .services_contenu_conciergerie {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Espace égal entre les colonnes */
-    width: 60%;  
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
   
+.row_services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
   /*card services*/
   .card_services {
     height: 300px;
@@ -165,6 +171,7 @@ body {
     color: white;
 
   }
+  
   .card_services:hover {
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
       0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -250,7 +257,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+   
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -301,6 +308,7 @@ body {
     padding: 10px;
     list-style-type: circle;
     font-family: 'Urbanist';
+    list-style-position: inside;
   }
 
     /* Section 4 : Contact (Contact.jsx)*/
@@ -379,17 +387,18 @@ body {
   font-family: 'Urbanist';
   padding: 6%;
 }
-  .contact_txt_conciergerie button {
-    padding: 30px;
-    border-radius: 10px;
-    width: 250px;
-    border: none;
-    color: white;
-    background: #1e1e1e;
-    font-size: larger;
-    font-family: "Urbanist", sans-serif;
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-  }
+.contact_txt_conciergerie button {
+  padding: 30px;
+  border-radius: 10px;
+  width: 250px;
+  color: black;
+  background: white;
+  font-size: larger;
+  font-family: "Urbanist", sans-serif;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+}
+
   .contact_txt_conciergerie button:hover {
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
       0px 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -488,11 +497,11 @@ body {
 .abonnement_contenu {
     width: 100%;
     align-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 .card_abo {
-    height: 350px;
-    width: 80%;
+  height: 492px;
+  width: 80%;
 }
 
 /*Section 4 : Contact*/
@@ -503,13 +512,17 @@ body {
     width:100%;
 }
 /*Section 5 : Newsletter*/
+.newletter_contenu {
+  width: 98%;
+}
 .newsletter_form button {
     width: 30%;
-    padding: 4%;
+    padding: 3%;
         margin-top: 2%;
 }
 .newsletter_form input[type="text"] {
-    padding: 5%;
+    padding: 4%;
+    width: 85%;
   }
     }
   /*  Media query pour les tablettes en format paysage  ici */

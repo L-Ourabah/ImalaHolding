@@ -3,6 +3,7 @@ import Header from '../componentsG/Header'
 import Main from './components/Main'
 import loisirsData from './LoisirsData'; // Importe les données d'activité depuis le fichier NettoyageData.js
 import Navbar from '../../../../components/NavBars/NavbarConciergerie';
+import Slide from '../componentsG/Slide';
 
 export default function Loisirs() {
   return (
@@ -18,6 +19,7 @@ export default function Loisirs() {
       phraseActivite="Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,"
       loisirsData={loisirsData} 
      />
+     <Slide/>
        </>
   )
 }

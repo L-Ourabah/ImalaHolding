@@ -77,11 +77,15 @@
   }
   .abo_txt h3 {
     font-size: 2em;
-  }
-  .abo_txt p {
-    width: 80%;
-    font-size: 1.3em;
-    text-align: center;
+    font-family: 'Urbanist';
+    font-weight: 500;
+}
+.abo_txt p {
+  width: 80%;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Urbanist';
+  padding: 4%;
 }
 
  /*  media query pour les telephones ici */

@@ -16,6 +16,7 @@ export default function Silver() {
             recherchent un service de conciergerie de qualité à un tarif
             compétitif. Avec l'offre Silver, bénéficiez d'un accès à une gamme
             étendue de services essentiels qui simplifieront votre quotidien.
+            <br/>
             Que ce soit pour des tâches ménagères, des courses, des réservations
             ou des demandes administratives, notre équipe dévouée est prête à
             répondre à vos besoins avec efficacité et discrétion.
@@ -23,6 +24,7 @@ export default function Silver() {
             Notre formule Silver vous offre la flexibilité nécessaire pour
             adapter nos services à votre rythme de vie, avec des options
             personnalisables et des tarifs préférentiels négociés pour vous.
+            <br/>
             Profitez d'un service fiable et attentif, qui vous permet de gagner
             du temps et de réduire votre charge mentale, tout cela à un prix
             abordable. Faites l'expérience de la sérénité au quotidien avec

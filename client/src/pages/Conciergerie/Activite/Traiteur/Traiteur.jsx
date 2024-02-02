@@ -5,6 +5,7 @@ import Navbar from '../../../../components/NavBars/NavbarConciergerie';
 
 import Main from './components/Main'
 import traiteurData from './TraiteurData'; // Importe les données d'activité depuis le fichier NettoyageData.js
+import Slide from '../componentsG/Slide';
 
 export default function Nourriture() {
   return (
@@ -19,6 +20,7 @@ export default function Nourriture() {
      phraseActivite="Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,"
      traiteurData={traiteurData} 
     />
+    <Slide/>
     </>
   )
 }

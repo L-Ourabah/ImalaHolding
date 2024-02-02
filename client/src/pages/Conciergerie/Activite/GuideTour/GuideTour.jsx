@@ -3,6 +3,7 @@ import Header from '../componentsG/Header'
 import Main from './components/Main'
 import guidetourData from './GuideTourData'
 import Navbar from '../../../../components/NavBars/NavbarConciergerie'
+import Slide from '../componentsG/Slide'
 
 
 export default function GuideTour() {
@@ -18,6 +19,7 @@ export default function GuideTour() {
       phraseActivite="Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,"
       guidetourData={guidetourData} 
      />
+     <Slide/>
     </>
   )
 }

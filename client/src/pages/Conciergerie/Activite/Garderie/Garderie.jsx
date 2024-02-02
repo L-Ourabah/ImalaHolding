@@ -3,6 +3,7 @@ import Header from '../componentsG/Header'
 import Main from './components/Main'
 import garderieData from './GarderieData'
 import Navbar from '../../../../components/NavBars/NavbarConciergerie'
+import Slide from '../componentsG/Slide'
 
 
 export default function Garderie() {
@@ -19,6 +20,7 @@ export default function Garderie() {
       phraseActivite="Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,"
       garderieData={garderieData} 
      />
+     <Slide/>
     </>
   )
 }

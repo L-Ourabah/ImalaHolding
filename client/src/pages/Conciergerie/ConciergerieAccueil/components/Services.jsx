@@ -14,8 +14,9 @@ export default function Services() {
         </p>
          <Link to="service">Voir plus  </Link>
       </div>
-
+      
       <div className='services_contenu_conciergerie'>
+      <div className='row_services'>
         {/*card nettoyage*/}
             <div className='card_services' id="card_nettoyage" >
                 <div className="card_services_contenu">
@@ -43,6 +44,9 @@ export default function Services() {
                 </form>
                 </div>   
             </div>
+            </div>
+            <br/>
+         <div className='row_services'>
 {/*card transport*/}
             <div className='card_services' id="card_transport" >
                 <div className="card_services_contenu">
@@ -73,7 +77,7 @@ export default function Services() {
                 </form>
                 </div>   
         </div>
-
+</div>
 </div>
 </section>
   )
