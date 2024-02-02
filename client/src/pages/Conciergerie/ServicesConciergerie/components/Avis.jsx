@@ -14,19 +14,28 @@ export default function Avis() {
     {
       id: 1,
       nomclient : "Jean",
-      avisclient:"ceci est un avis 1 .",
-      avisdate:"20 février 2024",
+      avisclient:`Mon concierge était efficace et discret. Il a géré toutes mes demandes avec
+professionnalisme et a toujours été disponible lorsque j'avais de lui. J'ai vraiment besoin
+apprécié son aide pour organiser mon voyage et je recommande vivement cette conciergerie
+à tout le monde.`,
+      avisdate:"20 mars 2024",
     },
     {
       id: 2,
-      nomclient : "Marina",
-      avisclient:"ceci est un avis 2 .",
-      avisdate:"20 février 2024",},
+      nomclient : "Sophie",
+      avisclient:`La conciergerie a su anticiper mes besoins et m'a permis de profiter pleinement de mon
+      séjour sans avoir à me soucier de rien. Le service était excellent et j'ai été surpris par la
+      quantité de services qu'ils offrent. Je recommande vivement cette conciergerie à tous mes
+      amis.`,
+      avisdate:"10 février 2024",},
     {
       id: 3,
-      nomclient : "Jean",
-      avisclient:"ceci est un avis 3 .",
-      avisdate:"20 février 2024",  },
+      nomclient : "Paul",
+      avisclient:`J'ai eu l'occasion de tester le service de transport de cette conciergerie lors d'un voyage
+      d'affaires. Le conducteur était courtois, professionnel et à pris grand soin de moi. J'ai
+      vraiment apprécié la commodité et la tranquillité que ce service a contribué à mon voyage. Je
+      serais ravi de recommencer.`,
+      avisdate:"24 février 2024",  },
   ]
   return (
     <section className='section_avis'>
