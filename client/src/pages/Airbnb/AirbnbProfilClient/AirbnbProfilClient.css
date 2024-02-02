@@ -46,9 +46,10 @@
 
 .tab-bar-profil {
     display: flex;
-    justify-content: space-around;
+   flex-direction: column;
     background-color: #f1f1f1;
     padding: 10px;
+    width: 13%;
   }
   
   .tab-bar-profil button {
@@ -71,6 +72,7 @@
   .tab-content-profil {
     padding: 20px;
     border: 1px solid #ccc;
+    width: 87%;
   }
   
   /* Styles supplémentaires pour votre contenu d'onglet si nécessaire */
@@ -85,42 +87,45 @@
 
 
 /* Conteneur principal */
-#profil-content {
+.profil-tab{
+  display: flex;
+}
+.profil-content {
     font-size: 18px;
     line-height: 1.6;
     margin: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     width: 100%;
   }
   
   /* Titre */
-  #profil-content h2 {
+  .profil-content h2 {
     color: #007bff;
     font-size: 24px;
     margin-bottom: 20px;
   }
   
   /* Paragraphes */
-  #profil-content p {
+  .profil-content p {
     margin-bottom: 15px;
   }
   
   /* Liste d'informations */
-  #profil-content ul {
+  .profil-content ul {
     list-style-type: none;
     padding: 0;
     margin-bottom: 20px;
   }
   
   /* Éléments de la liste */
-  #profil-content ul li {
+  .profil-content ul li {
     margin-bottom: 10px;
   }
   
   /* Image de profil */
-  #profil-content img {
+  .profil-content img {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
@@ -131,8 +136,8 @@
   }
   
   /* Bouton de modification */
-  #edit-profile-btn,
-  #save-profile-btn {
+  .edit-profile-btn,
+  .save-profile-btn {
     background-color: #007bff;
     color: #fff;
     padding: 12px 20px;
@@ -144,7 +149,7 @@
   }
   
   /* Bouton de sauvegarde (différente couleur) */
-  #save-profile-btn {
+  .save-profile-btn {
     background-color: #28a745;
     margin-top: 10px;
   }
@@ -175,6 +180,7 @@
   /* Styles pour les informations du profil (mode non édition) */
   #profil-info.active {
     display: block;
+
   }
   
   #profil-info ul {
