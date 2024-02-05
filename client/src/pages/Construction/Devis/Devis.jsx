@@ -39,19 +39,19 @@ export default function Devis() {
 
                 <div className="secteurDevis">
                     .
-                    <div className="secteur_card" id="villa">
+                    <div className="secteur-card-devis" id="villa">
                         <h3>Devis pour une villa</h3>
                         <button><Link to="/Location">Voir plus</Link></button>
 
                     </div>
 
-                    <div className="secteur_card" id="immeuble">
+                    <div className="secteur-card-devis" id="immeuble">
                         <h3>Devis pour un immeuble</h3>
                         <button><Link to="/Location">Voir plus</Link></button>
                     </div>
 
 
-                    <div className="secteur_card" id="enclos">
+                    <div className="secteur-card-devis" id="enclos">
                         <h3>Devis pour un enclos</h3>
                         <button><Link to="/Location">Voir plus</Link></button>
 
@@ -60,7 +60,7 @@ export default function Devis() {
                     </div>
 
 
-                    <div className="secteur_card" id="plan">
+                    <div className="secteur-card-devis" id="plan">
                         <h3>Devis pour un plan</h3>
                         <button><Link to="/Location">Voir plus</Link></button>
                     </div>
