@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Fade } from "react-swift-reveal";
 
 export default function Galerie() {
   return (
     <section className="service_galerie">
+       <Fade>
       <div className="galerie_contenu">
         <div className="galerie_row">
           <div className="galerie_card" id="gal_nettoyage">
@@ -38,9 +40,9 @@ export default function Galerie() {
 
         <div className="galerie_row">
           <div className="galerie_card" id="gal_nourriture">
-            <p>Nourriture</p>
+            <p>Traiteur</p>
             <button>
-              <Link to={"/ServiceConciergerie/nourriture"}>Voir plus</Link>
+              <Link to={"/ServiceConciergerie/traiteur"}>Voir plus</Link>
             </button>
           </div>
           <div className="galerie_card" id="gal_loisirs">
@@ -52,6 +54,7 @@ export default function Galerie() {
           </div>
         </div>
       </div>
+      </Fade>
     </section>
   );
 }

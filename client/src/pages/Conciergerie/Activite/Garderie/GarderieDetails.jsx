@@ -4,6 +4,7 @@ import '../Activite.css';
 
 import { Link, useParams } from 'react-router-dom';
 import garderieData from './GarderieData'; // Importe les données d'activité depuis le fichier NettoyageData.js
+import Navbar from '../../../../components/NavBars/NavbarConciergerie';
 console.log('Activites',garderieData)
 
 export default function GarderieDetails() {
@@ -18,7 +19,7 @@ console.log('Activity ID:',id)
 
   return (
     <>
-
+<Navbar/>
     <header className='header_activite'>
      
     <h1>{selectedActivity.title}</h1>
@@ -29,7 +30,7 @@ console.log('Activity ID:',id)
     <main>
     
     <div className="main_activite_details">
-      <div className='titre_activite_details'> <Link to="../service/garderie">Retour</Link>
+      <div className='titre_activite_details'> <Link to="../ServiceConciergerie/garderie">Retour</Link>
         <h2>{selectedActivity.title}</h2>
         </div>
 

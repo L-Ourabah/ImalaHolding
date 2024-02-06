@@ -62,7 +62,7 @@ export default function Navbar() {
                 <Link to={"/ServiceConciergerie/nettoyage"}>Nettoyage</Link>
                 <Link to={"/ServiceConciergerie/transport"}>Transport</Link>
                 <Link to={"/ServiceConciergerie/garderie"}>Garderie</Link>
-                <Link to={"/ServiceConciergerie/nourriture"}>Nourriture</Link>
+                <Link to={"/ServiceConciergerie/traiteur"}>Traiteur</Link>
                 <Link to={"/ServiceConciergerie/loisirs"}>Loisirs</Link>
                 <Link to={"/ServiceConciergerie/guidetouristique"}>Guide<br /> Touristique</Link>
                 {/* Ajoutez autant d'options que nécessaire */}
@@ -82,7 +82,7 @@ export default function Navbar() {
       <div className='navbar_mobile'>
 
         <div className="logo_mobile"><Link to="/">
-                        <img src={conciergerie} />
+                        <img src={conciergerie} alt="logo_conciergerie"/>
                     </Link></div>
 
         <div className="onglet_mobile">
@@ -96,10 +96,10 @@ export default function Navbar() {
           <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
           <div className="overlay-content">
             <h1 id="logo_mobile" ><Link to="/">
-                        <img src={conciergerie} />
+                        <img src={conciergerie} alt="logo_conciergerie"/>
                     </Link></h1>
-            <Link to={'/'}>Accueil</Link>
-            <Link to={"/service"}>Services</Link>
+            <Link to={'/conciergerie'}>Accueil</Link>
+            <Link to={"/ServiceConciergerie"}>Services</Link>
             <Link to={"/abonnement"}>Abonnement</Link>
             <Link to={"/contact"}>Contact</Link>
           </div>

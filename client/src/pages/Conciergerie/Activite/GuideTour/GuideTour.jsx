@@ -16,7 +16,7 @@ export default function GuideTour() {
      />
      <Main
       sousTitreActivite="Nos activités touristiques "
-      phraseActivite="Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,"
+      phraseActivite="Découvrez une sélection d'activités touristiques proposées par Imala Conciergerie au Sénégal. Plongez dans une aventure inoubliable en explorant notre catalogue d'expériences uniques, allant des visites culturelles aux escapades en plein air, en passant par les découvertes gastronomiques et les moments de détente. Laissez-nous vous guider à travers une diversité d'activités soigneusement choisies, conçues pour vous offrir une immersion authentique et enrichissante dans notre magnifique pays"
       guidetourData={guidetourData} 
      />
      <Slide/>

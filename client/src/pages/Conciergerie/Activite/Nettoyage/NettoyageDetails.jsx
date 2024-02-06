@@ -1,9 +1,10 @@
 import React from "react";
 import "../Activite.css";
-
+import { Icon } from '@iconify/react';
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import nettoyageData from "./NettoyageData"; // Importe les données d'activité depuis le fichier NettoyageData.js
+import Navbar from "../../../../components/NavBars/NavbarConciergerie";
 console.log("Activites", nettoyageData);
 
 export default function NettoyageDetails() {
@@ -20,6 +21,7 @@ export default function NettoyageDetails() {
 
   return (
     <>
+    <Navbar/>
       <header className="header_activite">
         <h1>{selectedActivity.title}</h1>
         <img src={selectedActivity.image} alt={selectedActivity.title} />
@@ -29,7 +31,7 @@ export default function NettoyageDetails() {
         <div className="main_activite_details">
           <div className="titre_activite_details">
       
-            <Link to="../service/loisirs">Retour</Link>
+            <Link to="../ServiceConciergerie/nettoyage">Retour</Link>
             <h2>{selectedActivity.title}</h2>
           </div>
 
@@ -40,7 +42,15 @@ export default function NettoyageDetails() {
             <div className="txt_activite_details">
               <h3>Description:</h3>
               <p>{selectedActivity.description}</p>
-              <h3>Contact :</h3>
+              <h3>Contact : </h3>
+              <p>voici les contact</p>
+              {/*<h3>Réseaux :</h3>
+            <div className="icon_activite_details">
+              <span><Icon icon="line-md:facebook" /></span>
+              <span> <Icon icon="line-md:instagram" /></span>
+              <span><Icon icon="line-md:twitter-x" /></span>
+  </div>*/}
+
             </div>
           </div>
         </div>

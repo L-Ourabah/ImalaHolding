@@ -1,8 +1,8 @@
 import React from "react";
-
+import { Fade } from "react-swift-reveal";
 export default function Premium() {
   return (
-    <div>
+    <Fade>
       <section className="section_imala_premium">
         <div className="abo_contenu">
           <div className="abo_img">
@@ -36,6 +36,6 @@ export default function Premium() {
           </div>
         </div>
       </section>
-    </div>
+    </Fade>
   );
 }

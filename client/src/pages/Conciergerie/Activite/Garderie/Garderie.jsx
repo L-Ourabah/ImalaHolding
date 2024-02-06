@@ -17,7 +17,7 @@ export default function Garderie() {
      />
      <Main
       sousTitreActivite="Nos garderies"
-      phraseActivite="Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,"
+      phraseActivite=" Notre service de garderie offre un environnement chaleureux et sécurisé où vos enfants pourront s'épanouir. Avec une équipe dévouée et des activités stimulantes, nous veillons à ce que chaque enfant reçoive les meilleurs soins et l'attention nécessaire pour grandir et s'épanouir. Laissez-nous prendre soin de vos petits pendant que vous vaquez à vos occupations en toute tranquillité d'esprit."
       garderieData={garderieData} 
      />
      <Slide/>

@@ -15,7 +15,7 @@ export default function Transport() {
      />
      <Main
      sousTitreActivite="Nos moyens de transport"
-     phraseActivite="Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,"
+     phraseActivite="Découvrez notre service de transport, où chaque trajet est une occasion de voyager en toute sérénité, confort et élégance. Laissez-nous vous emmener vers votre destination, en vous offrant une expérience de voyage inoubliable à chaque étape du trajet."
      transportData={transportData} 
     />
     <Slide/>

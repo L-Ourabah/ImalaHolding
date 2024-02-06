@@ -16,7 +16,10 @@ export default function Loisirs() {
   
       <Main
       sousTitreActivite="Nos loisirs"
-      phraseActivite="Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,"
+      phraseActivite="Découvrez une gamme de loisirs exceptionnels grâce à nos services de conciergerie. Que vous
+      soyez un amateur de sports, un gourmet en quête de nouvelles saveurs, ou simplement à la
+      recherche d'une nouvelle aventure, notre équipe est là pour vous faire découvrir les meilleures
+      activités et expériences du pays d’accueil."
       loisirsData={loisirsData} 
      />
      <Slide/>

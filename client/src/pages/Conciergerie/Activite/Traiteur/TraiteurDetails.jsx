@@ -1,8 +1,10 @@
 import React from "react";
 import "../Activite.css";
 import { Link, useParams } from "react-router-dom";
+import Navbar from '../../../../components/NavBars/NavbarConciergerie';
 
 import traiteurData from "./TraiteurData"; // Importe les données d'activité depuis le fichier NettoyageData.js
+import GalerieAccueil from "../../../Airbnb/AirbnbAccueil/components/GalerieAccueil";
 console.log("Activites", traiteurData);
 
 export default function TraiteurDetails() {
@@ -19,7 +21,7 @@ export default function TraiteurDetails() {
 
   return (
     <>
-    
+    <Navbar/>
       <header className="header_activite">
         <h1>{selectedActivity.title}</h1>
         <img src={selectedActivity.image} alt={selectedActivity.title} />
@@ -28,8 +30,8 @@ export default function TraiteurDetails() {
       <main>
         <div className="main_activite_details">
           <div className="titre_activite_details">
-            {" "}
-            <Link to="../service/nourriture">Retour</Link>
+           
+            <Link to="../ServiceConciergerie/traiteur">Retour</Link>
             <h2>{selectedActivity.title}</h2>
           </div>
 
@@ -40,13 +42,6 @@ export default function TraiteurDetails() {
             <div className="txt_activite_details">
               <h3>Description:</h3>
               <p>{selectedActivity.description}</p>
-
-              <h3>Condition :</h3>
-              <p>{selectedActivity.condition} </p>
-
-              <h3>Tarifs :</h3>
-              <p>{selectedActivity.tarif} </p>
-
               <h3>Contact :</h3>
               <p>
                 {selectedActivity.telephone} / {selectedActivity.email}
@@ -55,6 +50,9 @@ export default function TraiteurDetails() {
             </div>
           </div>
         </div>
+
+
+        <GalerieAccueil/>
       </main>
     </>
   );

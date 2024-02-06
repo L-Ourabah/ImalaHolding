@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Fade } from "react-swift-reveal";
 
 export default function Avis() {
   const [currentAvis, setCurrentAvis] = useState(0);
@@ -39,12 +40,14 @@ apprécié son aide pour organiser mon voyage et je recommande vivement cette co
   ]
   return (
     <section className='section_avis'>
+      <Fade>
       <h2>Nos Avis </h2>
       <div className='avis_contenu'>
         <h4>{avis[currentAvis].nomclient}</h4>
         <p>{avis[currentAvis].avisclient}</p>
         <span> {avis[currentAvis].avisdate}</span>
       </div>
+      </Fade>
     </section>
   );
 }

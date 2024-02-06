@@ -4,6 +4,7 @@ import "../Activite.css";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import guidetourData from "./GuideTourData"; // Importe les données d'activité depuis le fichier NettoyageData.js
+import Navbar from "../../../../components/NavBars/NavbarConciergerie";
 console.log("Activites", guidetourData);
 
 export default function GuideTourDetails() {
@@ -20,6 +21,7 @@ export default function GuideTourDetails() {
 
   return (
     <>
+    <Navbar/>
       <header className="header_activite">
         <h1>{selectedActivity.title}</h1>
         <img src={selectedActivity.image} alt={selectedActivity.title} />
@@ -29,7 +31,7 @@ export default function GuideTourDetails() {
         <div className="main_activite_details">
           <div className="titre_activite_details">
             {" "}
-            <Link to="../service/loisirs">Retour</Link>
+            <Link to="../ServiceConciergerie/guidetouristique">Retour</Link>
             <h2>{selectedActivity.title}</h2>
           </div>
 

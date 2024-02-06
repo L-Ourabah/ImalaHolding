@@ -1,7 +1,9 @@
 import React from "react";
+import { Fade } from "react-swift-reveal";
 
 export default function Silver() {
   return (
+    <Fade>
     <section className="section_imala_silver">
       <div className="abo_contenu">
         <div className="abo_img">
@@ -34,5 +36,6 @@ export default function Silver() {
         </div>
       </div>
     </section>
+    </Fade>
   );
 }

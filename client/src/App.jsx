@@ -79,7 +79,7 @@ function App() {
       <Route path="/ServiceConciergerie/guidetouristique" element={<GuideTour/>} />
       <Route path="/ServiceConciergerie/loisirs" element={<Loisirs/>} />
       <Route path="/ServiceConciergerie/nettoyage" element={<Nettoyage/>} />
-      <Route path="/ServiceConciergerie/nourriture" element={<Traiteur/>} />
+      <Route path="/ServiceConciergerie/traiteur" element={<Traiteur/>} />
       <Route path="/ServiceConciergerie/transport" element={<Transport/>} />
 
       {/* Route détails des  activités  */}

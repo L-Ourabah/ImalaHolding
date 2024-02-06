@@ -5,6 +5,7 @@ import "../Activite.css";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import transportData from "./TransportData"; // Importe les données d'activité depuis le fichier NettoyageData.js
+import Navbar from "../../../../components/NavBars/NavbarConciergerie";
 console.log("Activites", transportData);
 
 export default function TransportDetails() {
@@ -21,6 +22,7 @@ export default function TransportDetails() {
 
   return (
     <>
+    <Navbar/>
       <header className="header_activite">
         <h1>{selectedActivity.title}</h1>
         <img src={selectedActivity.image} alt={selectedActivity.title} />
@@ -29,7 +31,7 @@ export default function TransportDetails() {
       <main>
         <div className="main_activite_details">
           <div className="titre_activite_details">
-            <Link to="../service/loisirs">Retour</Link>
+            <Link to="../ServiceConciergerie/transport">Retour</Link>
             <h2>{selectedActivity.title}</h2>
           </div>
 
@@ -41,6 +43,7 @@ export default function TransportDetails() {
               <h3>Description:</h3>
               <p>{selectedActivity.description}</p>
               <h3>Contact :</h3>
+              <p>ceci est  le contact </p>
             </div>
           </div>
         </div>

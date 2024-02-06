@@ -1,4 +1,5 @@
 import React from 'react'
+import { Fade } from "react-swift-reveal";
 
 export default function Bienvenue() {
   function scrollToServices() {
@@ -6,6 +7,7 @@ export default function Bienvenue() {
     servicesSection.scrollIntoView({ behavior: 'smooth' });
   }
   return (
+    <Fade>
     <section className='section_bienvenue_conciergerie' id="section_bienvenue_conciergerie">
   
     <h2>Bienvenue sur Imala Conciergerie</h2>
@@ -16,5 +18,6 @@ export default function Bienvenue() {
      <button onClick={scrollToServices}>Parcourir</button>
   
   </section>
+  </Fade>
   )
 }

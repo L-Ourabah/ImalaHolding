@@ -13,11 +13,11 @@ export default function Nourriture() {
     <Navbar/>
      <Header
      titreActivite="Traiteur"
-     imgActivite="https://images.pexels.com/photos/7262909/pexels-photo-7262909.jpeg?auto=compress&cs=tinysrgb&w=1600"
+     imgActivite="https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600"
      />
         <Main
      sousTitreActivite="Nos traiteurs"
-     phraseActivite="Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,Ceci est un paragraphe Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse, fuga sint necessitatibus iusto nostrum,"
+     phraseActivite="Découvrez une expérience culinaire d'exception avec notre service de traiteur. Chez nous, chaque plat est une œuvre d'art gustative, conçue avec passion et créativité pour éveiller vos sens et ravir vos convives. Laissez-nous sublimer votre événement avec des saveurs exquises et un service attentif qui fera de chaque occasion un moment inoubliable."
      traiteurData={traiteurData} 
     />
     <Slide/>

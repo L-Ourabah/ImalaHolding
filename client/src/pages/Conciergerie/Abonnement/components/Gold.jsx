@@ -1,7 +1,9 @@
 import React from 'react'
+import { Fade } from "react-swift-reveal";
 
 export default function Gold() {
   return (
+    <Fade>
 <section className='section_imala_golden'>
  <div className='abo_contenu'>
         <div className='abo_img'> 
@@ -23,5 +25,6 @@ export default function Gold() {
       </div>
  </div>
 </section>
+</Fade>
   )
 }

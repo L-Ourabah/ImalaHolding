@@ -22,7 +22,7 @@ const slides = [
   {
     id: 1,
     title: "Nettoyage",
-    description: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
+    description: "Avec notre service de nettoyage de conciergerie, nous nous engageons à maintenir un standard élevé de propreté et de confort, pour que vous puissiez vous concentrer sur l'essentiel.",
     lien: "../ServiceConciergerie/nettoyage",
     image: "https://images.pexels.com/photos/10573242/pexels-photo-10573242.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
@@ -30,7 +30,7 @@ const slides = [
      id: 2,
       title: "Garderie",
       description:
-        "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.",
+        "Plongez dans l'univers de notre garderie, où chaque enfant est accueilli dans un environnement chaleureux et stimulant, favorisant apprentissage, épanouissement et bien-être. Avec une équipe dévouée et des activités adaptées, nous offrons à vos enfants un lieu sûr et joyeux pour grandir et s'épanouir.",
       lien: "../ServiceConciergerie/garderie",
       image: "https://images.pexels.com/photos/8363100/pexels-photo-8363100.jpeg?auto=compress&cs=tinysrgb&w=1600",
     
@@ -39,7 +39,7 @@ const slides = [
       id: 3,
       title: "Transport",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "Découvrez notre service de transport, où chaque trajet est une occasion de voyager en toute sérénité, confort et élégance. Laissez-nous vous emmener vers votre destination, en vous offrant une expérience de voyage inoubliable à chaque étape du trajet.",
         lien: "../ServiceConciergerie/transport",
       image: "https://images.pexels.com/photos/18189671/pexels-photo-18189671/free-photo-of-ville-route-circulation-gens.jpeg?auto=compress&cs=tinysrgb&w=1600",
      
@@ -48,7 +48,7 @@ const slides = [
       id: 4,
       title: "Guide Touristique",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "Explorez le Sénégal à travers nos expériences uniques. Imala Conciergerie vous invite à vivre des aventures inoubliables, des découvertes culturelles aux plaisirs de la nature, pour une immersion authentique dans notre magnifique pays.",
         lien: "../ServiceConciergerie/guidetouristique",
       image: "https://images.pexels.com/photos/4856284/pexels-photo-4856284.jpeg?auto=compress&cs=tinysrgb&w=1600",
      
@@ -57,9 +57,9 @@ const slides = [
       id: 5,
       title: "Traiteur",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "Découvrez une expérience culinaire d'exception avec notre service de traiteur. Chez nous, chaque plat est une œuvre d'art gustative, conçue avec passion et créativité pour éveiller vos sens et ravir vos convives. Laissez-nous sublimer votre événement avec des saveurs exquises et un service attentif qui fera de chaque occasion un moment inoubliable.",
         lien: "../ServiceConciergerie/traiteur",
-      image: "https://images.pexels.com/photos/7262909/pexels-photo-7262909.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      image: "https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600",
      
     },
     {
