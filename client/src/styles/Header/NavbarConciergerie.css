@@ -142,7 +142,18 @@
 .logo img {
     width: 300px;
 }
+.burgerMenu {
+    font-size: 44px;
+    float: right;
+    margin-top: 10px;
+    display: block;
+    margin-left: 100px;
 
+}
+
+.burgerMenu.open {
+    transform: rotate(90deg);
+}
 
 @media only screen and (max-width: 767px) {
 
@@ -164,34 +175,9 @@
     }
 
 
-    .burgerMenu {
-        font-size: 44px;
-        float: right;
-        margin-top: 10px;
-        display: block;
-        margin-left: 100px;
+  
 
-    }
-
-    .burgerMenu.open {
-        transform: rotate(90deg);
-    }
-
-    .hamburger-lines span {
-        transition: transform 0.3s ease;
-    }
-
-    .hamburger-lines span.line1.open {
-        transform: translateY(10px) rotate(45deg);
-    }
-
-    .hamburger-lines span.line2.open {
-        opacity: 0;
-    }
-
-    .hamburger-lines span.line3.open {
-        transform: translateY(-10px) rotate(-45deg);
-    }
+   
 
     #logo_mobile {
         font-size: 1em;
@@ -202,7 +188,7 @@
         
     }
     .logo_mobile img {
-        width: 150px;
+        width: 105px;
     
         
     }

@@ -1,16 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Icon } from '@iconify/react';
-import { Link } from 'react-router-dom';
-import conciergerie from '../../media/images/conciergerie.png';
-import '../../styles/Header/NavbarConciergerie.css';
-
-
-
-
+import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom";
+import conciergerie from "../../media/images/LogoConciergerie.png";
+import "../../styles/Header/NavbarConciergerie.css";
 
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
-
 }
 
 function closeNav() {
@@ -45,9 +40,11 @@ export default function Navbar() {
   return (
     <nav className={navbarClass1}>
       <div className="navbar_desktop">
-        <div className="logo"><Link to="/">
-                        <img src={conciergerie} />
-                    </Link></div>
+        <div className="logo">
+          <Link to="/conciergerie">
+            <img src={conciergerie} alt="logo_conciergerie" />
+          </Link>
+        </div>
         <div className="onglets">
           <Link to={"/conciergerie"}>Accueil</Link>
 
@@ -56,7 +53,9 @@ export default function Navbar() {
             onMouseEnter={toggleDropdown}
             onMouseLeave={toggleDropdown}
           >
-            <Link to={"/ServiceConciergerie"}>Services <Icon icon="pepicons-pencil:triangle-down" /></Link>
+            <Link to={"/ServiceConciergerie"}>
+              Services <Icon icon="pepicons-pencil:triangle-down" />
+            </Link>
             {dropdownVisible && (
               <div className="dropdown-content">
                 <Link to={"/ServiceConciergerie/nettoyage"}>Nettoyage</Link>
@@ -64,7 +63,10 @@ export default function Navbar() {
                 <Link to={"/ServiceConciergerie/garderie"}>Garderie</Link>
                 <Link to={"/ServiceConciergerie/traiteur"}>Traiteur</Link>
                 <Link to={"/ServiceConciergerie/loisirs"}>Loisirs</Link>
-                <Link to={"/ServiceConciergerie/guidetouristique"}>Guide<br /> Touristique</Link>
+                <Link to={"/ServiceConciergerie/guidetouristique"}>
+                  Guide
+                  <br /> Touristique
+                </Link>
                 {/* Ajoutez autant d'options que nécessaire */}
               </div>
             )}
@@ -72,42 +74,48 @@ export default function Navbar() {
           <Link to={"/abonnement"}>Abonnement</Link>
           <Link to={"/contact"}>Contact</Link>
           <Link to="/">Imala Holding</Link>
-          
         </div>
-        <span id="flag"><Icon icon="openmoji:flag-france" /></span>
+        <span id="flag">
+          <Icon icon="openmoji:flag-france" />
+        </span>
       </div>
       {/*menu mobile*/}
 
-
-      <div className='navbar_mobile'>
-
-        <div className="logo_mobile"><Link to="/">
-                        <img src={conciergerie} alt="logo_conciergerie"/>
-                    </Link></div>
+      <div className="navbar_mobile">
+        <div className="logo_mobile">
+          <Link to="/conciergerie">
+            <img src={conciergerie} alt="logo_conciergerie" />
+          </Link>
+        </div>
 
         <div className="onglet_mobile">
-          <span id="flag"><Icon icon="openmoji:flag-france" /></span>
+          <span id="flag">
+            <Icon icon="openmoji:flag-france" />
+          </span>
 
-
-          <span className='burgerMenu' onClick={openNav}>☰ </span>
+          <span className="burgerMenu" onClick={openNav}>
+            ☰{" "}
+          </span>
         </div>
 
         <div id="myNav" className="overlay">
-          <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
+          <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>
+            ×
+          </a>
           <div className="overlay-content">
-            <h1 id="logo_mobile" ><Link to="/">
-                        <img src={conciergerie} alt="logo_conciergerie"/>
-                    </Link></h1>
-            <Link to={'/conciergerie'}>Accueil</Link>
+            <h1 id="logo_mobile">
+              <Link to="/">
+                <img src={conciergerie} alt="logo_conciergerie" />
+              </Link>
+            </h1>
+            <Link to={"/conciergerie"}>Accueil</Link>
             <Link to={"/ServiceConciergerie"}>Services</Link>
             <Link to={"/abonnement"}>Abonnement</Link>
             <Link to={"/contact"}>Contact</Link>
+            <Link to="/">Imala Holding</Link>
           </div>
-
         </div>
-
       </div>
-
     </nav>
   );
 }
