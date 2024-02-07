@@ -289,14 +289,19 @@ span#btn_next {
 
   .header_activite h1 {
     font-size: 3.5em;
-    margin-top: 120px;
-  }
+    margin-top: 55px;
+    text-align: center;
+}
   .section_activite_presentation {
-    height: 30vh;
+    height: 50vh;
   }
   .section_activite_presentation p {
-    width: 80%;
+    width: 90%;
   }
+
+  .titre_activite_details h2 {
+   text-align: center;
+}
   .activite_contenu {
     flex-direction: column;
     width: 80%;
@@ -312,13 +317,22 @@ span#btn_next {
   }
   .activite_contenu_txt {
     width: 100%;
-    height: 280px;
+    height: 335px;
   }
   .activite_contenu_txt p {
     font-size: small;
+    width: 90%;
   }
   .slide_contenu {
     width: 90%;
+  }
+
+  .slide_contenu img {
+    width: 96%;
+    height: 375px;
+}
+  .slide_contenu h2 {
+    top: 4%;
   }
   .slider_center p {
     font-size: medium;
@@ -341,10 +355,20 @@ span#btn_next {
     width: 340px;
     height: 250px;
   }
-  span#btn_prev,
+  span#btn_prev {
+      position: absolute;
+    bottom: 45%;
+    right: 99%;
+    font-size: xx-large;
+    font-weight: 600;
+}
   span#btn_next {
-    display: none;
-  }
+  position: absolute;
+    left: 98%;
+    bottom: 45%;
+    font-size: xx-large;
+    font-weight: 600;
+}
   .slide_contenu p {
     bottom: 30%;
   }

@@ -39,3 +39,14 @@
     padding: 2%;
     font-family: 'Urbanist';
   }
+  @media only screen and (max-width: 767px) and (orientation: portrait) {
+
+    .header_page_conciergerie h1 {
+        font-size: 4.5em;
+    }
+
+    .presentation_conciergerie p {
+        width: 90%;
+        font-size: large;
+    }
+  }

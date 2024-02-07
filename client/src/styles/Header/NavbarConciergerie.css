@@ -134,8 +134,8 @@
 .overlay .closebtn {
     position: absolute;
     font-size: 46px;
-    top: 0px;
-    right: 35px;
+    top: 5px;
+    right: 54px;
     font-weight: 700;
 }
 
@@ -144,6 +144,18 @@
 }
 
 
+.burgerMenu.open {
+    transform: rotate(90deg);
+}
+
+.onglet_mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
 @media only screen and (max-width: 767px) {
 
     .navbar_desktop {
@@ -157,40 +169,21 @@
         align-items: center;
         color: white;
         font-size: xx-large;
+        margin-top: -2%;
+    
     }
     
     .navbar_mobile a {
-        font-family: 'gelasio';
+        font-family: 'Urbanist';
     }
-
 
     .burgerMenu {
         font-size: 44px;
         float: right;
         margin-top: 10px;
         display: block;
-        margin-left: 100px;
-
-    }
-
-    .burgerMenu.open {
-        transform: rotate(90deg);
-    }
-
-    .hamburger-lines span {
-        transition: transform 0.3s ease;
-    }
-
-    .hamburger-lines span.line1.open {
-        transform: translateY(10px) rotate(45deg);
-    }
-
-    .hamburger-lines span.line2.open {
-        opacity: 0;
-    }
-
-    .hamburger-lines span.line3.open {
-        transform: translateY(-10px) rotate(-45deg);
+        margin-left: 13px;
+    
     }
 
     #logo_mobile {
@@ -202,7 +195,7 @@
         
     }
     .logo_mobile img {
-        width: 150px;
+        width: 105px;
     
         
     }

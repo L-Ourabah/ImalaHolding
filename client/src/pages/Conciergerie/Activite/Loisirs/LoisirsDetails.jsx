@@ -28,7 +28,7 @@ console.log('Activity ID:',id)
     <main>
     
     <div className="main_activite_details">
-      <div className='titre_activite_details'> <Link to="../service/loisirs">Retour</Link>
+      <div className='titre_activite_details'> <Link to="../ServiceConciergerie/loisirs">Retour</Link>
         <h2>{selectedActivity.title}</h2>
         </div>
 

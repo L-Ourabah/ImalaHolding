@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import '../Activite.css';
 
-export default function GalerieDetails() {
+export default function GalerieDetails({ images }) {
   return (
     <section className='section_galerie_details'>
-      ceci est la galerie
+      {images.map((image, index) => (
+        <img key={index} src={image.src} alt={image.alt} srcSet={image.srcSet} />
+      ))}
     </section>
-  )
+  );
 }

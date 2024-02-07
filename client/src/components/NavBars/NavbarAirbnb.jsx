@@ -40,17 +40,17 @@ export default function Navbar() {
       {/*menu mobile*/}
       <div className='navbar_airbnb_mobile'>
 
-        <div className='logo_mobile'> <Link to="/"><img src={logo} alt="logo" /></Link></div>
+        <div className='logo_mobile_airbnb'> <Link to="/"><img src={logo} alt="logo" /></Link></div>
         <div className='onglets_airbnb_mobile'>
           <div className='btn_connecter' >
             <Link to="/connexion"><Icon icon="iconamoon:profile-circle-light" color="#3864ff" width="50" height="50" /></Link>
           </div>
 
           <span className='burger_icon' onClick={openNav} >☰ </span>
-          <div id="myNav" className="overlay">
+          <div id="myNav" className="overlayAirbnb">
             <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
             <div className="overlay-content">
-              <h1 className="logo" > <Link to="/airbnb"><img src={logo} alt="logo" /></Link></h1>
+              <span className="logo_mobile_airbnb_over" > <Link to="/airbnb"><img src={logo} alt="logo" /></Link></span>
               <Link to="/airbnb">Accueil</Link>
               <Link to="/logements">Logements</Link>
               <Link to="/about">A propos</Link>

@@ -66,7 +66,7 @@ const slides = [
       id: 6,
       title: "Loisirs",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "Découvrez une gamme de loisirs exceptionnels grâce à nos services de conciergerie. Que vous soyez un amateur de sports, un gourmet en quête de nouvelles saveurs, ou simplement à la recherche d'une nouvelle aventure, notre équipe est là pour vous faire découvrir les meilleures activités et expériences du pays d’accueil.",
         lien: "../ServiceConciergerie/loisirs",
       image: "https://images.pexels.com/photos/18189700/pexels-photo-18189700/free-photo-of-banc-paysage-gens-herbe.jpeg?auto=compress&cs=tinysrgb&w=1600",
      

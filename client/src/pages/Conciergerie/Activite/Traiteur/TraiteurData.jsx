@@ -8,7 +8,11 @@ const traiteurData = [
       telephone:"01.23.45.67.89",
       email:"salon@gmail.com",
       adressepostale:"520 des tests",
-      link:"/ServiceConciergerie/traiteur/1"
+      link:"/ServiceConciergerie/traiteur/1",
+      img1:"https://picsum.photos/200/300",
+      img2:"https://picsum.photos/200/300",
+      img3:"https://picsum.photos/200/300",
+
     },
       // Ajoutez d'autres activités ici...
    /* {

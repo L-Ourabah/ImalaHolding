@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import Navbar from '../../../../components/NavBars/NavbarConciergerie';
 
 import traiteurData from "./TraiteurData"; // Importe les données d'activité depuis le fichier NettoyageData.js
-import GalerieAccueil from "../../../Airbnb/AirbnbAccueil/components/GalerieAccueil";
+import GalerieDetails from "../../../Conciergerie/Activite/componentsG/GalerieDetails";
 console.log("Activites", traiteurData);
 
 export default function TraiteurDetails() {
@@ -51,8 +51,14 @@ export default function TraiteurDetails() {
           </div>
         </div>
 
-
-        <GalerieAccueil/>
+      {/*}  <section className='section_galerie_details'>
+          <h3>Galerie</h3>
+          <div className="contenu_galerie">
+        <img src={selectedActivity.img1} alt="img_galerie" />
+        <img src={selectedActivity.img2} alt="img_galerie" />
+        <img src={selectedActivity.img3} alt="img_galerie" />
+        </div>
+     </section>*/}
       </main>
     </>
   );
