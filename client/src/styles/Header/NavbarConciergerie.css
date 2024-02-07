@@ -134,22 +134,15 @@
 .overlay .closebtn {
     position: absolute;
     font-size: 46px;
-    top: 0px;
-    right: 35px;
+    top: 5px;
+    right: 54px;
     font-weight: 700;
 }
 
 .logo img {
     width: 300px;
 }
-.burgerMenu {
-    font-size: 44px;
-    float: right;
-    margin-top: 10px;
-    display: block;
-    margin-left: 100px;
 
-}
 
 .burgerMenu.open {
     transform: rotate(90deg);
@@ -161,6 +154,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2%;
+    margin-left: 5%;
 }
 @media only screen and (max-width: 767px) {
 
@@ -175,16 +169,22 @@
         align-items: center;
         color: white;
         font-size: xx-large;
+        margin-top: -2%;
+    
     }
     
     .navbar_mobile a {
-        font-family: 'gelasio';
+        font-family: 'Urbanist';
     }
 
-
-  
-
-   
+    .burgerMenu {
+        font-size: 44px;
+        float: right;
+        margin-top: 10px;
+        display: block;
+        margin-left: 13px;
+    
+    }
 
     #logo_mobile {
         font-size: 1em;
