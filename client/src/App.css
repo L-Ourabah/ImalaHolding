@@ -24,7 +24,8 @@
     font-size: inherit;
     font-weight: inherit;
     color: inherit;
-   /* border: none;box-shadow: 0 0 0 3px red;*/
+    border: none;
+    /*box-shadow: 0 0 0 3px red;*/
 }
 
 :root{
@@ -59,6 +60,10 @@ a{
   
     text-decoration: none;
     text-underline-offset: 3px;
+}
+
+button{
+    cursor: pointer;
 }
 
 

@@ -44,10 +44,11 @@
     background-color: rgba(0, 0, 0, 0.442);
 }
 
-.home-herobanner-message > div{
+.home-herobanner-message .container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 10%;
 }
 
 .home-herobanner-message h2{
@@ -90,6 +91,34 @@
         font-size: 5rem
     }
 
+    .home-herobanner-message{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        height: 350px;
+        padding: 20px 0;
+        background-color: rgba(0, 0, 0, 0.442);
+    }
+
+    .home-herobanner-message .container{
+        display: flex;
+        gap: 10%;
+    }
+
+    .home-herobanner-message h2{
+        font-size: 2.5rem;
+    }
+
+    .home-herobanner-message p{
+        font-size: 1rem;
+    }
+
+    .home-herobanner-message h2,
+    .home-herobanner-message p,
+    .home-herobanner-message button{
+        max-width: 100%;
+    }
+
     /* Réalisation */
 
     .home-realisations-images{
@@ -108,7 +137,6 @@
 
     .services-cards div{
         width: 20dvw;
-       
     }
 
     /* Informations */
@@ -143,9 +171,39 @@
 
 @media(max-width:850px){
 
+    /* Herobanner */
+
     .home-herobanner-title{
         font-size: 5rem
     }
+
+    .home-herobanner-message{
+        text-align: center;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        padding: 20px 0;
+        background-color: rgba(0, 0, 0, 0.442);
+    }
+
+    .home-herobanner-message .container{
+        gap: 5%;
+    }
+
+    .home-herobanner-message h2{
+        font-size: 2.5rem;
+    }
+
+    .home-herobanner-message p{
+        font-size: 1rem;
+    }
+
+    .home-herobanner-message h2,
+    .home-herobanner-message p,
+    .home-herobanner-message button{
+        max-width: 100%;
+    }
+
 
     /* Réalisation */
 
@@ -153,6 +211,7 @@
         font-size: 2.5rem;
         font-family: var(--urbanist);
     }
+
 
     /* Services */
 
@@ -172,34 +231,11 @@
     }
 
     .services-cards div{
-        height: 15dvh;
+        height: 100%;
         width: 80dvw;
     }
 
-    /* Herobanner */
 
-    .home-herobanner-message{
-        text-align: center;
-        width: 100%;
-        height: 350px;
-        display: flex;
-        padding: 20px 0;
-        background-color: rgba(0, 0, 0, 0.442);
-    }
-
-    .home-herobanner-message h2{
-        font-size: 2.5rem;
-    }
-
-    .home-herobanner-message p{
-        font-size: 1rem;
-    }
-
-    .home-herobanner-message h2,
-    .home-herobanner-message p,
-    .home-herobanner-message button{
-        max-width: 80%;
-    }
 
     /* Realisations */
 

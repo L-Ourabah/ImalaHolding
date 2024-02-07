@@ -4,14 +4,15 @@
     flex-direction: column;
     align-items: center;
     font-family: var(--urbanist);
-    padding: 20px 0;
-    height: 100vh;
+    padding: 20px 0 20px 0;
+    height: 100svh;
+    gap: 5%;
 }
 
 .home-services-section h2 {
     font-size: 2.5rem;
     text-align: center;
-    margin: 1rem;
+    max-width: 60%;
 }
 
 .home-services-section p {
@@ -21,15 +22,14 @@
 }
 
 .services-cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    display: flex;
     gap: 5rem;
     margin-top: 50px;
+    height: 90%;
 }
 
 .services-cards div{
-    height: 70vh;
+    height: 90%;
     width: 300px;
     display: flex;
     justify-content: center;
@@ -50,15 +50,49 @@
 
 .services-plan{
     background: url('../../../../media/images/services-plan.png');
-    grid-area: 1 / 1 / 6 / 2;
 }
 
 .services-conception{
     background: url('../../../../media/images/services-conception.png');
-    grid-area: 1 / 2 / 6 / 3;
 }
 
 .services-materials{
     background: url('../../../../media/images/services-materials.png');
-    grid-area: 1 / 3 / 6 / 4;
+}
+
+@media(max-width: 850px){
+    
+    .home-services-section h2 {
+        max-width: 80%;
+    }
+    
+    .home-services-section p {
+        text-align: center;
+        max-width: 1000px;
+        font-size: 1.2rem;
+    }
+    
+    .services-cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5rem;
+        margin-top: 50px;
+    }
+    
+    .services-cards a{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        color: white;
+        text-shadow: 2px 2px black;
+        border-radius: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150%;
+    }
+
 }
