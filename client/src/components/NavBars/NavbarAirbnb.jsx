@@ -50,7 +50,7 @@ export default function Navbar() {
           <div id="myNav" className="overlayAirbnb">
             <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
             <div className="overlay-content">
-              <h1 className="logo" > <Link to="/airbnb"><img src={logo} alt="logo" /></Link></h1>
+              <span className="logo_mobile_airbnb_over" > <Link to="/airbnb"><img src={logo} alt="logo" /></Link></span>
               <Link to="/airbnb">Accueil</Link>
               <Link to="/logements">Logements</Link>
               <Link to="/about">A propos</Link>

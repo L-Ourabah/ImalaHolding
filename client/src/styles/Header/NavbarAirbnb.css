@@ -43,7 +43,11 @@ body {
   width: 100%;
   object-fit: cover;
 }
-
+.burger_icon {
+  font-size: 35px;
+  margin-top: 10px;
+  color: #3864FF;
+}
 .navbar_flag {
   width: 10%;
 display: flex;
@@ -109,6 +113,8 @@ display: none;
  .logo_mobile_airbnb img{
     width: 150px;
  }
+
+ .logo
 .burger_icon {
   font-size: 35px;
   margin-top: 10px;
@@ -124,6 +130,8 @@ display: none;
   background: #3864ffdb;;
   overflow-x: hidden;
   transition: 0.5s;
+  color: white;
+  font-family: 'Urbanist';
 }
 
 .overlay-content {
@@ -136,9 +144,10 @@ display: none;
   flex-direction: column;
   justify-content: space-around;
   height: 80%;
+
 }
 
-.overlay a {
+.overlayAirbnb a {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
@@ -165,6 +174,18 @@ display: none;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+a.closebtn {
+    position: absolute;
+    font-size: 46px;
+    top: 14px;
+    right: 22px;
+    font-weight: 700;
+}
+.logo_mobile_airbnb_over img {
+  width: 150px;
+  background: #ffffffc4;
+  border-radius: 100%;
 }
 }
 
