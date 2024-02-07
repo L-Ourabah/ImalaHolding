@@ -326,6 +326,11 @@ span#btn_next {
   .slide_contenu {
     width: 90%;
   }
+
+  .slide_contenu img {
+    width: 96%;
+    height: 375px;
+}
   .slide_contenu h2 {
     top: 4%;
   }
@@ -350,10 +355,20 @@ span#btn_next {
     width: 340px;
     height: 250px;
   }
-  span#btn_prev,
+  span#btn_prev {
+      position: absolute;
+    bottom: 45%;
+    right: 99%;
+    font-size: xx-large;
+    font-weight: 600;
+}
   span#btn_next {
-    display: none;
-  }
+  position: absolute;
+    left: 98%;
+    bottom: 45%;
+    font-size: xx-large;
+    font-weight: 600;
+}
   .slide_contenu p {
     bottom: 30%;
   }
