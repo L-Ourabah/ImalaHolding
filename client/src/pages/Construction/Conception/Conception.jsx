@@ -1,7 +1,7 @@
 import React from 'react'
 import './Conception.css'
 import Herobanner from './Herobanner/Herobanner'
-import Pannels from './Pannels/Pannels'
+import ConceptionPannels from './ConceptionPannels/ConceptionPannels'
 import Navbar from '../../../components/NavBars/NavbarConstruction'
 
 function Conception() {
@@ -10,7 +10,7 @@ function Conception() {
       <Navbar/>
       <div className='conception-wrapper'>
         <Herobanner />
-        <Pannels />
+        <ConceptionPannels />
       </div>
     </div>
   )

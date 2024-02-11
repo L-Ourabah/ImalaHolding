@@ -22,7 +22,6 @@
 .conception-herobanner-title{
   font-size: 4rem;
   font-family: var(--urbanist);
-  font-weight: 700;
   color: white;
   text-align: center;
 }
@@ -70,7 +69,7 @@
 }
 
 .conception-pannel-container{
-  height: 500px;
+  background-size: cover;
 }
 
 .conception-pannel-container h2{
@@ -89,8 +88,9 @@
 
 
 .conception-pannel-container:nth-child(2){
+  display: flex;
   flex-direction: row-reverse;
-  background-image: url('../../../media/images/plan-architectural-background.webp');
+  background-image: url('../../../media/images/conception-structure_beton-background.webp');
   height: 100%;
 }
 
@@ -104,12 +104,14 @@
 }
 
 .conception-pannel-container:first-child{
-  background-image: url('../../../media/images/plan-beton_arme-background.webp');
+  background-image: url('../../../media/images/conception-fondation-background.jpg');
+  background-size: cover;
   height: 100%;
 }
 
 .conception-pannel-container:last-child{
-  background-image: url('../../../media/images/plan-3D-background.jpeg');
+  background-image: url('../../../media/images/conception-finition-background.webp');
+  background-size: cover;
   height: 100%;
 }
 
@@ -128,65 +130,18 @@
 
 @media(max-width: 1200px){
 
-  .conception-herobanner-title h1 {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    text-shadow: 0 0 4px black;
-  }
-
   .conception-herobanner-title{
     font-size: 6rem;
-    font-family: var(--urbanist);
-    font-weight: 700;
-    color: white;
-    text-align: center;
-  }
-
-  .conception-herobanner-message{
-    text-align: center;
-    width: 100%;
-    height: 40dvh;
-    display: flex;
-    padding: 20px 0;
-    background-color: rgba(0, 0, 0, 0.442);
-  }  
-
-  .conception-herobanner-message h2{
-    font-size: 4rem;
-    color: white;
-    font-weight: 500;
-    font-family: var(--urbanist);
-  }
-  
-  .conception-herobanner-message p{
-    font-size: 1.5rem;
-    color: white;
-    font-family: var(--fira);
-  }
-
-  .conception-herobanner-message h2,
-  .conception-herobanner-message p{
-    max-width: 80%;
-    margin: 0 auto;
-  }
-
-  .pannels-container{
-    background-image: none;
   }
 
   .conception-pannels-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 50%;
-    background-color: var(--couleur-principale-transparente);
-    gap: 4rem;
-    height: 50dvh;
+    height: 100%;
+    min-height: 70dvh;
+  }
+
+  .conception-pannels-wrapper p{
+    max-width: 80%;
+    font-size: 1.5rem;
   }
 
 }
@@ -195,51 +150,48 @@
 
 
   .conception-herobanner-title{
-    font-size: 3.5rem;
-    font-family: var(--urbanist);
-    font-weight: 700;
-    color: white;
-    text-align: center;
+    font-size: 2.5rem;
   }
 
   .conception-herobanner-message{
-    text-align: center;
-    width: 100%;
     height: 35dvh;
-    display: flex;
-    padding: 20px 0;
-    background-color: rgba(0, 0, 0, 0.442);
   }  
 
   .conception-herobanner-message h2{
-    font-size: 2.5rem;
-    color: white;
-    font-weight: 500;
-    font-family: var(--urbanist);
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
   
   .conception-herobanner-message p{
     font-size: 1rem;
-    color: white;
-    font-family: var(--fira);
   }
 
   .conception-herobanner-message h2,
   .conception-herobanner-message p{
     max-width: 100%;
-    margin: 0 auto;
   }
 
-  .pannels-container h2{
+  .conception-pannels-wrapper{
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+  }
+
+  .conception-pannel-container .pannels-wrapper{
+    background-size: 100%;
+  }
+
+  .conception-pannel-container:nth-child(2) .pannels-wrapper{
+    width: 100%;
+  }
+
+  .conception-pannels-wrapper h2{
     color: black;
     font-family: var(--fira);
+    font-size: 3rem;
   }
   
   .conception-pannel-container p{
-    color: black;
-    font-size: 1rem;
-    font-family: var(--fira);
-    max-width: 50%;
-    text-align: center;
+    font-size: 1.5rem;
   }
 }

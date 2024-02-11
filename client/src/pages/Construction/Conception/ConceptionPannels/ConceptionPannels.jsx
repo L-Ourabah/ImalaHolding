@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Pannels() {
+function ConceptionPannels() {
   return (
     <div className='conception-pannels-container'>
       <div className='conception-pannel-container pannels-container'>
-        <div className='conception-pannels-wrapper'>
+        <div className='conception-pannels-wrapper '>
           <h2>Fondation</h2>
           <p>Fort de notre expertise, nous élaborons un plan de fondation robuste et durable pour votre nouveau projet immobilier. Assurez-vous une solidité et une stabilité optimales pour votre futur bien.</p>
         </div>
@@ -25,4 +25,4 @@ function Pannels() {
   )
 }
 
-export default Pannels
+export default ConceptionPannels

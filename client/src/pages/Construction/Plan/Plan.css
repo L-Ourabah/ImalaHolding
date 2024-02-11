@@ -22,7 +22,6 @@
 .plan-herobanner-title{
     font-size: 4rem;
     font-family: var(--urbanist);
-    font-weight: 700;
     color: white;
     text-align: center;
 }
@@ -82,21 +81,22 @@
     margin: 0 auto;
 }
 
-.pannels-container{
-    height: 70dvh;
+.plan-pannel-container{
+    height: 100%;
+    min-height: 70dvh;
     display: flex;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
-.pannels-container h2{
+.plan-pannel-container h2{
     color: black;
     font-size: 3rem;
     font-family: var(--fira);
 }
 
-.pannels-container p{
+.plan-pannel-container p{
     color: black;
     font-size: 1.3rem;
     font-family: var(--fira);
@@ -125,7 +125,7 @@
     background-image: url('../../../media/images/plan-3D-background.jpeg');
 }
 
-.pannels-wrapper{
+.plan-pannels-wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,6 +140,7 @@
 
     .plan-herobanner-title h1 {
         font-size: 7rem;
+        font-weight: 400;
     }
 
     .plan-herobanner-message{
@@ -155,8 +156,39 @@
         max-width: 100%;
     }
 
-    .pannels-container{
-        height: 10dvh;
+    .plan-pannels-wrapper{
+        max-width: 100%;
+        padding: 5rem 0;
+    }
+
+    .plan-pannels-wrapper p{
+        width: 100%
+    };
+
+}
+
+@media(max-width: 600px){
+
+    .plan-herobanner-title h1 {
+        font-size: 4rem;
+    }
+
+    .plan-herobanner-message{
+        height: 35dvh;
+    }
+
+    .plan-herobanner-message h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .plan-herobanner-message p{
+        font-size: 1.2rem;
+        max-width: 100%;
+    }
+
+    .plan-pannels-wrapper{
+        width: 100%;
     }
 
 }

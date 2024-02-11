@@ -14,9 +14,7 @@ function Partners() {
           <h3>Global Construction Associate</h3>
           <p> 
             <br />
-            Conception plans architecturaux 2D et 3D, études techniques,
-            réalisation, suivi, évaluation des travaux, génie civil, travaux publics, btp contrôle, topographie,
-            sérigraphie, infographie et équipement.
+            Conception plans architecturaux 2D et 3D.
           </p>
         </div>
         <div className='partners-image'>

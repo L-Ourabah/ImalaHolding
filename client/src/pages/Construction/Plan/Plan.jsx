@@ -1,7 +1,7 @@
 import React from 'react'
 import './Plan.css'
 import Herobanner from './Herobanner/Herobanner'
-import Pannels from './Pannels/Pannels'
+import PlanPannels from './PlanPannels/PlanPannels'
 import Navbar from '../../../components/NavBars/NavbarConstruction'
 
 function Plan() {
@@ -10,7 +10,7 @@ function Plan() {
       <Navbar/>
         <div className='plan-container'>
             <Herobanner />
-            <Pannels />
+            <PlanPannels />
         </div>
     </div>
   )

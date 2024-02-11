@@ -1,5 +1,6 @@
 .services-partners-container{
-  height: 60dvh;
+  height: 100%;
+  padding: 5rem 0;
   background-color: var(--couleur-principale);
   display: flex;
   justify-content: space-around;
@@ -18,10 +19,11 @@
   max-width: 80%;
   display: flex;
   justify-content: space-around;
+  margin-top: 2rem;
 }
 
 .partners-image{
-  max-width: 20%;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -43,24 +45,79 @@
   font-family: var(--urbanist);
 }
 
-@media(max-width:1200px){
+@media(max-width:1400px){
 
   .services-partners-container{
-    height: 40dvh;
-  }
-
-  .partners-image{
-    width: 200px;
-    height: 200px;
+    height: 100%;
+    padding: 2rem 0;
   }
 
   .partners-images-container{
-    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .partners-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partners-image img{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.43);
+    margin-bottom: 2rem;
+  }
+
+  .partners-image h3, .partners-image p{
+    max-width: 90%;
+  }
+
+
+}
+
+@media(max-width:1200px){
+
+  .services-partners-container{
+    height: 100%;
+    padding: 4rem 0;
+  }
+
+  .services-partners-container h2{
+    margin-bottom: 4rem;
+  }
+
+  .partners-images-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .partners-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+  }
+
+  .partners-image h3, .partners-image p{
+    max-width: 90%;
   }
 
 }
 
 @media(max-width:600px){
+
+  .services-partners-container{
+    height: 100%;
+  }
 
   .services-partners-container h2{
     font-size: 3rem;
@@ -70,21 +127,20 @@
     text-align: center;
   }
 
-  .services-partners-container{
-    height: 100%;
-  }
-
   .partners-images-container{
     flex-direction: column;
     align-items: center;
-    gap: 100px;
+    justify-content: center;
+    height: 100%;
     padding-top: 3rem;
     padding-bottom: 5rem;
+    margin: 0;
+    padding: 0;
   }
 
   .partners-image{
-    width: 300px;
-    height: 300px;
+    width: 70%;
+    height: 70%;
   }
 
   .partners-images-container{

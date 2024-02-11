@@ -22,7 +22,6 @@
 .materials-herobanner-title{
   font-size: 4rem;
   font-family: var(--urbanist);
-  font-weight: 700;
   color: white;
   text-align: center;
 }
@@ -81,57 +80,118 @@
   margin: 0 auto;
 }
 
-.pannels-container{
-  height: 70dvh;
+.materials-pannel-container{
   display: flex;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  height: 100%;
 }
 
-.pannels-container h2{
+.materials-pannels-wrapper{
+  height: 100%;
+  min-height: 80dvh;
+  padding: 2rem 0;
+}
+
+.materials-pannels-wrapper h2{
   color: black;
   font-size: 3rem;
   font-family: var(--fira);
 }
 
-.pannels-container p{
+.materials-pannels-wrapper p{
   color: black;
   font-size: 1.3rem;
   font-family: var(--fira);
-  max-width: 50%;
+  max-width: 60%;
   text-align: center;
 }
 
-.pannels-container:nth-child(2) p, .pannels-container:nth-child(2) h2{
+.materials-pannel-container:nth-child(2) p, .materials-pannel-container:nth-child(2) h2{
   color: white;
 }
 
-.materials-pannels-container:first-child{
-  background-image: url('../../../media/images/materials-btc.jpeg');
+.materials-pannel-container:first-child{
+  background-image: url('../../../media/images/materials-btc.jpeg');  
 }
 
-.materials-pannels-container:nth-child(2){
+.materials-pannel-container:nth-child(2){
   flex-direction: row-reverse;
   background-image: url('../../../media/images/materials-concrete.jpeg');
 }
 
-.pannels-container:nth-child(2) .pannels-wrapper{
-  background-color: rgba(0, 0, 0, 0.806);
-}
-
-.materials-pannels-container:last-child{
+.materials-pannel-container:last-child{
   background-image: url('../../../media/images/materials-others.jpeg');
 }
 
-
-.pannels-wrapper{
+.materials-pannels-wrapper{
+  background-color: var(--couleur-principale-transparente);
+  width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 50%;
-  background-color: var(--couleur-principale-transparente);
-  gap: 4rem;
+  justify-content: center;
+  gap: 5rem;
 }
 
+.materials-pannel-container:nth-child(2) .materials-pannels-wrapper{
+  background-color: rgba(0, 0, 0, 0.806);
+}
+
+
+@media(max-width: 1200px){
+
+  .materials-herobanner-title h1 {
+    font-size: 7rem;
+    font-weight: 400;
+  }
+
+  .materials-herobanner-message{
+    height: 35dvh;
+  }
+
+  .materials-herobanner-message h2{
+    font-size: 3rem;
+  }
+
+  .materials-herobanner-message p{
+    font-size: 1.5rem;
+    max-width: 100%;
+    width: 100vw
+  }
+
+  .materials-pannels-wrapper{
+    text-align: center;
+  }
+
+
+}
+
+@media(max-width: 600px){
+
+  .materials-herobanner-title h1 {
+    font-size: 3rem;
+  }
+
+  .materials-herobanner-message{
+    height: 35dvh;
+  }
+
+  .materials-herobanner-message h2{
+    font-size: 2rem;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .materials-herobanner-message p{
+    font-size: 1rem;
+    max-width: 100%;
+    width: 100vw
+  }
+
+  .materials-pannels-wrapper{
+    width: 100%;
+  }
+
+}

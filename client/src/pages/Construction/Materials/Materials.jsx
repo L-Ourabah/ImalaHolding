@@ -1,7 +1,7 @@
 import React from 'react'
 import './Materials.css'
 import Herobanner from './Herobanner/Herobanner'
-import Pannels from './Pannels/Pannels'
+import MaterialsPannels from './MaterialsPannels/MaterialsPannels'
 import Navbar from '../../../components/NavBars/NavbarConstruction'
 
 function Materials() {
@@ -10,7 +10,7 @@ function Materials() {
       <Navbar/>
         <div className='materials-container'>
             <Herobanner />
-            <Pannels />
+            <MaterialsPannels />
         </div>
     </div>
   )

@@ -1,41 +1,28 @@
 import React from 'react'
-import '../Materials.css'
 
-function Pannels() {
+function MaterialsPannels() {
   return (
     <div className='materials-pannels-container'>
       <div className='pannels-container materials-pannel-container'>
-        <div className='pannels-wrapper'>
+        <div className='pannels-wrapper materials-pannels-wrapper'>
           <h2>Brique en terre cuite (BTC)</h2>
           <p>
             Le BTC brique de terre compressée fait partie des matériaux les plus solides, ce qui les rendent adaptés à tous les types de constructions.
-            <br /> 
-            <br /> 
+            
             Il est résistant aux intempéries, au feu et aux insectes. 
-            <br />
-            <br />
+            
             Il est également facile à entretenir.
-            <br />
-            <br />
+            
             Par ailleurs, la terre compressé est un matériau non toxique qui ne dégage ni poussière ni acarien. 
-            <br />
-            <br />
+            
             Et étant un matériau respirant, elle absorbe et régule l'humidité ainsi que les champs électromagnétiques.
-            <br />
-            <br />
+            
             Isolations thermique et phonique, le BTC à une faible conductivité thermique, ce qui le rend efficace pour l'isolation thermique des bâtiments.
-            <br/>
-            <br/> 
-            Écologique :
-            <br/>
-            Le BTC est un matériau écologique qui utilise des
-            ressources locales et renouvelables, qui est
-            recyclable et biodégradable.
           </p>
         </div>
       </div>
       <div className='pannels-container materials-pannel-container'>
-        <div className='pannels-wrapper'>
+        <div className='pannels-wrapper materials-pannels-wrapper'>
           <h2>Béton</h2>
           <p>
             En utilisant le béton comme matériau principal, nous mettrons en œuvre un plan de construction solide et durable, assurant une structure robuste et résistante pour votre futur bien.
@@ -43,7 +30,7 @@ function Pannels() {
         </div>
       </div>
       <div className='pannels-container materials-pannel-container'>
-        <div className='pannels-wrapper'>
+        <div className='pannels-wrapper materials-pannels-wrapper'>
           <h2>Et bien d'autres matériaux</h2>
           <p>
             En combinant le béton, les briques en terre cuite et l'acier pour une structure robuste et isolante, nous vous proposons un plan de construction qui répond à vos besoins spécifiques et aux exigences environnementales actuelles.
@@ -59,4 +46,4 @@ function Pannels() {
   )
 }
 
-export default Pannels
+export default MaterialsPannels
