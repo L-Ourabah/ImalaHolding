@@ -73,13 +73,13 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 /*card nettoyage*/
  #gal_nettoyage{
     width: 60%;
-    background: linear-gradient(0deg, rgba(157, 147, 122, 0.70) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/10573242/pexels-photo-10573242.jpeg?auto=compress&cs=tinysrgb&w=1600'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(157, 147, 122, 0.70) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/4993073/pexels-photo-4993073.jpeg?auto=compress&cs=tinysrgb&w=1600'), lightgray 50% / cover no-repeat;
     background-position: center;
     background-size: cover;
    
  }
  #gal_nettoyage:hover{
-    background: linear-gradient(0deg, rgb(157 147 122 / 46%) 0%, rgb(157 147 122 / 44%) 100%), url('https://images.pexels.com/photos/10573242/pexels-photo-10573242.jpeg?auto=compress&cs=tinysrgb&w=1600'), #d3d3d359 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgb(157 147 122 / 46%) 0%, rgb(157 147 122 / 44%) 100%), url('https://images.pexels.com/photos/4993073/pexels-photo-4993073.jpeg?auto=compress&cs=tinysrgb&w=1600'), #d3d3d359 50% / cover no-repeat;
     background-position: center;
     background-size: cover;
  }
@@ -107,15 +107,15 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-position: center;
     background-size: cover;
  }
- /* card guide touristique */
- #gal_guidetour{
+ /* card imala events */
+ #gal_imala_events{
     width: 60%;
-    background: linear-gradient(0deg, rgba(157, 147, 122, 0.70) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/4856284/pexels-photo-4856284.jpeg?auto=compress&cs=tinysrgb&w=1600'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(157, 147, 122, 0.70) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/19024675/pexels-photo-19024675/free-photo-of-fleurs-table-blanc-fete.jpeg?auto=compress&cs=tinysrgb&w=600'), lightgray 50% / cover no-repeat;
     background-position: center;
     background-size: cover;
 }
-#gal_guidetour:hover{
-    background: linear-gradient(0deg, rgb(157 147 122 / 46%) 0%, rgb(157 147 122 / 44%) 100%), url('https://images.pexels.com/photos/4856284/pexels-photo-4856284.jpeg?auto=compress&cs=tinysrgb&w=1600'), #d3d3d359 50% / cover no-repeat;
+#gal_imala_events:hover{
+    background: linear-gradient(0deg, rgb(157 147 122 / 46%) 0%, rgb(157 147 122 / 44%) 100%), url('https://images.pexels.com/photos/19024675/pexels-photo-19024675/free-photo-of-fleurs-table-blanc-fete.jpeg?auto=compress&cs=tinysrgb&w=600'), #d3d3d359 50% / cover no-repeat;
     background-position: center;
     background-size: cover;
  }

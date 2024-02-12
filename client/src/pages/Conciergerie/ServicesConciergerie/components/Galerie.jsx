@@ -9,7 +9,7 @@ export default function Galerie() {
       <div className="galerie_contenu">
         <div className="galerie_row">
           <div className="galerie_card" id="gal_nettoyage">
-            <p>Nettoyage</p>
+            <p>Pressing</p>
             <button>
               <Link to={"/ServiceConciergerie/nettoyage"}>Voir plus</Link>
             </button>
@@ -30,10 +30,10 @@ export default function Galerie() {
               <Link to={"/ServiceConciergerie/transport"}>Voir plus</Link>
             </button>
           </div>
-          <div className="galerie_card" id="gal_guidetour">
-            <p>Guide Touristique</p>
+          <div className="galerie_card" id="gal_imala_events">
+            <p>Imala Events</p>
             <button>
-              <Link to={"/ServiceConciergerie/guidetouristique"}>Voir plus</Link>
+              <Link to={"/ServiceConciergerie/imalaEvents"}>Voir plus</Link>
             </button>
           </div>
         </div>
@@ -53,6 +53,9 @@ export default function Galerie() {
             </button>
           </div>
         </div>
+
+
+
       </div>
       </Fade>
     </section>

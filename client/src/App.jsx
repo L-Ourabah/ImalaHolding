@@ -16,14 +16,15 @@ import Abonnement from "./pages/Conciergerie/Abonnement/Abonnement.jsx";
 
 /* Activité Conciergerie */
 import Garderie from './pages/Conciergerie/Activite/Garderie/Garderie.jsx'
-import GuideTour from './pages/Conciergerie/Activite/GuideTour/GuideTour.jsx'
+import ImalaEvents from "./pages/Conciergerie/Activite/ImalaEvents/ImalaEvents.jsx";
 import Loisirs from './pages/Conciergerie/Activite/Loisirs/Loisirs.jsx'
 import Nettoyage from './pages/Conciergerie/Activite/Nettoyage/Nettoyage.jsx'
 import Traiteur from './pages/Conciergerie/Activite/Traiteur/Traiteur.jsx'
 import Transport from './pages/Conciergerie/Activite/Transport/Transport.jsx'
+
 /* Détails activites conciergerie   */
 import GarderieDetails from "./pages/Conciergerie/Activite/Garderie/GarderieDetails.jsx";
-import GuidetourDetails from "./pages/Conciergerie/Activite/GuideTour/GuideTourDetails.jsx"
+import ImalaEventsDetails from "./pages/Conciergerie/Activite/ImalaEvents/ImalaEventsDetails.jsx";
 import LoisirsDetails from "./pages/Conciergerie/Activite/Loisirs/LoisirsDetails.jsx";
 import NettoyageDetails from "./pages/Conciergerie/Activite/Nettoyage/NettoyageDetails.jsx";
 import TraiteurDetails from "./pages/Conciergerie/Activite/Traiteur/TraiteurDetails.jsx";
@@ -76,7 +77,7 @@ function App() {
       <Route path="/AirbnbContact" element ={<AirbnbContact/>} />
       {/* Route des  activités  */}
       <Route path="/ServiceConciergerie/garderie" element={<Garderie/>} />
-      <Route path="/ServiceConciergerie/guidetouristique" element={<GuideTour/>} />
+      <Route path="/ServiceConciergerie/imalaEvents" element={<ImalaEvents/>}/>
       <Route path="/ServiceConciergerie/loisirs" element={<Loisirs/>} />
       <Route path="/ServiceConciergerie/nettoyage" element={<Nettoyage/>} />
       <Route path="/ServiceConciergerie/traiteur" element={<Traiteur/>} />
@@ -84,7 +85,7 @@ function App() {
 
       {/* Route détails des  activités  */}
       <Route path="/ServiceConciergerie/garderie/:id" element={<GarderieDetails/>} />
-     <Route path="/ServiceConciergerie/guidetouristique/:id" element={<GuidetourDetails/>} />
+     <Route path="/ServiceConciergerie/imalaEvents/:id" element={<ImalaEventsDetails/>}/>
      <Route path="/ServiceConciergerie/loisirs/:id" element={<LoisirsDetails/>} />
      <Route path="/ServiceConciergerie/nettoyage/:id" element={<NettoyageDetails/>} />
      <Route path="/ServiceConciergerie/transport/:id" element={<TransportDetails/>} />

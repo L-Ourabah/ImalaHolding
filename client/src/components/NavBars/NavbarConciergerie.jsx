@@ -58,16 +58,12 @@ export default function Navbar() {
             </Link>
             {dropdownVisible && (
               <div className="dropdown-content">
-                <Link to={"/ServiceConciergerie/nettoyage"}>Nettoyage</Link>
+                <Link to={"/ServiceConciergerie/nettoyage"}>Pressing</Link>
                 <Link to={"/ServiceConciergerie/transport"}>Transport</Link>
                 <Link to={"/ServiceConciergerie/garderie"}>Garderie</Link>
                 <Link to={"/ServiceConciergerie/traiteur"}>Traiteur</Link>
                 <Link to={"/ServiceConciergerie/loisirs"}>Loisirs</Link>
-                <Link to={"/ServiceConciergerie/guidetouristique"}>
-                  Guide
-                  <br /> Touristique
-                </Link>
-                {/* Ajoutez autant d'options que nécessaire */}
+                <Link to={"/ServiceConciergerie/imalaEvents"}>Imala <br/>Events</Link>
               </div>
             )}
           </div>
@@ -79,6 +75,8 @@ export default function Navbar() {
           <Icon icon="openmoji:flag-france" />
         </span>
       </div>
+
+
       {/*menu mobile*/}
 
       <div className="navbar_mobile">

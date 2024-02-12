@@ -30,7 +30,7 @@ export default function Services() {
             {/*card nettoyage*/}
             <div className="card_services" id="card_nettoyage">
               <div className="card_services_contenu">
-                <h4>Nettoyage</h4>
+                <h4>Pressing</h4>
                 <form method="get" action="/ServiceConciergerie/nettoyage">
                   <button type="submit"> Voir plus</button>
                 </form>
@@ -45,16 +45,16 @@ export default function Services() {
                 </form>
               </div>
             </div>
-            {/*card guide touristique*/}
-            <div className="card_services" id="card_guidetour">
+            {/*card imala events*/}
+            <div className="card_services" id="card_imala_events">
               <div className="card_services_contenu">
                 <h4>
-                  Guide <br />
-                  Touristique
+                  Imala <br />
+                  Events
                 </h4>
                 <form
                   method="get"
-                  action="/ServiceConciergerie/guidetouristique"
+                  action="/ServiceConciergerie/imalaEvents"
                 >
                   <button type="submit"> Voir plus</button>
                 </form>

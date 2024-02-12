@@ -1,17 +1,17 @@
 import React from "react";
 import "../Activite.css";
-import { Icon } from '@iconify/react';
+
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import nettoyageData from "./NettoyageData"; // Importe les données d'activité depuis le fichier NettoyageData.js
+import imalaEventsData from "./ImalaEventsData"; // Importe les données d'activité depuis le fichier NettoyageData.js
 import Navbar from "../../../../components/NavBars/NavbarConciergerie";
-console.log("Activites", nettoyageData);
+console.log("Activites", imalaEventsData);
 
-export default function NettoyageDetails() {
+export default function GuideTourDetails() {
   const { id } = useParams(); // Récupère le paramètre d'URL
   console.log("Activity ID:", id);
 
-  const selectedActivity = nettoyageData.find(
+  const selectedActivity = imalaEventsData.find(
     (item) => item.id === parseInt(id, 10)
   ); // Trouve l'activité correspondante en utilisant l'identifiant
   console.log("Selected activity ID:", selectedActivity);
@@ -30,8 +30,8 @@ export default function NettoyageDetails() {
       <main>
         <div className="main_activite_details">
           <div className="titre_activite_details">
-      
-            <Link to="../ServiceConciergerie/nettoyage">Retour</Link>
+            {" "}
+            <Link to="../ServiceConciergerie/guidetouristique">Retour</Link>
             <h2>{selectedActivity.title}</h2>
           </div>
 
@@ -42,13 +42,7 @@ export default function NettoyageDetails() {
             <div className="txt_activite_details">
               <h3>Description:</h3>
               <p>{selectedActivity.description}</p>
-              <h3>Tarif : </h3>
-              <Icon icon="lucide:washing-machine" height="50" />
-              <br/>
-             <p>{selectedActivity.tarif}</p>
-             <h3>Pour plus d'information : </h3>
-             <p>{selectedActivity.txt_info}</p>
-    <br/>
+              <h3>Contact :</h3>
             </div>
           </div>
         </div>

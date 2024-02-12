@@ -1,10 +1,13 @@
 const nettoyageData = [
     {
       id: 1,
-      title: "Sally Nettoyage",
+      title: "Pressing / Repassage au kilo",
       image: "https://images.pexels.com/photos/4107120/pexels-photo-4107120.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      description: `Sally Nettoyage, c'est bien plus qu'un service de nettoyage. C'est l'engagement d'une entrepreneuse passionnée à offrir des prestations de nettoyage sur mesure, méticuleuses et fiables. Chez Sally Nettoyage, nous nous efforçons de créer des espaces impeccables où propreté rime avec tranquillité d'esprit. Faites confiance à notre équipe dévouée pour prendre soin de votre environnement, que ce soit chez vous ou dans vos locaux professionnels.`,
-      link:"/ServiceConciergerie/nettoyage/1"
+      description: `Confiez vos vêtements à notre pressing de confiance pour un soin impeccable. Nous offrons des services de nettoyage à sec de haute qualité pour tous types de vêtements, du quotidien aux plus délicats. Notre équipe expérimentée veille à ce que vos articles soient traités avec le plus grand soin et professionnalisme, garantissant des résultats impeccables à chaque fois. Faites-nous confiance pour prendre soin de vos vêtements et les rendre comme neufs .`,
+      link:"/ServiceConciergerie/nettoyage/1",
+      tarif:"1 kilo de vêtements / 1300 cfa   (soit 1 € 98)",
+      txt_info:"Veuillez appeler ou consulter le formulaire de contact"
+    
     },
   
     // Ajoutez d'autres activités ici...

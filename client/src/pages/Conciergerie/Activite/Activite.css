@@ -243,6 +243,7 @@ span#btn_next {
 .txt_activite_details {
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   width: 38%;
+  text-align: center ;;
 }
 .txt_activite_details h3 {
     font-family: 'Urbanist';

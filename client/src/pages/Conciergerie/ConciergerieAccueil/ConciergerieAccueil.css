@@ -8,10 +8,8 @@
 
 ligne 58 - Section 1 : Bienvenue (Bienvenue.jsx) -
 
-*/
-body {
-    font-family: "Urbanist", sans-serif;
-}
+
+
 /* header accueil*/
 .header_accueil_conciergerie {
     height: 100vh;
@@ -195,7 +193,7 @@ body {
 
 #card_nettoyage {
     background: linear-gradient(0deg, rgb(0 0 0 / 51%) 0%, rgb(0 0 0 / 58%) 100%),
-      url("https://images.pexels.com/photos/10573242/pexels-photo-10573242.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+      url("https://images.pexels.com/photos/4993073/pexels-photo-4993073.jpeg?auto=compress&cs=tinysrgb&w=1600"),
       lightgray 50% / cover no-repeat;
     background-position: center;
     background-size: cover;
@@ -216,9 +214,9 @@ body {
     background-size: cover;
   }
   
-  #card_guidetour {
+  #card_imala_events {
     background: linear-gradient(0deg, rgb(0 0 0 / 51%) 0%, rgb(0 0 0 / 58%) 100%),
-      url("https://images.pexels.com/photos/4856284/pexels-photo-4856284.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+      url("https://images.pexels.com/photos/19024675/pexels-photo-19024675/free-photo-of-fleurs-table-blanc-fete.jpeg?auto=compress&cs=tinysrgb&w=600"),
       lightgray 50% / cover no-repeat;
     background-position: center;
     background-size: cover;
