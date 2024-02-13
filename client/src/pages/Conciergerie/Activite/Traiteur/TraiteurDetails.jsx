@@ -59,14 +59,9 @@ export default function TraiteurDetails() {
           </div>
         </div>
 
-      {/*}  <section className='section_galerie_details'>
-          <h3>Galerie</h3>
-          <div className="contenu_galerie">
-        <img src={selectedActivity.img1} alt="img_galerie" />
-        <img src={selectedActivity.img2} alt="img_galerie" />
-        <img src={selectedActivity.img3} alt="img_galerie" />
-        </div>
-     </section>*/}
+       {/* I la galerie */}
+       <GalerieDetails images={selectedActivity.images} />
+
       </main>
     </>
   );

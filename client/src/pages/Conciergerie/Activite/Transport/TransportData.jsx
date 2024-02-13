@@ -14,7 +14,7 @@ const transportData = [
       link:"/ServiceConciergerie/transport/1",
       tarif1:"Voiture avec  chauffeur  = 60 000 cfa ",
       tarif2:"SUV  sans chauffeur = 50 000 cfa",
-      tarif3:"Voiture citadine sans chauffeur = 25 000 franc cfa  ",
+      tarif3:"Voiture citadine sans chauffeur = 25 000 cfa  ",
       images:[img1,img2,img3]
 
     },
