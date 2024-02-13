@@ -1,3 +1,8 @@
+
+import img1 from '../../../../media/images/voiture1.png';
+import img2 from '../../../../media/images/voiture2.png';
+import img3 from '../../../../media/images/voiture3.png';
+
 const transportData = [
     {
       id: 1,
@@ -7,8 +12,10 @@ const transportData = [
       un transfert aéroportuaire, une course à l'air frais, ou un trajet urbain, notre équipe se charge de tout
       pour vous assurer une arrivée sans stress et sans retard.`,
       link:"/ServiceConciergerie/transport/1",
-      tarif1:"Voiture avec  chauffeur  = 60000 cfa ",
-      tarif2:"",
+      tarif1:"Voiture avec  chauffeur  = 60 000 cfa ",
+      tarif2:"SUV  sans chauffeur = 50 000 cfa",
+      tarif3:"Voiture citadine sans chauffeur = 25 000 franc cfa  ",
+      images:[img1,img2,img3]
 
     },
    
@@ -23,7 +30,8 @@ const transportData = [
 
     // Ajoutez d'autres activités ici...
   ];
-  
+
+
   export default transportData;
   
   

@@ -2,7 +2,7 @@ import React from "react";
 import "../Activite.css";
 import { Link, useParams } from "react-router-dom";
 import Navbar from '../../../../components/NavBars/NavbarConciergerie';
-
+import { Icon } from "@iconify/react";
 import traiteurData from "./TraiteurData"; // Importe les données d'activité depuis le fichier NettoyageData.js
 import GalerieDetails from "../../../Conciergerie/Activite/componentsG/GalerieDetails";
 console.log("Activites", traiteurData);
@@ -42,11 +42,19 @@ export default function TraiteurDetails() {
             <div className="txt_activite_details">
               <h3>Description:</h3>
               <p>{selectedActivity.description}</p>
-              <h3>Contact :</h3>
-              <p>
-                {selectedActivity.telephone} / {selectedActivity.email}
-              </p>
-              <p>{selectedActivity.adressepostale}</p>
+              <h3>Tarif :</h3>
+              <Icon icon="f7:person-2-fill"  height="50" />
+              <p>{selectedActivity.tarif1}</p>
+              <br />
+             <p>{selectedActivity.tarif2}</p>
+              <br />
+            
+              <p>{selectedActivity.tarif3}</p>
+              <br />
+              <p>{selectedActivity.tarif4}</p>
+              <br />
+              <p>{selectedActivity.tarif5}</p>
+              <br/>
             </div>
           </div>
         </div>

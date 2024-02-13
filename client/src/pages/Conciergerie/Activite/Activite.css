@@ -260,6 +260,61 @@ span#btn_next {
 .txt_activite_details span {
   font-size: 2.5em;
 }
+
+.section_galerie_details{
+  color: black;
+  background-color: #9c5928;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.galerie_activite_details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+}
+
+.card_activite_details {
+  width: 30%; /* Pour afficher en 3 colonnes sur les écrans larges */
+  padding: 5px;
+}
+
+.card_activite_details img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.card_activite_details img:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
+}
+.modal_conciergerie {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Fond noir transparent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+
 /*  styles CSS pour les tablettes ici */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .header_activite,
@@ -383,5 +438,8 @@ span#btn_next {
     .section_activite_slide h2 {
       font-size: 1.5em;
       padding: 4%;
+  }
+  .card_activite_details {
+    width: 100%; /* Pour afficher en une seule colonne sur les appareils mobiles */
   }
 }
