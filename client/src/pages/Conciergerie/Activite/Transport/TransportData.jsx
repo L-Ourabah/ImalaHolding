@@ -1,12 +1,15 @@
 const transportData = [
     {
       id: 1,
-      title: " ",
+      title: " Nos voitures",
       image: "https://images.pexels.com/photos/70912/pexels-photo-70912.jpeg?auto=compress&cs=tinysrgb&w=1600",
       description: `Découvrez la commodité et le confort avec notre service de transport personnalisé. Que ce soit pour
       un transfert aéroportuaire, une course à l'air frais, ou un trajet urbain, notre équipe se charge de tout
       pour vous assurer une arrivée sans stress et sans retard.`,
-      link:"/ServiceConciergerie/transport/1"
+      link:"/ServiceConciergerie/transport/1",
+      tarif1:"Voiture avec  chauffeur  = 60000 cfa ",
+      tarif2:"",
+
     },
    
       // Ajoutez d'autres activités ici...

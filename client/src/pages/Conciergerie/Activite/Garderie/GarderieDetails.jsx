@@ -42,7 +42,13 @@ console.log('Activity ID:',id)
 <div className='txt_activite_details'>
      <h3>Description:</h3>
       <p>{selectedActivity.description}</p>
-      <h3>Contact :</h3>
+      <h3>Tarif: </h3>
+      <p>{selectedActivity.tarif}</p>
+<h3>Pour plus d'information : </h3>
+             <p>{selectedActivity.txt_info}</p>
+             <br/>
+             <Link to="../contact">Contact</Link>
+             <br/>
 </div>
       </div>
 

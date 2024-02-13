@@ -42,8 +42,11 @@ export default function TransportDetails() {
             <div className="txt_activite_details">
               <h3>Description:</h3>
               <p>{selectedActivity.description}</p>
-              <h3>Contact :</h3>
-              <p>ceci est  le contact </p>
+              <h3>Tarif :</h3>
+              <p>{selectedActivity.tarif1}</p>
+              <br/>
+              <p>{selectedActivity.tarif2}</p>
+              <br/>
             </div>
           </div>
         </div>

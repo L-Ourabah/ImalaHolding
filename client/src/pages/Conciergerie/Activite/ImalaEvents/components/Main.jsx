@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import imalaEventsData from "../ImalaEventsData";
+import imalaEventsData from "../ImalaEventsData.jsx";
 
 export default function Main(props) {
   const { imalaEventsData } = props; // Assurez-vous que "activities" est défini

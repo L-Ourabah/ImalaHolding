@@ -1,10 +1,18 @@
+import imgchapiteau from '../../../../media/images/chapiteau.png';
+
 const imalaEventsData = [
     {
       id: 1,
-      title: " chapiteaux",
-      image: "https://images.unsplash.com/photo-1681225241052-ac67808b0c62?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: `Le monument de la Renaissance africaine, situé à Dakar, au Sénégal, est une icône majestueuse célébrant l'histoire, la culture et la résilience du continent africain. Surgissant fièrement vers le ciel, cette impressionnante structure incarne l'esprit de progrès et d'unité qui définit l'Afrique moderne.
-      Imala Conciergerie est honorée de vous inviter à découvrir ce symbole emblématique de l'histoire africaine. Laissez-nous vous guider à travers cette œuvre d'art monumentale et vous aider à apprécier toute sa grandeur et sa signification. Que ce soit pour une visite guidée ou des informations pratiques, nous sommes là pour rendre votre expérience autour du monument de la Renaissance africaine aussi enrichissante que mémorable`,
+      title: " Location de table et de chaise ",
+      image: "https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      description: `rir ce symbole emblématique de l'histoire africaine. Laissez-nous vous guider à travers cette œuvre d'art monumentale et vous aider à apprécier toute sa grandeur et sa signification. Que ce soit pour une visite guidée ou des informations pratiques, nous sommes là pour rendre votre expérience autour du monument de la Renaissance africaine aussi enrichissante que mémorable`,
+      link:"/ServiceConciergerie/guidetouristique/1"
+    },
+     {
+      id: 2,
+      title: " Location de chapiteau ",
+      image: imgchapiteau,
+      description: `rir ce symbole emblématique de l'histoire africaine. Laissez-nous vous guider à travers cette œuvre d'art monumentale et vous aider à apprécier toute sa grandeur et sa signification. Que ce soit pour une visite guidée ou des informations pratiques, nous sommes là pour rendre votre expérience autour du monument de la Renaissance africaine aussi enrichissante que mémorable`,
       link:"/ServiceConciergerie/guidetouristique/1"
     },
  
