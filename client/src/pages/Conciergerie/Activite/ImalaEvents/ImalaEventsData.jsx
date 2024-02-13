@@ -6,14 +6,14 @@ const imalaEventsData = [
       title: " Location de table et de chaise ",
       image: "https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg?auto=compress&cs=tinysrgb&w=1600",
       description: `rir ce symbole emblématique de l'histoire africaine. Laissez-nous vous guider à travers cette œuvre d'art monumentale et vous aider à apprécier toute sa grandeur et sa signification. Que ce soit pour une visite guidée ou des informations pratiques, nous sommes là pour rendre votre expérience autour du monument de la Renaissance africaine aussi enrichissante que mémorable`,
-      link:"/ServiceConciergerie/guidetouristique/1"
+      link:"/ServiceConciergerie/imalaEvents/1"
     },
      {
       id: 2,
       title: " Location de chapiteau ",
       image: imgchapiteau,
       description: `rir ce symbole emblématique de l'histoire africaine. Laissez-nous vous guider à travers cette œuvre d'art monumentale et vous aider à apprécier toute sa grandeur et sa signification. Que ce soit pour une visite guidée ou des informations pratiques, nous sommes là pour rendre votre expérience autour du monument de la Renaissance africaine aussi enrichissante que mémorable`,
-      link:"/ServiceConciergerie/guidetouristique/1"
+      link:"/ServiceConciergerie/imalaEvents/2"
     },
  
     /*{

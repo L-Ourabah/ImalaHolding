@@ -1,5 +1,6 @@
 import React from "react";
 import "../Activite.css";
+import GalerieDetails from "../../../Conciergerie/Activite/componentsG/GalerieDetails";
 
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
@@ -31,7 +32,7 @@ export default function GuideTourDetails() {
         <div className="main_activite_details">
           <div className="titre_activite_details">
             {" "}
-            <Link to="../ServiceConciergerie/guidetouristique">Retour</Link>
+            <Link to="../ServiceConciergerie/imalaEvents">Retour</Link>
             <h2>{selectedActivity.title}</h2>
           </div>
 
@@ -46,6 +47,10 @@ export default function GuideTourDetails() {
             </div>
           </div>
         </div>
+
+         {/* I la galerie */}
+       <GalerieDetails images={selectedActivity.images} />
+
       </main>
     </>
   );

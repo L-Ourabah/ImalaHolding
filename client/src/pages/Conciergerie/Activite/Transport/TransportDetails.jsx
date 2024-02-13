@@ -48,6 +48,7 @@ export default function TransportDetails() {
               <p>{selectedActivity.tarif2}</p>
               <br />
               <p>{selectedActivity.tarif3}</p>
+              <br/>
             </div>
           </div>
 
