@@ -13,7 +13,8 @@ const imalaEventsData = [
       title: " Location de chapiteau ",
       image: imgchapiteau,
       description: `rir ce symbole emblématique de l'histoire africaine. Laissez-nous vous guider à travers cette œuvre d'art monumentale et vous aider à apprécier toute sa grandeur et sa signification. Que ce soit pour une visite guidée ou des informations pratiques, nous sommes là pour rendre votre expérience autour du monument de la Renaissance africaine aussi enrichissante que mémorable`,
-      link:"/ServiceConciergerie/imalaEvents/2"
+      link:"/ServiceConciergerie/imalaEvents/2",
+    
     },
  
     /*{

@@ -1,6 +1,5 @@
 import React from "react";
 import "../Activite.css";
-import GalerieDetails from "../../../Conciergerie/Activite/componentsG/GalerieDetails";
 
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
@@ -8,7 +7,7 @@ import imalaEventsData from "./ImalaEventsData"; // Importe les données d'activ
 import Navbar from "../../../../components/NavBars/NavbarConciergerie";
 console.log("Activites", imalaEventsData);
 
-export default function GuideTourDetails() {
+export default function ImalaEventsDetails() {
   const { id } = useParams(); // Récupère le paramètre d'URL
   console.log("Activity ID:", id);
 
@@ -48,9 +47,7 @@ export default function GuideTourDetails() {
           </div>
         </div>
 
-         {/* I la galerie */}
-       <GalerieDetails images={selectedActivity.images} />
-
+    
       </main>
     </>
   );
