@@ -48,7 +48,7 @@ const slides = [
       id: 4,
       title: "Imala Events",
       description:
-        "Explorez le Sénégal à travers nos expériences uniques. Imala Conciergerie vous invite à vivre des aventures inoubliables, des découvertes culturelles aux plaisirs de la nature, pour une immersion authentique dans notre magnifique pays.",
+        " Découvrez Imala Events, votre partenaire idéal pour la location d'équipements événementiels, vous aide à créer des événements exceptionnels.",
         lien: "../ServiceConciergerie/imalaEvents",
       image: "https://images.pexels.com/photos/19024675/pexels-photo-19024675/free-photo-of-fleurs-table-blanc-fete.jpeg?auto=compress&cs=tinysrgb&w=1600",
      

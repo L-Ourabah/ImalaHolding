@@ -55,6 +55,11 @@ export default function TraiteurDetails() {
               <br />
               <p>{selectedActivity.tarif5}</p>
               <br/>
+              <h3>Pour plus d'information : </h3>
+             <p>Veuillez appeler ou consulter le formulaire de contact </p>
+             <br/>
+             <Link to="../contact">Contact</Link>
+             <br/>
             </div>
           </div>
         </div>

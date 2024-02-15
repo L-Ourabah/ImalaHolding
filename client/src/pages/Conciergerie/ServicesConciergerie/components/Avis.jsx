@@ -3,7 +3,7 @@ import { Fade } from "react-swift-reveal";
 
 export default function Avis() {
   const [currentAvis, setCurrentAvis] = useState(0);
-
+//permet de changer contenu
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentAvis((prev) => (prev === avis.length - 1 ? 0 : prev + 1));

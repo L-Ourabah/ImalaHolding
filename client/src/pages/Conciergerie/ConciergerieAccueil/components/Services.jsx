@@ -5,10 +5,9 @@ import { Fade } from "react-swift-reveal";
 export default function Services() {
   return (
     <Fade>
-    <section
-      className="section_services_conciergerie"
-      id="section_services_conciergerie" >
-     
+    <section className="section_services_conciergerie"  id="section_services_conciergerie" >
+        
+        {/*section titre + presentation */}
         <div className="section_titre_conciergerie">
           <h2>Nos Services</h2>
           <p>
@@ -25,7 +24,8 @@ export default function Services() {
           <Link to="/ServiceConciergerie">Voir plus </Link>
         </div>
 
-        <div className="services_contenu_conciergerie">
+    {/*section contenu */}
+      <div className="services_contenu_conciergerie">
           <div className="row_services">
             {/*card nettoyage*/}
             <div className="card_services" id="card_nettoyage">
@@ -61,7 +61,9 @@ export default function Services() {
               </div>
             </div>
           </div>
+
           <br />
+
           <div className="row_services">
             {/*card transport*/}
             <div className="card_services" id="card_transport">
@@ -72,9 +74,7 @@ export default function Services() {
                 </form>
               </div>
             </div>
-
             {/*card traiteur*/}
-
             <div className="card_services" id="card_traiteur">
               <div className="card_services_contenu">
                 <h4>Traiteur</h4>
@@ -83,7 +83,6 @@ export default function Services() {
                 </form>
               </div>
             </div>
-
             {/*card loisirs */}
             <div className="card_services" id="card_loisirs">
               <div className="card_services_contenu">
@@ -94,6 +93,7 @@ export default function Services() {
               </div>
             </div>
           </div>
+
         </div>
      
     </section>

@@ -276,6 +276,25 @@ span#btn_next {
   font-size: 2.5em;
 }
 
+.txt_activite_details a {
+    text-decoration: none;
+    text-underline-offset: 3px;
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    background-color: #9C5928;
+    font-weight: 700;
+    font-size: medium;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    font-family: 'Urbanist';
+}
+
+.txt_activite_details a:hover{
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
 .section_galerie_details{
   color: black;
   background-color: #9c5928;
@@ -302,14 +321,16 @@ span#btn_next {
 
 .card_activite_details img {
   width: 100%;
-  height: 380px;
+  height: 350px;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+ 
 }
 
 .card_activite_details img:hover {
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+  
 
 }
 .modal_conciergerie {
@@ -344,9 +365,10 @@ span#btn_next {
     width: 90%;
   }
 
-  .section_activite_slide {
-    height: 40vh;
-  }
+  .section_activite_presentation p {
+    width: 80%;
+  
+}
   .slide_contenu {
     width: 80%;
   }

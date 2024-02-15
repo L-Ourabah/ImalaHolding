@@ -1,23 +1,27 @@
-import React from 'react'
-import { Fade } from "react-swift-reveal";
+import React from "react";
+import { Fade } from "react-swift-reveal";/* animation Fade: révéle le contenu */
 
 export default function Bienvenue() {
   function scrollToServices() {
-    const servicesSection = document.getElementById('section_services_conciergerie');
-    servicesSection.scrollIntoView({ behavior: 'smooth' });
+    const servicesSection = document.getElementById(
+      "section_services_conciergerie"
+    );
+    servicesSection.scrollIntoView({ behavior: "smooth" });
   }
   return (
-    <Fade>
-    <section className='section_bienvenue_conciergerie' id="section_bienvenue_conciergerie">
-  
-    <h2>Bienvenue sur Imala Conciergerie</h2>
-   <p>Où nous mettons un point d'honneur à transformer votre séjour en une expérience inoubliable.
-   Dès votre arrivée, profitez de notre hospitalité chaleureuse et de notre service attentionné. <br/> 
-   Nous nous engageons à rendre votre séjour mémorable en vous offrant un accueil personnalisé et en répondant à tous vos besoins avec professionnalisme. Que ce soit pour affaires ou pour le plaisir, notre équipe est là pour vous offrir une expérience exceptionnelle. Bienvenue chez vous !
-   </p>
-     <button onClick={scrollToServices}>Parcourir</button>
-  
-  </section>
-  </Fade>
-  )
+    <Fade> 
+    {/* contenu section bienvenue */}
+      <section className="section_bienvenue_conciergerie" id="section_bienvenue_conciergerie">
+        <h2>Bienvenue sur Imala Conciergerie</h2>
+        <p>
+          Bienvenue chez vous ! Nous nous engageons à rendre votre séjour
+          inoubliable en vous offrant un accueil personnalisé et un service
+          attentionné dès votre arrivée. Que ce soit pour affaires ou pour le
+          plaisir, notre équipe professionnelle est là pour répondre à tous vos
+          besoins et vous offrir une expérience exceptionnelle.
+        </p>
+        <button onClick={scrollToServices}>Parcourir</button> {/* bouton qui dirige sur la section sevice accueil */}
+      </section>
+    </Fade>
+  );
 }

@@ -316,6 +316,9 @@ font-family: 'Urbanist';
         width: 90%;
         flex-wrap: wrap;
     }
+    .galerie_card {
+        margin: 2px;
+    }
 /*partenaire*/
     .service_partenaire {
         height: 75vh;

@@ -6,7 +6,7 @@ const garderieData = [
       description: "Confiez vos petits trésors à Sally Garde Enfants, où chaque enfant est choyé, encouragé et entouré d'attention bienveillante. Nous offrons un environnement sécurisé et stimulant, propice à l'épanouissement et au développement de vos enfants. Avec une approche personnalisée et une équipe dévouée, nous veillons à ce que chaque moment passé avec nous soit rempli de joie, d'apprentissage et de bienveillance.",
       link:"/ServiceConciergerie/garderie/1",
       tarif:"5300 cfa /heure (soit 8 € ).",
-      txt_info:"Veuillez appeler ou consulter le formulaire de contact"
+     
     
     },
    

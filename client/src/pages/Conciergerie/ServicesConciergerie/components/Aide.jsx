@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function Aide() {
   return (
+    
     <section className="service_aide">
+      {/*section aide contenu */}
       <div className="aide_contenu">
         <h2>Besoin d'aide ?</h2>
         <p>
@@ -12,9 +14,11 @@ export default function Aide() {
           n’hésiterons pas à vous satisfaire.
         </p>
       </div>
+
       <button>
-        <Link to="../contact">Voir plus</Link>{" "}
+        <Link to="../contact">Voir plus</Link>
       </button>
+      
     </section>
   );
 }

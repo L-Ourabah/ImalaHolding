@@ -15,8 +15,8 @@ export default function ImalaEvents() {
      imgActivite="https://images.pexels.com/photos/19024675/pexels-photo-19024675/free-photo-of-fleurs-table-blanc-fete.jpeg?auto=compress&cs=tinysrgb&w=600')"
      />
      <Main
-      sousTitreActivite="Nos service evenementielles "
-      phraseActivite="Découvrez une sélection d'activités touristiques proposées par Imala Conciergerie au Sénégal. Plongez dans une aventure inoubliable en explorant notre catalogue d'expériences uniques, allant des visites culturelles aux escapades en plein air, en passant par les découvertes gastronomiques et les moments de détente. Laissez-nous vous guider à travers une diversité d'activités soigneusement choisies, conçues pour vous offrir une immersion authentique et enrichissante dans notre magnifique pays"
+      sousTitreActivite="Nos services événementiels"
+      phraseActivite=" Imala Events est votre partenaire idéal pour la location de biens pour vos événements occasionnels. Avec notre large gamme de produits, du mobilier aux chapiteaux élégants, nous vous aidons à créer l'ambiance parfaite pour votre événement. Faites confiance à Imala Events pour rendre vos événements spéciaux encore plus exceptionnels !"
       imalaEventsData={imalaEventsData} 
      />
      <Slide/>

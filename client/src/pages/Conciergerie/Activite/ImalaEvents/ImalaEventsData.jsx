@@ -5,15 +5,17 @@ const imalaEventsData = [
       id: 1,
       title: " Location de table et de chaise ",
       image: "https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      description: `rir ce symbole emblématique de l'histoire africaine. Laissez-nous vous guider à travers cette œuvre d'art monumentale et vous aider à apprécier toute sa grandeur et sa signification. Que ce soit pour une visite guidée ou des informations pratiques, nous sommes là pour rendre votre expérience autour du monument de la Renaissance africaine aussi enrichissante que mémorable`,
-      link:"/ServiceConciergerie/imalaEvents/1"
+      description: ` La location de chaises et de tables est essentielle pour aménager votre événement. Personnalisez votre espace avec des quantités variées de mobilier pour répondre à vos besoins. Louez des chaises et des tables pour créer un environnement confortable et fonctionnel, que ce soit pour un mariage, une fête d'anniversaire ou un événement d'entreprise. Simplifiez l'organisation de votre événement en louant le mobilier nécessaire et assurez-vous que vos invités passent un moment agréable et mémorable`,
+      link:"/ServiceConciergerie/imalaEvents/1",
+     
     },
      {
       id: 2,
       title: " Location de chapiteau ",
       image: imgchapiteau,
-      description: `rir ce symbole emblématique de l'histoire africaine. Laissez-nous vous guider à travers cette œuvre d'art monumentale et vous aider à apprécier toute sa grandeur et sa signification. Que ce soit pour une visite guidée ou des informations pratiques, nous sommes là pour rendre votre expérience autour du monument de la Renaissance africaine aussi enrichissante que mémorable`,
+      description: `La location de chapiteau offre un espace couvert et élégant pour tous vos événements en extérieur. Avec différentes tailles et styles disponibles, personnalisez votre événement avec des décorations, des éclairages et du mobilier. Fiable, pratique et flexible, le chapiteau vous permet d'organiser un événement mémorable en plein air, quelles que soient les conditions météorologiques.`,
       link:"/ServiceConciergerie/imalaEvents/2",
+      
     
     },
  

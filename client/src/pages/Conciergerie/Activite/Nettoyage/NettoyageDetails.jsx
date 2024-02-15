@@ -47,7 +47,10 @@ export default function NettoyageDetails() {
               <br/>
              <p>{selectedActivity.tarif}</p>
              <h3>Pour plus d'information : </h3>
-             <p>{selectedActivity.txt_info}</p>
+             <p>Veuillez appeler ou consulter le formulaire de contact </p>
+             <br/>
+             <Link to="../contact">Contact</Link>
+             <br/>
     <br/>
             </div>
           </div>

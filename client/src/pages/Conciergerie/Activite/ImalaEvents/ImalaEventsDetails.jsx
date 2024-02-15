@@ -42,7 +42,11 @@ export default function ImalaEventsDetails() {
             <div className="txt_activite_details">
               <h3>Description:</h3>
               <p>{selectedActivity.description}</p>
-              <h3>Contact :</h3>
+              <h3>Pour plus d'information : </h3>
+             <p>Veuillez appeler ou consulter le formulaire de contact </p>
+             <br/>
+             <Link to="../contact">Contact</Link>
+             <br/>
             </div>
           </div>
         </div>
