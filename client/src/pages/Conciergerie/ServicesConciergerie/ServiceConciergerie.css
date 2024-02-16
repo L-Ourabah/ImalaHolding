@@ -321,7 +321,7 @@ font-family: 'Urbanist';
     }
 /*partenaire*/
     .service_partenaire {
-        height: 75vh;
+        height: auto;
         
     }
     .partenaire_contenu {

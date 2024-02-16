@@ -25,9 +25,13 @@ export default function Abonnement() {
       titrePresentation="À quoi sert nos abonnements ?"
       textePresentation="Nos abonnements sont votre passeport vers un monde d'avantages exclusifs, de services personnalisés et d'expériences uniques. Choisissez parmi nos formules Premium, Silver et Gold pour accéder à un univers de privilèges conçu pour répondre à vos besoins spécifiques et enrichir votre quotidien."
       />
+      <section className='section_page_abo'>
+
+     
       <Premium/>
       <Silver/>
       <Gold/>
+      </section>
     </main>
     </>
   )
