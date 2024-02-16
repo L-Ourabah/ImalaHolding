@@ -1,6 +1,8 @@
 import React from "react";
 import "../Activite.css";
 
+import ScrollButton from '../../componentsG/ScrollButton'
+import GalerieDetails from "../../../Conciergerie/Activite/componentsG/GalerieDetails";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import imalaEventsData from "./ImalaEventsData"; // Importe les données d'activité depuis le fichier NettoyageData.js
@@ -51,7 +53,9 @@ export default function ImalaEventsDetails() {
           </div>
         </div>
 
-    
+     {/* I la galerie */}
+     <GalerieDetails images={selectedActivity.images} />
+    <ScrollButton/>
       </main>
     </>
   );

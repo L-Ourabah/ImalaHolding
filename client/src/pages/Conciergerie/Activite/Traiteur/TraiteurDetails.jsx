@@ -1,5 +1,7 @@
 import React from "react";
 import "../Activite.css";
+
+import ScrollButton from '../../componentsG/ScrollButton'
 import { Link, useParams } from "react-router-dom";
 import Navbar from '../../../../components/NavBars/NavbarConciergerie';
 import { Icon } from "@iconify/react";
@@ -66,7 +68,7 @@ export default function TraiteurDetails() {
 
        {/* I la galerie */}
        <GalerieDetails images={selectedActivity.images} />
-
+      <ScrollButton/>
       </main>
     </>
   );

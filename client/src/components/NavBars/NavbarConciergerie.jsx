@@ -102,7 +102,7 @@ export default function Navbar() {
           </a>
           <div className="overlay-content">
             <h1 id="logo_mobile">
-              <Link to="/">
+              <Link to="/conciergerie">
                 <img src={conciergerie} alt="logo_conciergerie" />
               </Link>
             </h1>

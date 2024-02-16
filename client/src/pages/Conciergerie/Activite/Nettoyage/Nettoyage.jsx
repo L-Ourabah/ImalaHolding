@@ -4,6 +4,7 @@ import Main from'./components/Main'
 import nettoyageData from './NettoyageData'; // Importe les données d'activité depuis le fichier NettoyageData.js
 import Navbar from '../../../../components/NavBars/NavbarConciergerie';
 import Slide from '../componentsG/Slide';
+import ScrollButton from '../../componentsG/ScrollButton'
 
 export default function Nettoyage() {
  
@@ -21,6 +22,7 @@ export default function Nettoyage() {
     />
 
 <Slide/>
+<ScrollButton/>
     </>
   )
 }

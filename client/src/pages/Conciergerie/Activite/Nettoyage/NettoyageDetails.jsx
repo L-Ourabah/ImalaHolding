@@ -1,5 +1,6 @@
 import React from "react";
 import "../Activite.css";
+import ScrollButton from '../../componentsG/ScrollButton'
 import { Icon } from '@iconify/react';
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
@@ -55,6 +56,7 @@ export default function NettoyageDetails() {
             </div>
           </div>
         </div>
+        <ScrollButton/>
       </main>
     </>
   );

@@ -12,6 +12,7 @@ import Services from "./components/Services";
 import Abonnement from "./components/Abonnement";
 import Contact from "./components/Contact";
 import Newsletter from "./components/Newsletter";
+import ScrollButton from "../componentsG/ScrollButton";
 
 export default function ConciergerieAccueil() {
   return (
@@ -24,6 +25,7 @@ export default function ConciergerieAccueil() {
         <Abonnement />
         <Contact />
         <Newsletter />
+        <ScrollButton/>
       </main>
     </>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Activite.css';
 
-
+import ScrollButton from '../../componentsG/ScrollButton'
 import { Link, useParams } from 'react-router-dom';
 import garderieData from './GarderieData'; // Importe les données d'activité depuis le fichier NettoyageData.js
 import Navbar from '../../../../components/NavBars/NavbarConciergerie';
@@ -53,6 +53,7 @@ console.log('Activity ID:',id)
       </div>
 
     </div>
+    <ScrollButton/>
     </main>
     </>
   );

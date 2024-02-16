@@ -9,7 +9,7 @@ import Partenaire from "./components/Partenaire";
 import Aide from "./components/Aide";
 import Navbar from "../../../components/NavBars/NavbarConciergerie";
 import Avis from "./components/Avis";
-
+import ScrollButton from '../componentsG/ScrollButton'
 export default function ServiceConciergerie() {
   return (
     <>
@@ -27,14 +27,13 @@ export default function ServiceConciergerie() {
           titrePresentation="Quels sont nos services ?"
           textePresentation="Découvrez notre gamme de services sur mesure conçus pour répondre à tous vos besoins. De
     l'assistance de conciergerie personnalisée à la planification d'événements exclusifs, nous proposons
-    une suite d'options haut de gamme pour améliorer votre style de vie. Découvrez le summum de la
-    commodité et du luxe avec notre soutien dédié, garantissant que chacune de vos exigences est
-    satisfaite avec la plus grande attention aux détails."
+    une suite d'options haut de gamme pour améliorer votre style de vie."
         />
         <Galerie />
         <Avis />
         <Partenaire />
         <Aide />
+        <ScrollButton/>
   </main>
     </>
   );

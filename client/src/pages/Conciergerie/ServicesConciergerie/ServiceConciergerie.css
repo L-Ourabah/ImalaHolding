@@ -1,382 +1,510 @@
 .header_service_conciergerie {
-    background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 45%)), url(https://images.pexels.com/photos/18189718/pexels-photo-18189718/free-photo-of-ville-vacances-gens-rue.jpeg?auto=compress&cs=tinysrgb&w=1600);
-    background-position: center;
-    background-size: cover; 
-    }
+  background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 45%)),
+    url(https://images.pexels.com/photos/18189718/pexels-photo-18189718/free-photo-of-ville-vacances-gens-rue.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-position: center;
+  background-size: cover;
+}
 
 /*section 2 : Galerie */
-.service_galerie{
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.service_galerie {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .galerie_contenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  height: 100%;
 }
 .galerie_row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 70%;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+  text-align: center;
+  align-items: center;
 }
 
-.galerie_card{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        border-radius: 10px;
-        align-items: center;
-        height: 220px;
-        border-radius: 10px;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: white;
-    }
+.galerie_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  height: 220px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: white;
+}
 
-  .galerie_card:hover {
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
-}  
+.galerie_card:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
 .galerie_card p {
-    font-size: 1.5em;
-    font-family: 'Urbanist';
-    padding: 2%;
+  font-size: 1.5em;
+  font-family: "Urbanist";
+  padding: 2%;
 }
 
 .galerie_card button {
-    background: transparent;
-    border: 1.5px solid white;
-    border-radius: 10px;
-    padding: 10px;
-    font-family: 'Urbanist';
-    font-size: large;
-    color: white;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  background: transparent;
+  border: 1.5px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Urbanist";
+  font-size: large;
+  color: white;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-
-.galerie_card button:hover{
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+.galerie_card button:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .galerie_card a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 /*card nettoyage*/
- #gal_nettoyage{
-    width: 60%;
-    background: linear-gradient(0deg, rgba(157, 147, 122, 0.70) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/4993073/pexels-photo-4993073.jpeg?auto=compress&cs=tinysrgb&w=1600'), lightgray 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
-   
- }
- #gal_nettoyage:hover{
-    background: linear-gradient(0deg, rgb(157 147 122 / 46%) 0%, rgb(157 147 122 / 44%) 100%), url('https://images.pexels.com/photos/4993073/pexels-photo-4993073.jpeg?auto=compress&cs=tinysrgb&w=1600'), #d3d3d359 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
- }
-/*card garderie*/
- #gal_garderie{
-    width: 30%;
-    background: linear-gradient(0deg, rgba(157, 147, 122, 0.70) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/8363100/pexels-photo-8363100.jpeg?auto=compress&cs=tinysrgb&w=1600'), lightgray 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
- }
- #gal_garderie:hover{
-    background: linear-gradient(0deg, rgb(157 147 122 / 46%) 0%, rgb(157 147 122 / 44%) 100%), url('https://images.pexels.com/photos/8363100/pexels-photo-8363100.jpeg?auto=compress&cs=tinysrgb&w=1600'), #d3d3d359 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
- }
- /*card transport*/
- #gal_transport{
-    width: 30%;
-    background: linear-gradient(0deg, rgba(157, 147, 122, 0.70) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/18189671/pexels-photo-18189671/free-photo-of-ville-route-circulation-gens.jpeg?auto=compress&cs=tinysrgb&w=1600'), lightgray 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
- }
- #gal_transport:hover{
-    background: linear-gradient(0deg, rgb(157 147 122 / 46%) 0%, rgb(157 147 122 / 44%) 100%), url('https://images.pexels.com/photos/18189671/pexels-photo-18189671/free-photo-of-ville-route-circulation-gens.jpeg?auto=compress&cs=tinysrgb&w=1600'), #d3d3d359 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
- }
- /* card imala events */
- #gal_imala_events{
-    width: 60%;
-    background: linear-gradient(0deg, rgba(157, 147, 122, 0.70) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/19024675/pexels-photo-19024675/free-photo-of-fleurs-table-blanc-fete.jpeg?auto=compress&cs=tinysrgb&w=600'), lightgray 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
+#gal_nettoyage {
+  width: 60%;
+  background: linear-gradient(
+      0deg,
+      rgba(157, 147, 122, 0.7) 0%,
+      rgba(157, 147, 122, 0.7) 100%
+    ),
+    url("https://images.pexels.com/photos/4993073/pexels-photo-4993073.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-#gal_imala_events:hover{
-    background: linear-gradient(0deg, rgb(157 147 122 / 46%) 0%, rgb(157 147 122 / 44%) 100%), url('https://images.pexels.com/photos/19024675/pexels-photo-19024675/free-photo-of-fleurs-table-blanc-fete.jpeg?auto=compress&cs=tinysrgb&w=600'), #d3d3d359 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
- }
- /*card nourriture (traiteur) */
- #gal_nourriture{
-    width: 60%;
-    background: linear-gradient(0deg, rgba(157, 147, 122, 0.70) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600'), lightgray 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
- }
- #gal_nourriture:hover{
-    background: linear-gradient(0deg, rgb(157 147 122 / 46%) 0%, rgb(157 147 122 / 44%) 100%), url('https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600'), #d3d3d359 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
- }
- /*card loisir*/
- #gal_loisirs{
-    width: 30%;
-    background: linear-gradient(0deg, rgba(157, 147, 122, 0.70) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/18189700/pexels-photo-18189700/free-photo-of-banc-paysage-gens-herbe.jpeg?auto=compress&cs=tinysrgb&w=1600'), lightgray 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
- }
- #gal_loisirs:hover{
-    background: linear-gradient(0deg, rgb(157 147 122 / 46%) 0%, rgb(157 147 122 / 44%) 100%), url('https://images.pexels.com/photos/18189700/pexels-photo-18189700/free-photo-of-banc-paysage-gens-herbe.jpeg?auto=compress&cs=tinysrgb&w=1600'), #d3d3d359 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
- }
+#gal_nettoyage:hover {
+  background: linear-gradient(
+      0deg,
+      rgb(157 147 122 / 46%) 0%,
+      rgb(157 147 122 / 44%) 100%
+    ),
+    url("https://images.pexels.com/photos/4993073/pexels-photo-4993073.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+    #d3d3d359 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*card garderie*/
+#gal_garderie {
+  width: 30%;
+  background: linear-gradient(
+      0deg,
+      rgba(157, 147, 122, 0.7) 0%,
+      rgba(157, 147, 122, 0.7) 100%
+    ),
+    url("https://images.pexels.com/photos/8363100/pexels-photo-8363100.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#gal_garderie:hover {
+  background: linear-gradient(
+      0deg,
+      rgb(157 147 122 / 46%) 0%,
+      rgb(157 147 122 / 44%) 100%
+    ),
+    url("https://images.pexels.com/photos/8363100/pexels-photo-8363100.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+    #d3d3d359 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*card transport*/
+#gal_transport {
+  width: 30%;
+  background: linear-gradient(
+      0deg,
+      rgba(157, 147, 122, 0.7) 0%,
+      rgba(157, 147, 122, 0.7) 100%
+    ),
+    url("https://images.pexels.com/photos/18189671/pexels-photo-18189671/free-photo-of-ville-route-circulation-gens.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#gal_transport:hover {
+  background: linear-gradient(
+      0deg,
+      rgb(157 147 122 / 46%) 0%,
+      rgb(157 147 122 / 44%) 100%
+    ),
+    url("https://images.pexels.com/photos/18189671/pexels-photo-18189671/free-photo-of-ville-route-circulation-gens.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+    #d3d3d359 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* card imala events */
+#gal_imala_events {
+  width: 60%;
+  background: linear-gradient(
+      0deg,
+      rgba(157, 147, 122, 0.7) 0%,
+      rgba(157, 147, 122, 0.7) 100%
+    ),
+    url("https://images.pexels.com/photos/19024675/pexels-photo-19024675/free-photo-of-fleurs-table-blanc-fete.jpeg?auto=compress&cs=tinysrgb&w=600"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#gal_imala_events:hover {
+  background: linear-gradient(
+      0deg,
+      rgb(157 147 122 / 46%) 0%,
+      rgb(157 147 122 / 44%) 100%
+    ),
+    url("https://images.pexels.com/photos/19024675/pexels-photo-19024675/free-photo-of-fleurs-table-blanc-fete.jpeg?auto=compress&cs=tinysrgb&w=600"),
+    #d3d3d359 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*card nourriture (traiteur) */
+#gal_nourriture {
+  width: 60%;
+  background: linear-gradient(
+      0deg,
+      rgba(157, 147, 122, 0.7) 0%,
+      rgba(157, 147, 122, 0.7) 100%
+    ),
+    url("https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#gal_nourriture:hover {
+  background: linear-gradient(
+      0deg,
+      rgb(157 147 122 / 46%) 0%,
+      rgb(157 147 122 / 44%) 100%
+    ),
+    url("https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600"),
+    #d3d3d359 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*card loisir*/
+#gal_loisirs {
+  width: 30%;
+  background: linear-gradient(
+      0deg,
+      rgba(157, 147, 122, 0.7) 0%,
+      rgba(157, 147, 122, 0.7) 100%
+    ),
+    url("https://images.pexels.com/photos/18189700/pexels-photo-18189700/free-photo-of-banc-paysage-gens-herbe.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#gal_loisirs:hover {
+  background: linear-gradient(
+      0deg,
+      rgb(157 147 122 / 46%) 0%,
+      rgb(157 147 122 / 44%) 100%
+    ),
+    url("https://images.pexels.com/photos/18189700/pexels-photo-18189700/free-photo-of-banc-paysage-gens-herbe.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+    #d3d3d359 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
- /* section : avis*/
- .section_avis {
-    margin-bottom: 3%;
-    margin-top: 3%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* section : avis*/
+.section_avis {
+  margin-bottom: 3%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .section_avis h2 {
-    font-weight: 400;
-    font-size: 2.2em;
-    text-align: center;
-    font-family: 'Urbanist';
+  font-weight: 400;
+  font-size: 2.2em;
+  text-align: center;
+  font-family: "Urbanist";
 }
 
 .avis_contenu {
-    padding: 6%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    border: 1px solid;
-    margin-top: 4%;
-    width: 75%;
-    box-shadow: 0px 0px 21px -3px rgba(0,0,0,0.1);
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid;
+  margin-top: 4%;
+  width: 75%;
+  box-shadow: 0px 0px 21px -3px rgba(0, 0, 0, 0.1);
 }
 .avis_contenu h4 {
-    font-weight: bold;
-    font-family: 'Urbanist';
-    font-size: x-large;
+  font-weight: bold;
+  font-family: "Urbanist";
+  font-size: x-large;
 }
 .avis_contenu p {
-    padding: 3%;
-    text-align: center;
+  padding: 3%;
+  text-align: center;
 }
 /*section 3 : Partenaire*/
 .service_partenaire {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70vh;
 }
 .service_partenaire h2 {
-    font-weight: 400;
-font-size: 2.2em; 
-text-align: center;
-font-family: 'Urbanist';
+  font-weight: 400;
+  font-size: 2.2em;
+  text-align: center;
+  font-family: "Urbanist";
 }
 .partenaire_contenu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .partenaire_form {
-    height: 330px;
-    width: 330px;
-    border-radius: 100%;
-    margin: 1%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow: 0px 0px 21px -3px rgba(0,0,0,0.1);
-    color:white;
-    font-family: 'Urbanist';
-    font-size: 1em;
+  height: 330px;
+  width: 330px;
+  border-radius: 100%;
+  margin: 1%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 21px -3px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: "Urbanist";
+  font-size: 1em;
 }
 
 .partenaire_form:hover {
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
-    font-size: 1.2em;
-    font-weight: 500;
-    font-family: 'Urbanist';
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: "Urbanist";
 }
 
 #partenaire_traiteur {
-    background: linear-gradient(0deg, rgba(54, 51, 43, 0.7) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/6210449/pexels-photo-6210449.jpeg?auto=compress&cs=tinysrgb&w=600'), lightgray 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: linear-gradient(
+      0deg,
+      rgba(54, 51, 43, 0.7) 0%,
+      rgba(157, 147, 122, 0.7) 100%
+    ),
+    url("https://images.pexels.com/photos/6210449/pexels-photo-6210449.jpeg?auto=compress&cs=tinysrgb&w=600"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #partenaire_garderie {
-    background: linear-gradient(0deg, rgba(54, 51, 43, 0.7) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/8924168/pexels-photo-8924168.jpeg?auto=compress&cs=tinysrgb&w=600'), lightgray 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: linear-gradient(
+      0deg,
+      rgba(54, 51, 43, 0.7) 0%,
+      rgba(157, 147, 122, 0.7) 100%
+    ),
+    url("https://images.pexels.com/photos/8924168/pexels-photo-8924168.jpeg?auto=compress&cs=tinysrgb&w=600"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #partenaire_nettoyage {
-    background: linear-gradient(0deg, rgba(54, 51, 43, 0.7) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/4108714/pexels-photo-4108714.jpeg?auto=compress&cs=tinysrgb&w=600'), lightgray 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: linear-gradient(
+      0deg,
+      rgba(54, 51, 43, 0.7) 0%,
+      rgba(157, 147, 122, 0.7) 100%
+    ),
+    url("https://images.pexels.com/photos/4108714/pexels-photo-4108714.jpeg?auto=compress&cs=tinysrgb&w=600"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 #partenaire_transport {
-    background: linear-gradient(0deg, rgba(54, 51, 43, 0.7) 0%, rgba(157, 147, 122, 0.70) 100%), url('https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&w=600'), lightgray 50% / cover no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: linear-gradient(
+      0deg,
+      rgba(54, 51, 43, 0.7) 0%,
+      rgba(157, 147, 122, 0.7) 100%
+    ),
+    url("https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&w=600"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 /*section 4 : Aide */
 
 .service_aide {
-    background: #9C5928;
-    height: 40vh;
+  background: #9c5928;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aide_contenu {
+  text-align: center;
+  width: 100%;
+}
+.aide_contenu h2 {
+  font-weight: 400;
+  font-size: 2.2em;
+  font-family: "Urbanist";
+}
+
+.aide_contenu p {
+  padding: 2%;
+  width: 100%;
+}
+.service_aide button {
+  padding: 20px;
+  border-radius: 10px;
+  width: 270px;
+  border: none;
+  color: white;
+  background: #1e1e1e;
+  font-size: larger;
+  font-family: "Urbanist", sans-serif;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.service_aide button:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.service_aide a {
+  color: white;
+  text-decoration: none;
+}
+
+/*  styles CSS pour les tablettes ici */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header_service {
+    height: 30vh;
+  }
+  .header_service h1 {
+    font-size: 5.5em;
+    margin-top: 150px;
+  }
+  /*presentation*/
+  .service_presentation p {
+    width: 90%;
+  }
+  /*galerie*/
+  .service_galerie {
+    height: 70vh;
+  }
+  .galerie_contenu {
+    justify-content: space-evenly;
+  }
+  .galerie_row {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .galerie_card {
+    margin: 2px;
+  }
+  /*partenaire*/
+  .service_partenaire {
+    height: auto;
+  }
+  .partenaire_contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* overflow-x: scroll; */
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .service_aide {
+    height: 30vh;
+  }
+}
+
+/*  styles CSS pour les téléphones ici */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  .header_service {
+    height: 35vh;
+  }
+  .header_service h1 {
+    font-size: 3.5em;
+    margin-top: 120px;
+  }
+  .service_presentation {
+    height: 50vh;
+  }
+  .service_presentation p {
+    width: 95%;
+    font-size: medium;
+  }
+
+  .service_galerie {
+    height: 100vh;
+  }
+  .galerie_row {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .service_partenaire {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.aide_contenu{
-    text-align: center;
-    width: 100%;
-}
-.aide_contenu h2 {
-        font-weight: 400;
-        font-size: 2.2em;
-        font-family: 'Urbanist';
-}
-
-.aide_contenu p {
-    padding: 2%;
-    width: 100%;
-}
-.service_aide button {
-    padding: 20px;
-    border-radius: 10px;
-    width: 270px;
-    border: none;
-    color: white;
-    background: #1E1E1E;
-    font-size: larger;
-    font-family: 'Urbanist',sans-serif;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    height: auto;
   }
-
-  .service_aide button:hover {
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
-  
+  .partenaire_contenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
-  .service_aide a{
-    color: white;
-    text-decoration: none;
-  }
- 
- /*  styles CSS pour les tablettes ici */
-  @media only screen and (min-width: 768px) and (max-width:1024px){
-    
-    .header_service{
-        height: 30vh;
-    }
-    .header_service h1 {
-        font-size: 5.5em;
-        margin-top: 150px;
-    }
-/*presentation*/
-.service_presentation p {
- width: 90%;
-}
-    /*galerie*/
-    .service_galerie {
-        height: 70vh;
-    }
-    .galerie_contenu{
-        justify-content: space-evenly;
-    }
-    .galerie_row {
-        width: 90%;
-        flex-wrap: wrap;
-    }
-    .galerie_card {
-        margin: 2px;
-    }
-/*partenaire*/
-    .service_partenaire {
-        height: auto;
-        
-    }
-    .partenaire_contenu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        /* overflow-x: scroll; */
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    .service_aide {
-        height: 30vh;
-    }
-  }
-
-  /*  styles CSS pour les téléphones ici */
-  @media only screen and (max-width: 767px) {
-    .header_service {
-        height: 35vh;
-    }
-    .header_service h1 {
-        font-size: 3.5em;
-        margin-top: 120px;
-    }
-    .service_presentation {
-        height: 50vh;
-    }
-    .service_presentation p {
-        width: 95%;
-        font-size: medium;
-    }
-
-    .service_galerie {
-        height: 100vh;
-    }
-    .galerie_row {
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    .service_partenaire {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-    }
-    .partenaire_contenu {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    .partenaire_form{
+  .partenaire_form {
     height: 250px;
     width: 250px;
     margin-bottom: 5px;
-    }
   }
- 
+}
+
+/*  Media query pour les téléphones en format paysage ici */
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .header_page_conciergerie h1 {
+    font-size: 5.5em;
+    margin-top: 60px;
+  }
+  .service_galerie {
+    padding-top: 41%;
+  }
+  .section_avis {
+    margin-bottom: 3%;
+    margin-top: 47%;
+  }
+  .galerie_row {
+    width: 80%;
+    margin: 1%;
+  }
+  .service_partenaire {
+    height: auto;
+  }
+  .partenaire_contenu {
+    flex-wrap: wrap;
+  }
+  .partenaire_form {
+    height: 230px;
+    width: 230px;
+  }
+  .service_aide {
+    height: 60vh;
+  }
+  .card_activite_details img {
+    height: 150px;}
+}

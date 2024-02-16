@@ -4,7 +4,7 @@ import Main from'./components/Main'
 import transportData from './TransportData'; // Importe les données d'activité depuis le fichier NettoyageData.js
 import Navbar from '../../../../components/NavBars/NavbarConciergerie'
 import Slide from '../componentsG/Slide';
-
+import ScrollButton from '../../componentsG/ScrollButton'
 export default function Transport() {
   return (
     <>
@@ -19,6 +19,7 @@ export default function Transport() {
      transportData={transportData} 
     />
     <Slide/>
+    <ScrollButton/>
     </>
     
   )

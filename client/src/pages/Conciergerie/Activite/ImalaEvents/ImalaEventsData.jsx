@@ -1,5 +1,9 @@
 import imgchapiteau from '../../../../media/images/chapiteau.png';
 
+import img1 from '../../../../media/images/chapiteau2.png'
+import img2 from '../../../../media/images/chapiteau3.png'
+import img3 from '../../../../media/images/chapiteau4.png'
+
 const imalaEventsData = [
     {
       id: 1,
@@ -7,6 +11,7 @@ const imalaEventsData = [
       image: "https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg?auto=compress&cs=tinysrgb&w=1600",
       description: ` La location de chaises et de tables est essentielle pour aménager votre événement. Personnalisez votre espace avec des quantités variées de mobilier pour répondre à vos besoins. Louez des chaises et des tables pour créer un environnement confortable et fonctionnel, que ce soit pour un mariage, une fête d'anniversaire ou un événement d'entreprise. Simplifiez l'organisation de votre événement en louant le mobilier nécessaire et assurez-vous que vos invités passent un moment agréable et mémorable`,
       link:"/ServiceConciergerie/imalaEvents/1",
+      images:[]
      
     },
      {
@@ -15,7 +20,7 @@ const imalaEventsData = [
       image: imgchapiteau,
       description: `La location de chapiteau offre un espace couvert et élégant pour tous vos événements en extérieur. Avec différentes tailles et styles disponibles, personnalisez votre événement avec des décorations, des éclairages et du mobilier. Fiable, pratique et flexible, le chapiteau vous permet d'organiser un événement mémorable en plein air, quelles que soient les conditions météorologiques.`,
       link:"/ServiceConciergerie/imalaEvents/2",
-      
+      images:[img1,img2,img3]
     
     },
  

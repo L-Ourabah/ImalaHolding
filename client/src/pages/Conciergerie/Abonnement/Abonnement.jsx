@@ -8,6 +8,7 @@ import Premium from './components/Premium'
 import Gold from './components/Gold'
 import Silver from './components/Silver'
 import Navbar from '../../../components/NavBars/NavbarConciergerie'
+import ScrollButton from '../componentsG/ScrollButton'
 
 export default function Abonnement() {
   return (
@@ -32,6 +33,7 @@ export default function Abonnement() {
       <Silver/>
       <Gold/>
       </section>
+      <ScrollButton/>
     </main>
     </>
   )

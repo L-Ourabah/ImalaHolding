@@ -4,7 +4,7 @@ import Main from './components/Main'
 import garderieData from './GarderieData'
 import Navbar from '../../../../components/NavBars/NavbarConciergerie'
 import Slide from '../componentsG/Slide'
-
+import ScrollButton from '../../componentsG/ScrollButton'
 
 export default function Garderie() {
   return (
@@ -21,6 +21,7 @@ export default function Garderie() {
       garderieData={garderieData} 
      />
      <Slide/>
+     <ScrollButton/>
     </>
   )
 }

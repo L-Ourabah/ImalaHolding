@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import transportData from "./TransportData"; // Importe les données d'activité depuis le fichier TransportData.js
 import Navbar from "../../../../components/NavBars/NavbarConciergerie";
-
+import ScrollButton from "../../componentsG/ScrollButton"
 export default function TransportDetails() {
   const { id } = useParams();
   const selectedActivity = transportData.find((item) => item.id === parseInt(id, 10));
@@ -61,7 +61,7 @@ export default function TransportDetails() {
         </div>
          {/* I la galerie */}
          <GalerieDetails images={selectedActivity.images} />
-
+        <ScrollButton/>
       </main>
     </>
   );

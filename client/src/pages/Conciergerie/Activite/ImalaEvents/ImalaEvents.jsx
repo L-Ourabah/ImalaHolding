@@ -4,7 +4,7 @@ import Main from './components/Main'
 import imalaEventsData from './ImalaEventsData'
 import Navbar from '../../../../components/NavBars/NavbarConciergerie'
 import Slide from '../componentsG/Slide'
-
+import ScrollButton from '../../componentsG/ScrollButton'
 
 export default function ImalaEvents() {
   return (
@@ -20,6 +20,7 @@ export default function ImalaEvents() {
       imalaEventsData={imalaEventsData} 
      />
      <Slide/>
+     <ScrollButton/>
     </>
   )
 }
