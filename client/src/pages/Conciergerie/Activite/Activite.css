@@ -515,10 +515,10 @@ span#btn_next {
   width: 90%;
 }
 .activite_contenu_txt p {
-  width: 95%;}
-  .activite_contenu_txt p {
-    width: 95%;
-  }
+  width: 95%;
+  font-size: small;
+}
+  
   .slide_contenu p {
   bottom: 30%;
 }
