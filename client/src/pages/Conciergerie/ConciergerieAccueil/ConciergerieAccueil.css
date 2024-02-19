@@ -447,6 +447,7 @@
   background-color: rgba(0, 0, 0, 0.88);
 }
 
+
 /*  Media query pour les tablettes ici */
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   /*Propriété en commun*/
@@ -493,6 +494,9 @@
     width: 80%;
   }
 
+  .card_abo_main {
+    height: 95%;
+}
   /*Section 4 : Contact*/
   .contact_img_conciergerie {
     display: none;
