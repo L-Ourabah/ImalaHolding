@@ -1,0 +1,118 @@
+/* ContactForm.css */
+.information-devis{
+background-color:#00000075 ;
+padding: 3%;
+padding-bottom: 3%;
+}
+.information-devis h2{
+ text-align: center;
+margin-bottom:3% ;
+color: white;
+  }
+
+
+.contact-form-container-devis {
+    
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 3%;
+    padding-bottom: 3%;
+    color: black;
+    text-align: justify;
+  }
+  .form{
+    width: 100%;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-nom .form-group{
+   width: 50%;
+  }
+  .form-nom{
+    display: flex;
+    gap: 2%;
+    width: 100%;
+  }
+
+
+  .contact-form-container-devis label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form-container-devis input,
+  .contact-form-container-devis textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+   
+    box-sizing: border-box;
+    margin-top: 3px;
+    
+    border-radius: 10px;
+background: rgba(217, 217, 217, 0.40);
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15) inset;
+  }
+
+
+  .contact-form-container-devis textarea {
+    height: 200px;
+  }
+  .form-group-button  {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .form-group-button button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30%;
+   
+  }
+  
+  .form-group-button button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  #message{
+    height: 300px;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+ 
+  
+    .contact-form-container-devis {
+
+    width: 80%;
+}
+
+
+#message {
+  height: 100px;
+  width: 100%;
+}
+
+
+
+}
+  

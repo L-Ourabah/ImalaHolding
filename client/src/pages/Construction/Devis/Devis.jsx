@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Devisfd from "../../../media/images/Devisfd.jpg";
 import "./Devis.css";
 import Navbar from '../../../components/NavBars/NavbarConstruction'
-
+import Formulaire from './components/Formulaire/ContactFormDevis.jsx'
 
 
 export default function Devis() {
@@ -38,7 +38,7 @@ export default function Devis() {
                 </div>
 
                 <div className="secteurDevis">
-                    .
+                    
                     <div className="secteur-card-devis" id="villa">
                         <h3>Devis pour une villa</h3>
                         <button><Link to="/Location">Voir plus</Link></button>
@@ -67,6 +67,9 @@ export default function Devis() {
 
 
                 </div>
+                <div className="secteurDevisTexte">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus soluta eius atque modi, et totam explicabo illum dolor dolorum repellendus animi nostrum molestias, tempore ratione, hic vel. Odit, nemo quidem?</p>
+                    </div>
             </section>
 
             <section className="realDevis" >
@@ -96,6 +99,7 @@ export default function Devis() {
 
 
             </section>
+            <Formulaire/>
 
 
 
