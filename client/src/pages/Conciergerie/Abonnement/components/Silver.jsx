@@ -57,9 +57,9 @@ export default function Silver() {
            {/* question */}
            <select value={selectedSujet} onChange= {handleSujetChange} id="select_imala_silver">
            <option value="" disabled> -- Sélectionner un sujet</option>
-           <option value="avantageSilver"> Quels sont les avantages principaux de l'offre Imala Silver de conciergerie</option>
-           <option value="comparaisonSilver">En quoi l'offre Imala Silver de conciergerie se distingue-t-elle ?</option>
-           <option value="autreSilver">Comment l'offre Silver s'adapte à votre style de vie pour vous offrir tranquillité et services abordables ?</option>
+           <option value="avantageSilver"> Quels sont les avantages de l'offre Imala Silver ?</option>
+           <option value="comparaisonSilver">En quoi l'offre Imala Silver  se distingue-t-elle ?</option>
+           <option value="autreSilver">Quel est le plus de l'offre Imala Silver ?</option>
          
          </select>
                   {/*reponse */}
