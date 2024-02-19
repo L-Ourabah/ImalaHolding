@@ -527,13 +527,17 @@
 
   .abonnement_contenu {
     width: 100%;
-    align-content: center;
     flex-direction: column;
+    align-items:center;
   }
   .card_abo {
     height: 350px;
     width: 80%;
   }
+  .card_abo_main {
+    height: 95%;
+    align-items: normal;
+}
 
   /*Section 4 : Contact*/
   .contact_img_conciergerie {
