@@ -54,7 +54,7 @@ export default function Navbar() {
             onMouseLeave={toggleDropdown}
           >
             <Link to={"/ServiceConciergerie"}>
-              Services <Icon icon="pepicons-pencil:triangle-down" />
+              Services <Icon icon="ep:arrow-down"/>
             </Link>
             {dropdownVisible && (
               <div className="dropdown-content">
