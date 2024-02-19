@@ -388,8 +388,8 @@
   text-decoration: none;
 }
 
-/*  styles CSS pour les tablettes ici */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/*  styles CSS pour les tablettes ici  format portait */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .header_service {
     height: 30vh;
   }
@@ -431,7 +431,25 @@
     height: 30vh;
   }
 }
-
+/*  styles CSS pour les tablettes ici */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /*galerie*/
+  .galerie_contenu{
+    padding:2%;
+  }
+  .galerie_row{
+    padding:1%;
+}
+  /*avis*/
+  .section_avis{
+    margin-top:5%;
+  }
+  /*partenaire*/
+  .partenaire_form {
+    height: 280px;
+    width: 280px;
+}
+}
 /*  styles CSS pour les téléphones ici */
 @media only screen and (max-width: 767px) and (orientation: portrait) {
   .header_service {
